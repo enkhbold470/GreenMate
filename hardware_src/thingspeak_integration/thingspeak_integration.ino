@@ -12,7 +12,7 @@ const char apiKey[] = THINGSPEAK_API_KEY;
 
 // Pin definitions
 #define DHTPIN 2        // DHT11 data pin
-#define SOIL_PIN 42     // Soil moisture sensor pin
+#define SOIL_PIN 4     // Soil moisture sensor pin
 #define PHOTO_PIN 1     // Photoresistor pin
 #define DHTTYPE DHT11   // DHT11 sensor type
 
