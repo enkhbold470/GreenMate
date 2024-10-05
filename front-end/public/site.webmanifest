@@ -1,0 +1,28 @@
+{
+    "name": "GreenMate",
+    "short_name": "GreenMate",
+    "description": "GreenMate is a platform for managing greenhouses and plants. We are leveraging IoT Sensors with ESP32 and AI to help you grow your plants. Whether you're new to planting or an experienced grower, we've got you covered.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#F0F4FF",
+    "theme_color": "#8FCE00",
+    "orientation": "portrait",
+    "icons": [
+      {
+        "src": "/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      }
+
+    ]
+}
