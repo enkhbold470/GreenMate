@@ -33,7 +33,11 @@ export default function Landing() {
 
       <h1 className="text-2xl font-bold mb-6">Manage Your Home Plants</h1>
 
-      <PlantCard name="Monstera Deliciosa" image="/EG.svg" daysAgo={15} />
+      <PlantCard
+        name="Monstera Deliciosa"
+        image="https://images.unsplash.com/photo-1485955900006-10f4d324d411?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        daysAgo={15}
+      />
 
       <div className="mt-6 space-y-4">
         <h2 className="text-xl font-semibold">Dashboard</h2>
