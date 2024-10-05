@@ -1,8 +1,13 @@
 import Image from "next/image";
+const plantImageUrl = [
+  "https://images.unsplash.com/photo-1485955900006-10f4d324d411?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://images.unsplash.com/photo-1621274220348-41dc235ff439?q=80&w=2980&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://images.unsplash.com/photo-1621274220348-41dc235ff439?q=80&w=2980&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+];
 const plants = [
-  { id: 1, name: "Aloe Vera", image: "/EG.svg" },
-  { id: 2, name: "Snake Plant", image: "/EG.svg" },
-  { id: 3, name: "Peace Lily", image: "/EG.svg" },
+  { id: 1, name: "Aloe Vera", image: plantImageUrl[0] },
+  { id: 2, name: "Snake Plant", image: plantImageUrl[1] },
+  { id: 3, name: "Peace Lily", image: plantImageUrl[2] },
 ];
 export default function YourPlants() {
   return (
