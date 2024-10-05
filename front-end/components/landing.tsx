@@ -2,6 +2,8 @@ import React from "react";
 import YourPlants from "./YourPlants";
 import SensorInfo from "./sensorInfo";
 import sensorTypes from "../lib/sensorTypes";
+import Image from "next/image";
+
 const PlantCard = ({
   name,
   image,
@@ -12,7 +14,13 @@ const PlantCard = ({
   daysAgo: number;
 }) => (
   <div className="bg-white rounded-3xl shadow-lg overflow-hidden">
-    <img src={image} alt={name} className="w-full h-48 object-cover" />
+    <Image
+      src={image}
+      alt={name}
+      className="w-full h-52 object-cover"
+      width={400}
+      height={400}
+    />
     <div className="p-4">
       <h3 className="text-fern_green-DEFAULT font-semibold text-lg">{name}</h3>
       <p className="text-asparagus-300 text-sm">{daysAgo} days ago planted</p>
