@@ -22,7 +22,7 @@ export default function Header() {
           />
         </div>
         <div>
-          <h2 className="text-xl font-semibold">John Doe</h2>
+          <h2 className="text-xl font-semibold">Enkhbold Ganbold</h2>
           <p className="text-gray-600">Plant Enthusiast</p>
         </div>
       </div>
