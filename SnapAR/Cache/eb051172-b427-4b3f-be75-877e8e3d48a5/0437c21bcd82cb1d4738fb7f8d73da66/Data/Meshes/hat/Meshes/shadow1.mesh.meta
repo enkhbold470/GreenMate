@@ -9,7 +9,7 @@
     {}
   DependentFiles:
     []
-  ImporterSettings: !<FileMeshImporterSettings/6f6c7994-ff79-4b0b-8405-3f755c2ed9cd>
+  ImporterSettings: !<FileMeshImporterSettings/059fa225-583a-490c-b456-123f47593c9e>
     ModifiedVertexFormats:
       normal: Float
       position: Float
