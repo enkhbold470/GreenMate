@@ -9,6 +9,12 @@ GreenMate is a hardware-software integrated system designed to monitor plant hea
 
 <img width="1317" alt="image" src="https://github.com/user-attachments/assets/ed6a1249-a96b-4222-b0d4-8c13819c162b">
 
+
+## AR Plant Tracking
+
+<img width="713" alt="image" src="https://github.com/user-attachments/assets/22258aa4-c34b-445a-aead-12af1f0c736f">
+
+
 ## Table of Contents
 
 - [Architecture](#architecture)
