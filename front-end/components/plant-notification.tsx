@@ -28,7 +28,7 @@
             }
             setActiveNotifications(prev => [newNotification, ...prev].slice(0, 3))
           }
-        }, 3000)
+        }, 8000)
     
         return () => clearInterval(interval)
       }, [])
