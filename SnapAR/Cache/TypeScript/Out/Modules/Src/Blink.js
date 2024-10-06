@@ -14,13 +14,32 @@ const debounce_1 = require("SpectaclesInteractionKit/Utils/debounce");
 let Blink = class Blink extends BaseScriptComponent {
     onAwake() {
         print("Blink component is awake!");
-        this.createEvent("OnStartEvent").bind(() => { this.onStart(); });
+        if (this.forDemoVid) {
+            this.createEvent("OnStartEvent").bind(() => { this.onStart(); });
+        }
         this.createEvent("UpdateEvent").bind(() => { this.onUpdate(); });
         this.objecttoBlink.enabled = false;
         this.sun.enabled = false;
         this.drink.enabled = false;
         this.rain.enabled = false;
         this.dust.enabled = false;
+        let httpRequest = RemoteServiceHttpRequest.create();
+        httpRequest.method = RemoteServiceHttpRequest.HttpRequestMethod.Get;
+        httpRequest.url = "https://thomasc86-flask--8082.prod1a.defang.dev/predict";
+        // httpRequest.url = "https://10.206.45.9:8080/predict";
+        httpRequest.setHeader("accept", "application/json");
+        // print("Fetching plant status...");
+        this.remoteServiceModule.performHttpRequest(httpRequest, (response) => {
+            if (response.statusCode == 200) {
+                const data = JSON.parse(response.body);
+                print("Success! Body: " + data);
+                this.text1.text = "Humidity: " + data.humidity + " %\n" + "Temperature: " + data.temperature.toFixed(2) + " C\n" + "Sunlight: " + data.sunlight_level.toFixed(2) + " lux\n" + "Soil Moisture: " + data.soil_moisture;
+                // print("Water prediction: " + data.water_prediction);
+            }
+            else {
+                print("Error code:" + response.statusCode + "\n Body: " + response.body);
+            }
+        });
     }
     onStart() {
         // Retrieve HandInputData from SIK's definitions.
@@ -37,12 +56,12 @@ let Blink = class Blink extends BaseScriptComponent {
     onUpdate() {
         // Fetch the plant status using RemoteServiceModule
         if (!this.forDemoVid) {
+            // print("Fetching plant status...");        
             let httpRequest = RemoteServiceHttpRequest.create();
             httpRequest.method = RemoteServiceHttpRequest.HttpRequestMethod.Get;
             httpRequest.url = "https://thomasc86-flask--8082.prod1a.defang.dev/predict";
             // httpRequest.url = "https://10.206.45.9:8080/predict";
             httpRequest.setHeader("accept", "application/json");
-            // print("Fetching plant status...");
             this.remoteServiceModule.performHttpRequest(httpRequest, (response) => {
                 if (response.statusCode == 200) {
                     const data = JSON.parse(response.body);
@@ -132,6 +151,7 @@ let Blink = class Blink extends BaseScriptComponent {
             (0, debounce_1.setTimeout)(this.timeToBlink, 30000);
         }
         else {
+            // setTimeout(this.timeToBlink, 30000);
             if (this.oneHot == 0) {
                 this.objecttoBlink.enabled = false;
                 this.drink.enabled = false;
@@ -174,7 +194,7 @@ let Blink = class Blink extends BaseScriptComponent {
                 this.rain.enabled = false;
                 this.dust.enabled = false;
             }
-            (0, debounce_1.setTimeout)(this.timeToBlink, 10000);
+            // setTimeout(this.timeToBlink, 10000);
         }
     }
     timeToBlink() {
