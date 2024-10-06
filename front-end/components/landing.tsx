@@ -6,10 +6,12 @@ import sensorTypes from "../lib/sensorTypes";
 import PlantCard from "./plant-card";
 import { useEffect, useState } from "react";
 import useWeather from "../hook/useWeather";
-
+import { MapPinHouse, Thermometer } from "lucide-react";
 export default function Landing() {
   //get plant name from backend
-  const [wateringPrediction, setWateringPrediction] = useState("");
+  const [wateringPrediction, setWateringPrediction] = useState(
+    "Server Error... Please try again later"
+  );
   const lat = 40.8068737;
   const lon = -73.9604592;
   const { weather } = useWeather(lat, lon);
@@ -31,16 +33,31 @@ export default function Landing() {
   return (
     <div className="bg-anti-flash_white-DEFAULT min-h-screen font-sans text-fern_green-DEFAULT p-4">
       <header className="flex justify-between items-center mb-6">
-        <img src="/EG.svg" alt="Profile" className="w-10 h-10 rounded-full" />
+        <div className="flex items-center space-x-2 gap-1">
+          <img
+            src="/greenmate.svg"
+            alt="Profile"
+            className="w-14 h-14 rounded-full border-2 border-fern_green-DEFAULT"
+          />
+          <p className="text-sm font-semibold">Enkhbold G.</p>
+        </div>
+
         <div className="flex items-center space-x-2">
           <div>
             {weather ? (
               <div>
-                <div className="flex flex-col items-end space-x-2">
-                  <h2>Columbia University, NY</h2>
-                  <p>
-                    {weather.temperature}°{weather.temperatureUnit}
-                  </p>
+                <div className="flex flex-col items-end space-x-2 space-y-2">
+                  {/* Location lucide icon */}
+                  <h2 className="flex items-center space-x-2">
+                    <span>Columbia University, NY</span>
+                    <MapPinHouse />
+                  </h2>
+                  <div className="flex items-center space-x-2">
+                    <p>
+                      {weather.temperature}°{weather.temperatureUnit}
+                    </p>
+                    <Thermometer />
+                  </div>
                 </div>
               </div>
             ) : (
