@@ -7,8 +7,7 @@ import os
 from dotenv import load_dotenv
 from sklearn.metrics import accuracy_score
 
-load_dotenv()
-
+PORT=8082
 app = Flask(__name__)
 
 # Define API endpoints for the fields
@@ -155,5 +154,5 @@ def predict_plant_needs():
 
 if __name__ == '__main__':
     host = '0.0.0.0'
-    print(f"API endpoint is running at: http://{host}:{os.getenv('PORT')}/predict")
-    app.run(debug=True, host=host, port=os.getenv('PORT'))
+    print(f"API endpoint is running at: http://{host}:{PORT}/predict")
+    app.run(debug=True, host=host, port=PORT)
