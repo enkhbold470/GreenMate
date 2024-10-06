@@ -87,7 +87,7 @@
                 <InfoCard
                   icon={<Sprout className="w-6 h-6 text-green-500" />}
                   title="Soil Moisture"
-                  value={`${plantData.soil_moisture}%`}
+                  value={`${plantData.soil_moisture}`}
                   prediction={plantData.water_prediction}
                 />
               </div>
