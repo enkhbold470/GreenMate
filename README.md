@@ -1,14 +1,8 @@
-Below is a draft for a GitHub README file based on the GreenMate architecture diagram:
-
----
-
 # GreenMate
 
 GreenMate is a hardware-software integrated system designed to monitor plant health by detecting environmental parameters like soil moisture, light, and humidity levels. It uses predictive modeling to automate plant watering and utilizes both IoT and AI technologies for optimal plant care.
 
-
 <img width="1317" alt="image" src="https://github.com/user-attachments/assets/ed6a1249-a96b-4222-b0d4-8c13819c162b">
-
 
 ## AR Plant Tracking
 
