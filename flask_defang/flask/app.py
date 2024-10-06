@@ -1,8 +1,12 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 import pandas as pd
 import requests
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 
@@ -59,6 +63,11 @@ def train_model():
 # Initialize and train model
 model = train_model()
 
+# Define a route to render the HTML page
+@app.route('/')
+def home():
+    return render_template('index.html')
+
 # Define a route to predict plant needs using the most recent data
 @app.route('/predict', methods=['GET'])
 def predict_plant_needs():
@@ -91,6 +100,5 @@ def predict_plant_needs():
 
 if __name__ == '__main__':
     host = '0.0.0.0'
-    port = 8080  # Using port 8080
-    print(f"API endpoint is running at: http://{host}:{port}/predict")
-    app.run(debug=True, host=host, port=port)
+    print(f"API endpoint is running at: http://{host}:{os.getenv('PORT')}/predict")
+    app.run(debug=True, host=host, port=os.getenv('PORT'))

@@ -32,3 +32,4 @@ tzdata==2024.2
 urllib3==2.2.3
 Werkzeug==3.0.4
 xgboost==2.1.1
+python-dotenv
