@@ -113,7 +113,7 @@ def predict_plant_needs():
     humidity_prediction = humidity_model.predict(input_data)[0]
 
     # Interpret the predictions and provide actionable feedback
-    water_result = "Plant needs water" if water_prediction == 1 else "Plant does not need water"
+    water_result = "I am thirsty" if water_prediction == 1 else "I am not thirsty"
     
     if temperature_prediction == 1:
         temperature_result = "Temperature is suitable"
