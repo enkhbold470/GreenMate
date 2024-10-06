@@ -12,7 +12,8 @@ GreenMate is a hardware-software integrated system designed to monitor plant hea
 
 ## AR Plant Tracking
 
-<img width="713" alt="image" src="https://github.com/user-attachments/assets/22258aa4-c34b-445a-aead-12af1f0c736f">
+https://github.com/user-attachments/assets/4899f539-b5b0-4cac-8d50-52982a8c6643
+
 
 
 ## Table of Contents
@@ -26,6 +27,7 @@ GreenMate is a hardware-software integrated system designed to monitor plant hea
 ## Architecture
 
 ### Hardware Components
+<img width="1363" alt="image" src="https://github.com/user-attachments/assets/a9a1c82f-92f2-439b-aa19-d31bef9a6e80">
 
 The hardware setup of GreenMate revolves around the **ESP32S3** microcontroller, which serves as the central hub for sensor data collection and wireless communication.
 
@@ -69,4 +71,4 @@ GreenMate is part of various competition tracks, each highlighting different asp
 
 ---
 
-Feel free to customize this README as per your needs or add more details as required!
+<img width="1424" alt="image" src="https://github.com/user-attachments/assets/7ec89f57-f47e-4cc1-8868-61ac67066696">
