@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/2f4923d3-a83e-4207-9de0-d809e7e68eb5>
+  ImporterSettings: !<AssetImporterSettings/8b807ede-e26e-4e21-8652-b0a570ff1cb4>
+    {}
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 9157c475-a937-4308-99e5-2f4025cf0088
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 9157c475-a937-4308-99e5-2f4025cf0088
+  PackageType: NotAPackage
+  AssetDataMap:
+    JavaScriptAsset: !<own> 1d71aa2b-6fa4-4e73-a32a-b0e9a19e9052
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CannotBeUnpacked
+  DependentFiles:
+    []
+  NativePackageRoot: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/1d71aa2b-6fa4-4e73-a32a-b0e9a19e9052>
+  Icon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    box: false
+    interactionComponent: false
+    parent: false
+    rotationEuler: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - box: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      parent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      rotationEuler: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      interactionComponent: !<reference.InteractionComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  SvgIcon: ""

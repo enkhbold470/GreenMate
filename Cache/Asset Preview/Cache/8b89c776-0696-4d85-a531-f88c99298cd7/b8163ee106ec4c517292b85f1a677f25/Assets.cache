@@ -1,0 +1,15 @@
+- !<AssetCache/b8163ee1-06ec-4c51-7292-b85f1a677f25>
+  AssetFiles:
+    33063fff-a58d-401d-8a2e-0770632f270b: 8b89c776-0696-4d85-a531-f88c99298cd7/b8163ee106ec4c517292b85f1a677f25/Data/icon_spherical.png
+  AssetCurrentFiles:
+    33063fff-a58d-401d-8a2e-0770632f270b: 8b89c776-0696-4d85-a531-f88c99298cd7/b8163ee106ec4c517292b85f1a677f25/Data/icon_spherical.png
+  Assets:
+    - !<FileTexture/33063fff-a58d-401d-8a2e-0770632f270b>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 128
+        Height: 128
+  SourceHash: b8163ee106ec4c517292b85f1a677f25
+  FileHash: 181bb0e20bbc2dae6debbf78c38494fb
+  NativePackageItems:
+    []

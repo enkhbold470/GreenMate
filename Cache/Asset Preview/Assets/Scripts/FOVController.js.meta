@@ -1,0 +1,51 @@
+- !<AssetImportMetadata/71165a90-f8fe-443f-8bf8-4026908923dc>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 81519861-295b-4173-abee-75837742e142
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 81519861-295b-4173-abee-75837742e142
+  PackageType: NotAPackage
+  AssetDataMap:
+    JavaScriptAsset: !<own> 067e8f01-ed58-4b7e-b481-826858203ff4
+  ImporterSettings: !<AssetImporterSettings/e5943bff-1d64-4d56-a49b-6bfb8d5df4fd>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CannotBeUnpacked
+  DependentFiles:
+    []
+  NativePackageRoot: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/067e8f01-ed58-4b7e-b481-826858203ff4>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 6d83727f-ed50-4dc6-8973-c041e4fb76d4
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    camera: false
+    deviceCameraTexture: false
+    distObj: false
+    pivotObj: false
+    placementScript: false
+    slider: false
+    sliderScript: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - texture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      text: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      deviceCameraTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      screenT: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      distObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      pivotObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      parentObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      placementScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      slider: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      sliderScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

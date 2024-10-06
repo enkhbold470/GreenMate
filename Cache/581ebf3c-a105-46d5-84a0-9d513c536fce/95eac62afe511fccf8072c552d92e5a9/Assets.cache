@@ -1,0 +1,15 @@
+- !<AssetCache/95eac62a-fe51-1fcc-f807-2c552d92e5a9>
+  AssetFiles:
+    3e7a9034-d2b2-415a-bb22-355ee2b434e9: 581ebf3c-a105-46d5-84a0-9d513c536fce/95eac62afe511fccf8072c552d92e5a9/Data/SIKLogo.png
+  AssetCurrentFiles:
+    3e7a9034-d2b2-415a-bb22-355ee2b434e9: 581ebf3c-a105-46d5-84a0-9d513c536fce/95eac62afe511fccf8072c552d92e5a9/Data/Size/Medium/SIKLogo.png
+  Assets:
+    - !<FileTexture/3e7a9034-d2b2-415a-bb22-355ee2b434e9>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 512
+  SourceHash: 95eac62afe511fccf8072c552d92e5a9
+  FileHash: b2cba017d1b16da62956394780aea722
+  NativePackageItems:
+    []

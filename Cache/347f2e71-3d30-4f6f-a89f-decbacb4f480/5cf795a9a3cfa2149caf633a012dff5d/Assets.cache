@@ -1,0 +1,15 @@
+- !<AssetCache/5cf795a9-a3cf-a214-9caf-633a012dff5d>
+  AssetFiles:
+    331a7fc7-7877-4a7c-8689-b6b35d26d3b9: 347f2e71-3d30-4f6f-a89f-decbacb4f480/5cf795a9a3cfa2149caf633a012dff5d/Data/container-button-matcap.jpg
+  AssetCurrentFiles:
+    331a7fc7-7877-4a7c-8689-b6b35d26d3b9: 347f2e71-3d30-4f6f-a89f-decbacb4f480/5cf795a9a3cfa2149caf633a012dff5d/Data/Size/Medium/container-button-matcap.jpg
+  Assets:
+    - !<FileTexture/331a7fc7-7877-4a7c-8689-b6b35d26d3b9>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 512
+  SourceHash: 5cf795a9a3cfa2149caf633a012dff5d
+  FileHash: 8c40c070ea089663557982c08e65d9b6
+  NativePackageItems:
+    []

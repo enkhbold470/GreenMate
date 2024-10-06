@@ -1,0 +1,118 @@
+- !<AssetCache/065e7e20-c051-bac7-e7aa-1d1f452b8f03>
+  AssetFiles:
+    b525c235-fa8c-4f03-8c32-a9ffc43dc6bf: 7a5e85c5-5adc-4a0d-9060-40e9520ddacc/065e7e20c051bac7e7aa1d1f452b8f03/Data/PaintedGlow_Right.ss_graph
+  AssetCurrentFiles:
+    b525c235-fa8c-4f03-8c32-a9ffc43dc6bf: 7a5e85c5-5adc-4a0d-9060-40e9520ddacc/065e7e20c051bac7e7aa1d1f452b8f03/Data/PaintedGlow_Right.ss_graph
+  Assets:
+    - !<ShaderGraphPass/b525c235-fa8c-4f03-8c32-a9ffc43dc6bf>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input0_N003:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+        Port_LODValue_N001:
+          typeIdx: 1
+          value: 0.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData/f4e4c319-84a8-4acb-8314-2f93d3749c59>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: handGlowTex
+            mType: Property
+            mName: handGlowTex
+            mWidget: texture_group
+            mHint: "Property: handGlowTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: brightness
+            mType: Property
+            mName: brightness
+            mWidget: slider
+            mHint: "Property: brightness"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: 7a5e85c5-5adc-4a0d-9060-40e9520ddacc/065e7e20c051bac7e7aa1d1f452b8f03/Data/242fadd/PaintedGlow_Right.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 065e7e20c051bac7e7aa1d1f452b8f03
+  FileHash: e4d408efd5e8405ae54a40ef040f1f44
+  NativePackageItems:
+    []

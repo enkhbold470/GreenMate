@@ -1,0 +1,15 @@
+- !<AssetCache/bed00c7b-bc5f-f76c-05c7-0815803708a1>
+  AssetFiles:
+    28f3f301-aa35-42a0-aeb0-892445ebe5a8: 4781e065-87ac-43f1-86ef-4e51238bf939/bed00c7bbc5ff76c05c70815803708a1/Data/icon_geo_sphere.png
+  AssetCurrentFiles:
+    28f3f301-aa35-42a0-aeb0-892445ebe5a8: 4781e065-87ac-43f1-86ef-4e51238bf939/bed00c7bbc5ff76c05c70815803708a1/Data/icon_geo_sphere.png
+  Assets:
+    - !<FileTexture/28f3f301-aa35-42a0-aeb0-892445ebe5a8>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 128
+        Height: 128
+  SourceHash: bed00c7bbc5ff76c05c70815803708a1
+  FileHash: ed63dd4b75cdaa3d252b7554da94d167
+  NativePackageItems:
+    []

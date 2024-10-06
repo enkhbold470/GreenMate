@@ -1,0 +1,15 @@
+- !<AssetCache/07a97348-7263-db79-508c-a3b38f808d01>
+  AssetFiles:
+    6a13a68c-713c-4c03-a6f4-d399d92651a3: d4c0e3c3-6ad3-4cb0-8821-c06e288f6e77/07a973487263db79508ca3b38f808d01/Data/round_rect_grey.png
+  AssetCurrentFiles:
+    6a13a68c-713c-4c03-a6f4-d399d92651a3: d4c0e3c3-6ad3-4cb0-8821-c06e288f6e77/07a973487263db79508ca3b38f808d01/Data/round_rect_grey.png
+  Assets:
+    - !<FileTexture/6a13a68c-713c-4c03-a6f4-d399d92651a3>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 196
+        Height: 196
+  SourceHash: 07a973487263db79508ca3b38f808d01
+  FileHash: 60df904fde8ad203fb98822bdfaf5691
+  NativePackageItems:
+    []

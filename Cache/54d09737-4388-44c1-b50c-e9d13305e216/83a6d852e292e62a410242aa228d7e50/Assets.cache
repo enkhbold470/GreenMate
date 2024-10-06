@@ -1,0 +1,12 @@
+- !<AssetCache/83a6d852-e292-e62a-4102-42aa228d7e50>
+  AssetFiles:
+    82028831-1631-4d7b-b548-ff6be4e0a2ba: 54d09737-4388-44c1-b50c-e9d13305e216/83a6d852e292e62a410242aa228d7e50/Data/TriggerEndAudioTrack.wav
+  AssetCurrentFiles:
+    82028831-1631-4d7b-b548-ff6be4e0a2ba: 54d09737-4388-44c1-b50c-e9d13305e216/83a6d852e292e62a410242aa228d7e50/Data/TriggerEndAudioTrack.wav
+  Assets:
+    - !<FileAudioTrack/82028831-1631-4d7b-b548-ff6be4e0a2ba>
+      PackagePath: ""
+  SourceHash: 83a6d852e292e62a410242aa228d7e50
+  FileHash: 98cfd8a5e6f4af8334979c2eda2de300
+  NativePackageItems:
+    []

@@ -1,0 +1,74 @@
+- !<AssetImportMetadata/fc184d97-affd-4ee2-bd1e-199fbfcfdd96>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> e8516b93-6204-475e-8a67-dabd3ff55fd5
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> e8516b93-6204-475e-8a67-dabd3ff55fd5
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 34b15795-09c8-44ff-bdb0-4777a6b0ef8f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/fb11fabf-d045-4632-b423-fa7aaaf9f797>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/34b15795-09c8-44ff-bdb0-4777a6b0ef8f>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    chevronIconObj: false
+    envMapObj: false
+    environmentCheckObjects: false
+    environmentIconBackgrounds: false
+    environmentIconObj: false
+    environmentLight: false
+    environmentLightParent: false
+    iconBackgroundObjs: false
+    leftSection: false
+    light: false
+    parent: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - light: !<reference.SceneObject[]>
+        []
+      environmentLight: !<reference.SceneObject[]>
+        []
+      lightButtons: !<RequiredType.Image[]>
+        []
+      ligthIconBackgrounds: !<RequiredType.Image[]>
+        []
+      environmentLightBackgrounds: !<reference.SceneObject[]>
+        []
+      environmentIcon: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      iconBackgrounds: !<RequiredType.Image[]>
+        []
+      environmentIconBackgrounds: !<RequiredType.Image[]>
+        []
+      parent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      leftSection: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      environmentLightParent: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      envLighSource: !<reference.LightSource> 00000000-0000-0000-0000-000000000000
+      envMapObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      iconBackgroundObjs: !<reference.Image[]>
+        []
+      environmentIconObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      chevronIconObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      environmentCheckIcon: !<reference.SceneObject[]>
+        []
+      environmentCheckObject: !<reference.SceneObject[]>
+        []
+      environmentCheckObjects: !<reference.SceneObject[]>
+        []
+      environmentButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

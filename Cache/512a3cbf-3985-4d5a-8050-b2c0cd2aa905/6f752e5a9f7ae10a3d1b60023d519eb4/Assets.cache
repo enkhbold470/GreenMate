@@ -1,0 +1,15 @@
+- !<AssetCache/6f752e5a-9f7a-e10a-3d1b-60023d519eb4>
+  AssetFiles:
+    d01f701e-3c25-45e6-999c-be391aca834c: 512a3cbf-3985-4d5a-8050-b2c0cd2aa905/6f752e5a9f7ae10a3d1b60023d519eb4/Data/follow-black.png
+  AssetCurrentFiles:
+    d01f701e-3c25-45e6-999c-be391aca834c: 512a3cbf-3985-4d5a-8050-b2c0cd2aa905/6f752e5a9f7ae10a3d1b60023d519eb4/Data/Performance/Medium/follow-black.pvr
+  Assets:
+    - !<FileTexture/d01f701e-3c25-45e6-999c-be391aca834c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 96
+        Height: 96
+  SourceHash: 6f752e5a9f7ae10a3d1b60023d519eb4
+  FileHash: 1804504c66036dc2df6c9268693d92dc
+  NativePackageItems:
+    []

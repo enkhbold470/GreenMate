@@ -1,0 +1,75 @@
+- !<AssetCache/34bfe3d8-d179-d436-bb03-bc4c0755af5c>
+  AssetFiles:
+    20e28697-5313-4c72-b17c-621ef638897d: 462f8ba7-2cad-44bf-956a-c13a3cbe8a62/34bfe3d8d179d436bb03bc4c0755af5c/Data/flat.glsl
+  AssetCurrentFiles:
+    20e28697-5313-4c72-b17c-621ef638897d: 462f8ba7-2cad-44bf-956a-c13a3cbe8a62/34bfe3d8d179d436bb03bc4c0755af5c/Data/flat.glsl
+  Assets:
+    - !<Pass/20e28697-5313-4c72-b17c-621ef638897d>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        {}
+      PassUiData: !<PassUiData/91a18685-25f4-4eab-9a2c-3b7ba6064759>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: No Base Texture
+            mType: Define
+            mName: NOTEXTURE
+            mWidget: ""
+            mHint: "Define: NOTEXTURE"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Base Texture
+            mType: Property
+            mName: baseTex
+            mWidget: texture_group
+            mHint: "Property: baseTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: No Opacity Texture
+            mType: Define
+            mName: NOMASK
+            mWidget: ""
+            mHint: "Define: NOMASK"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Opacity Texture
+            mType: Property
+            mName: opacityTex
+            mWidget: texture_group
+            mHint: "Property: opacityTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Base Color
+            mType: Property
+            mName: baseColor
+            mWidget: color
+            mHint: "Property: baseColor"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+  SourceHash: 34bfe3d8d179d436bb03bc4c0755af5c
+  FileHash: 109bd3061e0e2714fa018f8490f6dfb6
+  NativePackageItems:
+    []

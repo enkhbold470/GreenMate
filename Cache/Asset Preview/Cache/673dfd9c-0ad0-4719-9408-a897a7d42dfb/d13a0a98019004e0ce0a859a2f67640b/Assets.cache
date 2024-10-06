@@ -1,0 +1,15 @@
+- !<AssetCache/d13a0a98-0190-04e0-ce0a-859a2f67640b>
+  AssetFiles:
+    5074a141-0e30-459f-8761-37e91bf48b0d: 673dfd9c-0ad0-4719-9408-a897a7d42dfb/d13a0a98019004e0ce0a859a2f67640b/Data/Diffuse.jpeg
+  AssetCurrentFiles:
+    5074a141-0e30-459f-8761-37e91bf48b0d: 673dfd9c-0ad0-4719-9408-a897a7d42dfb/d13a0a98019004e0ce0a859a2f67640b/Data/Diffuse.jpeg
+  Assets:
+    - !<FileTexture/5074a141-0e30-459f-8761-37e91bf48b0d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 64
+        Height: 32
+  SourceHash: d13a0a98019004e0ce0a859a2f67640b
+  FileHash: ed9a7315a8bd2eb21871660cef5f0eef
+  NativePackageItems:
+    []

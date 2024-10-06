@@ -1,0 +1,15 @@
+- !<AssetCache/089b978e-1253-8547-689a-035397b7c13a>
+  AssetFiles:
+    e33d2c7f-1d12-4250-92fb-433c25ce1923: ddb391a8-2dfe-4139-9de0-70626ac703e0/089b978e12538547689a035397b7c13a/Data/handMeshTapTexture.png
+  AssetCurrentFiles:
+    e33d2c7f-1d12-4250-92fb-433c25ce1923: ddb391a8-2dfe-4139-9de0-70626ac703e0/089b978e12538547689a035397b7c13a/Data/handMeshTapTexture.png
+  Assets:
+    - !<FileTexture/e33d2c7f-1d12-4250-92fb-433c25ce1923>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 512
+  SourceHash: 089b978e12538547689a035397b7c13a
+  FileHash: 7741814447f16d94826ecc3b563713c6
+  NativePackageItems:
+    []

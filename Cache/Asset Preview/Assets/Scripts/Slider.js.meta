@@ -1,0 +1,83 @@
+- !<AssetImportMetadata/0ea747e4-1217-442c-91e3-38a71fbbbecd>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 209b8c76-e430-432a-ba89-7c10472a650a
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 209b8c76-e430-432a-ba89-7c10472a650a
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> cca517d8-c9f9-4a68-afc0-4dc355f079fe
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/a670866d-f942-4fc8-a557-8355a9a14d2c>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/cca517d8-c9f9-4a68-afc0-4dc355f079fe>
+  SvgIcon: |
+    <svg width="214" height="140" viewBox="0 0 214 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M36.7374 140C28.4419 140 22.1708 137.906 17.9243 133.718C13.6778 129.53 11.5545 123.497 11.5545 115.62V84.8077C11.5545 82.3148 10.962 80.5199 9.77689 79.4231C8.59181 78.2265 6.96233 77.6282 4.88845 77.6282H0V62.3718H4.88845C6.96233 62.3718 8.59181 61.7735 9.77689 60.5769C10.962 59.3803 11.5545 57.5855 11.5545 55.1923V24.3803C11.5545 16.4031 13.6778 10.3704 17.9243 6.28205C22.1708 2.09402 28.4419 0 36.7374 0H44.1441V14.9573H41.0333C37.3793 14.9573 34.6141 15.9544 32.7378 17.9487C30.9602 19.943 30.0713 22.735 30.0713 26.3248V54.7436C30.0713 58.7322 29.5776 61.8234 28.59 64.0171C27.6024 66.2108 26.0223 67.8561 23.8497 68.953C21.7758 69.9501 19.06 70.698 15.7023 71.1966V68.8034C19.06 69.2023 21.7758 69.9501 23.8497 71.047C26.0223 72.1439 27.6024 73.7892 28.59 75.9829C29.5776 78.1766 30.0713 81.2678 30.0713 85.2564V113.675C30.0713 117.265 30.9602 120.057 32.7378 122.051C34.6141 124.046 37.3793 125.043 41.0333 125.043H44.1441V140H36.7374Z" fill="white"/>
+    <path d="M175.866 140H168.378V125.043H171.523C175.317 125.043 178.112 124.046 179.909 122.051C181.806 120.057 182.754 117.265 182.754 113.675V85.2564C182.754 81.2678 183.253 78.1766 184.252 75.9829C185.35 73.7892 186.947 72.1439 189.044 71.047C191.14 69.9501 193.836 69.2023 197.13 68.8034V71.1966C193.836 70.698 191.14 69.9501 189.044 68.953C186.947 67.8561 185.35 66.2108 184.252 64.0171C183.253 61.8234 182.754 58.7322 182.754 54.7436V26.3248C182.754 22.735 181.806 19.943 179.909 17.9487C178.112 15.9544 175.317 14.9573 171.523 14.9573H168.378V0H175.866C184.352 0 190.741 2.09402 195.034 6.28205C199.326 10.3704 201.473 16.4031 201.473 24.3803V55.1923C201.473 57.5855 202.072 59.3803 203.27 60.5769C204.468 61.7735 206.065 62.3718 208.062 62.3718H213.153V77.6282H208.062C206.065 77.6282 204.468 78.2265 203.27 79.4231C202.072 80.5199 201.473 82.3148 201.473 84.8077V115.62C201.473 123.497 199.326 129.53 195.034 133.718C190.741 137.906 184.352 140 175.866 140Z" fill="white"/>
+    <path d="M56.7568 33.4234H156.396V48.5586H56.7568V33.4234Z" fill="#FFDA00"/>
+    <path d="M56.7568 64.3243H156.396V80.0901H56.7568V64.3243Z" fill="#FFDA00"/>
+    <path d="M87.6577 95.2252H156.396V110.991H87.6577V95.2252Z" fill="#FFDA00"/>
+    <path d="M56.7568 95.2252H156.396V110.991H56.7568V95.2252Z" fill="white"/>
+    </svg>
+
+  Description: |-
+    Slider logic that allows to do it vertical/horizontal, white/colored, static/pull-out. 
+    Add Slider Helper to adjust the logic on slider moving (change shaders, blendshapes or FaceStetches).
+  InternalVersion: 2
+  VersionMajor: 2
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 0006016f-d2be-52a4-0000-0000000d0ea0
+  ExportUid: 0006016f-d5fb-ee66-0000-0000000d4daf
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    camera: false
+    color: true
+    hide: false
+    hideScreenTransform: false
+    mainScreenTransform: false
+    maxValue: false
+    minValue: false
+    pointScreenTransform: false
+    returnSpeed: false
+    returnTime: false
+    sliderType: false
+    spritePreset1Image: false
+    spritePreset1Texture: false
+    spritePreset2Image: false
+    spritePreset2Texture: false
+    spritePresetMaterial: false
+    step: false
+    touchZone: false
+    usedStep: false
+    white: true
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - pointScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      touchZone: !<reference.BaseMeshVisual> 00000000-0000-0000-0000-000000000000
+      camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      minValue: !<float> 0.000000
+      maxValue: !<float> 0.000000
+      usedStep: false
+      step: !<float> 0.000000
+      white: !<reference.Texture> bd31dc38-178b-4055-ba7e-4948c417ee37
+      color: !<reference.Texture> 4491a2c8-6678-49e6-af30-db118120fcab
+      sliderType: 0
+      hide: false
+      hideScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      mainScreenTransform: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      returnTime: !<float> 0.000000
+      returnSpeed: !<float> 0.000000
+      spritePresetMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      spritePreset1Image: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      spritePreset2Image: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      spritePreset1Texture: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      spritePreset2Texture: !<reference.Image> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

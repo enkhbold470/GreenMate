@@ -1,0 +1,17 @@
+- !<AssetCache/8c5d3f98-621e-65a0-b51f-27291a78c6de>
+  AssetFiles:
+    9bfea8ed-90fb-48da-83c9-ef1d4f55a126: 5c2372cc-f4f9-442d-be07-b546a8649f3b/8c5d3f98621e65a0b51f27291a78c6de/Data/uber.glsl
+  AssetCurrentFiles:
+    9bfea8ed-90fb-48da-83c9-ef1d4f55a126: 5c2372cc-f4f9-442d-be07-b546a8649f3b/8c5d3f98621e65a0b51f27291a78c6de/Data/uber.glsl
+  Assets:
+    - !<Pass/9bfea8ed-90fb-48da-83c9-ef1d4f55a126>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        {}
+      PassUiData: !<own> 00000000-0000-0000-0000-000000000000
+  SourceHash: 8c5d3f98621e65a0b51f27291a78c6de
+  FileHash: 375a001d29808e34839eb07b48056654
+  NativePackageItems:
+    []

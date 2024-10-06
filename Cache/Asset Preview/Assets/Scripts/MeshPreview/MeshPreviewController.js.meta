@@ -1,0 +1,43 @@
+- !<AssetImportMetadata/39930383-b86e-4e2f-812a-9dd996fbfb53>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 43a1dc29-0325-42e5-98ed-1133aabe8424
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 43a1dc29-0325-42e5-98ed-1133aabe8424
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 101824de-d45d-4989-b49b-03744011a0a1
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/ae7984ed-5a0b-456f-a344-752a32aad190>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/101824de-d45d-4989-b49b-03744011a0a1>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    fovController: false
+    lightController: false
+    mappingImageObj: false
+    middleSection: false
+    textureAnalyzer: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - middleSection: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lightController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      textureAnalyzer: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      mappingImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      mappingImageObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      fovController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

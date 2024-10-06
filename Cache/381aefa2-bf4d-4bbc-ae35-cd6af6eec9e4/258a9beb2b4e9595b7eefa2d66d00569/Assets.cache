@@ -1,0 +1,18 @@
+- !<AssetCache/258a9beb-2b4e-9595-b7ee-fa2d66d00569>
+  AssetFiles:
+    5fc77637-64df-4565-9f02-b6b6de4d658b: 381aefa2-bf4d-4bbc-ae35-cd6af6eec9e4/258a9beb2b4e9595b7eefa2d66d00569/Data/cloud_cloud_0.mesh
+  AssetCurrentFiles:
+    {}
+  Assets:
+    - !<FileMesh/5fc77637-64df-4565-9f02-b6b6de4d658b>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 616
+        Vertices: 648
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: 258a9beb2b4e9595b7eefa2d66d00569
+  FileHash: 55f38fc960d5aac65aadc998bb2302fb
+  NativePackageItems:
+    []

@@ -1,0 +1,68 @@
+- !<AssetImportMetadata/6eadacff-16d0-4117-893f-5911ae51107e>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 33cfab6c-3190-4461-91e0-064986fea661
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 33cfab6c-3190-4461-91e0-064986fea661
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 0c74a275-3797-4e56-8eca-faa54bb435fb
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/3bda03a7-ed08-489f-87ce-cf05695bddee>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/0c74a275-3797-4e56-8eca-faa54bb435fb>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    greyBackgroundStatus: false
+    greyMaterial: false
+    hintObject: false
+    iconBackgroundObjects: false
+    iconMaterial: false
+    iconTextures: false
+    texturePreviewMaterial: false
+    textureRenderMeshes: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - mystruct:
+        c: !<reference.Material> 00000000-0000-0000-0000-000000000000
+        d: false
+      mystruct2:
+        []
+      materials:
+        []
+      greyMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      backgroundImages: !<reference.Image[]>
+        []
+      greyBackgroundMaterials:
+        []
+      iconMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      iconMaterials:
+        []
+      texturePreviewMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      textureRenderMeshes: !<reference.RenderMeshVisual[]>
+        []
+      highlightMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      highlightImages: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      hintObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      iconMaterials1: !<bool[]>
+        []
+      iconBackgroundObjects: !<reference.SceneObject[]>
+        []
+      greyBackgroundStatus: !<bool[]>
+        []
+      iconTextures: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

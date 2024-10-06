@@ -1,0 +1,690 @@
+- !<ObjectPrefab/a4a458fa-696c-4044-a111-66da76cf48d7>
+  PackagePath: ""
+  objects:
+    - !<own> bb21c590-a4dd-4478-be45-f56e6410346b
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/002e6402-bcf4-483e-8263-e51d89371298>
+  PrefabRemaps:
+    []
+  Name: shadow1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.028099, y: 4.451746, z: -2.780886}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.066800, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e3694009-0963-41ed-85ee-0799b9d0f346
+- !<RenderMeshVisual/08aa87b9-dcaa-4433-9904-94e7a9f5e65d>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ed5c4064-d82f-4fb5-b8f5-c04aac7d4303
+  Mesh: !<reference> eec37365-a30f-45a5-94fd-c66ebe8ec992
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+  RayTracing: !<RayTracingVisualSettings/00000000-0000-0000-0000-000000000000>
+    Reflections:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+      planar:
+        enabled: true
+        roughHarden: 0.500000
+        roughCurve: 2.000000
+    IndirectDiffuse:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    AmbientOcclusion:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Shadows:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Material: !<reference> 00000000-0000-0000-0000-000000000000
+    HideFromCamera: false
+- !<SceneObject/1b094a19-9c61-408e-9974-3f98986a9c1f>
+  PrefabRemaps:
+    []
+  Name: hat
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.050588, y: 7.903985, z: 10.763875}
+    rotation: {x: -7.912518, y: 0.000000, z: 0.000000}
+    scale: {x: 0.915467, y: 0.915467, z: 0.915467}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1c471dec-6cc5-405e-b852-1a60140d1a00
+    - !<own> 276b29e7-78bb-4454-b1ae-7346818ca8c4
+    - !<own> 002e6402-bcf4-483e-8263-e51d89371298
+  Components:
+    []
+- !<SceneObject/1c471dec-6cc5-405e-b852-1a60140d1a00>
+  PrefabRemaps:
+    []
+  Name: Scene Object 0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.017726, y: 6.402578, z: -9.928997}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.020000, y: 0.950000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> bfd318bd-fc70-41f6-8fcc-766207c20f7f
+  Components:
+    []
+- !<SceneObject/276b29e7-78bb-4454-b1ae-7346818ca8c4>
+  PrefabRemaps:
+    []
+  Name: occ
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.041525, y: -2.510931, z: -9.049827}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.030000, y: 1.000000, z: 0.900000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 676ffa15-cee7-409d-b188-7dc632cf778e
+- !<SceneObject/4449377d-e33b-4a20-8baa-0d870f63be51>
+  PrefabRemaps:
+    []
+  Name: Face Stretch
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8f70cdb9-0072-4954-89dc-2d60304c6a1c
+- !<RenderMeshVisual/676ffa15-cee7-409d-b188-7dc632cf778e>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c2d4ad6c-1446-4629-baaf-079d17f4c901
+  Mesh: !<reference> 2e09a0dd-7e33-4a90-b7d9-b5911c1e28c7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+  RayTracing: !<RayTracingVisualSettings/00000000-0000-0000-0000-000000000000>
+    Reflections:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+      planar:
+        enabled: true
+        roughHarden: 0.500000
+        roughCurve: 2.000000
+    IndirectDiffuse:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    AmbientOcclusion:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Shadows:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Material: !<reference> 00000000-0000-0000-0000-000000000000
+    HideFromCamera: false
+- !<Head/8e44f20a-f864-4bb0-adc0-436197879d25>
+  PrefabRemaps:
+    []
+  Name: Head
+  Enabled: true
+  AttachmentPointType: HeadCenter
+  FaceIndex: 0
+  AttachedBarycentricVertex:
+    indices:
+      - 0
+      - 0
+      - 0
+    weights:
+      - 0.000000
+      - 0.000000
+      - 0.000000
+- !<FaceStretchVisual/8f70cdb9-0072-4954-89dc-2d60304c6a1c>
+  PrefabRemaps:
+    []
+  Name: Face stretch
+  Enabled: true
+  RenderOrder: 0
+  FaceIndex: 0
+  Features:
+    - name: Feature1
+      weight: 1.000000
+      points:
+        - index: 0
+          delta: {x: -0.000000, y: -0.196247, z: 0.000000}
+          weight: 3.000000
+        - index: 1
+          delta: {x: -0.018452, y: -0.014183, z: 0.000000}
+          weight: 3.000000
+        - index: 2
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 3
+          delta: {x: 0.000000, y: -0.000294, z: 0.000000}
+          weight: 0.000000
+        - index: 4
+          delta: {x: 0.000000, y: -0.000335, z: 0.000000}
+          weight: 0.000000
+        - index: 5
+          delta: {x: -0.000000, y: -0.004513, z: 0.000000}
+          weight: 0.000000
+        - index: 6
+          delta: {x: -0.000000, y: -0.004686, z: 0.000000}
+          weight: 0.000000
+        - index: 7
+          delta: {x: 0.000000, y: -0.003367, z: 0.000000}
+          weight: 0.000000
+        - index: 8
+          delta: {x: -0.000000, y: -0.001277, z: 0.000000}
+          weight: 0.000000
+        - index: 9
+          delta: {x: -0.000000, y: -0.000499, z: 0.000000}
+          weight: 0.000000
+        - index: 10
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 11
+          delta: {x: -0.052694, y: -0.187403, z: 0.000000}
+          weight: 3.000000
+        - index: 12
+          delta: {x: -0.139433, y: -0.123183, z: 0.000000}
+          weight: 3.000000
+        - index: 13
+          delta: {x: -0.007960, y: 0.010715, z: 0.000000}
+          weight: 3.000000
+        - index: 14
+          delta: {x: -0.061804, y: 0.005623, z: 0.000000}
+          weight: 3.000000
+        - index: 15
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 16
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 17
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 18
+          delta: {x: 0.000897, y: -0.000043, z: 0.000000}
+          weight: 0.000000
+        - index: 19
+          delta: {x: 0.000210, y: -0.000592, z: 0.000000}
+          weight: 0.000000
+        - index: 20
+          delta: {x: 0.000804, y: -0.001361, z: 0.000000}
+          weight: 0.000000
+        - index: 21
+          delta: {x: 0.000281, y: -0.000624, z: 0.000000}
+          weight: 0.000000
+        - index: 22
+          delta: {x: 0.000778, y: -0.001122, z: 0.000000}
+          weight: 0.000000
+        - index: 23
+          delta: {x: 0.000783, y: -0.000275, z: 0.000000}
+          weight: 0.000000
+        - index: 24
+          delta: {x: 0.000919, y: -0.001278, z: 0.000000}
+          weight: 0.000000
+        - index: 25
+          delta: {x: 0.000728, y: -0.003881, z: 0.000000}
+          weight: 0.000000
+        - index: 26
+          delta: {x: 0.000663, y: -0.004340, z: 0.000000}
+          weight: 0.000000
+        - index: 27
+          delta: {x: 0.003415, y: -0.002572, z: 0.000000}
+          weight: 0.000000
+        - index: 28
+          delta: {x: 0.005424, y: -0.000995, z: 0.000000}
+          weight: 0.000000
+        - index: 29
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 30
+          delta: {x: -0.000337, y: -0.002543, z: 0.000000}
+          weight: 0.000000
+        - index: 31
+          delta: {x: -0.000545, y: -0.003092, z: 0.000000}
+          weight: 0.000000
+        - index: 32
+          delta: {x: -0.000049, y: 0.000129, z: 0.000000}
+          weight: 0.000000
+        - index: 33
+          delta: {x: -0.000117, y: -0.003752, z: 0.000000}
+          weight: 0.000000
+        - index: 34
+          delta: {x: 0.018452, y: -0.014183, z: 0.000000}
+          weight: 3.000000
+        - index: 35
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 0.000000
+        - index: 36
+          delta: {x: 0.000000, y: -0.000294, z: 0.000000}
+          weight: 0.000000
+        - index: 37
+          delta: {x: 0.000000, y: -0.000335, z: 0.000000}
+          weight: 0.000000
+        - index: 38
+          delta: {x: -0.000000, y: -0.004513, z: 0.000000}
+          weight: 0.000000
+        - index: 39
+          delta: {x: -0.000000, y: -0.004686, z: 0.000000}
+          weight: 0.000000
+        - index: 40
+          delta: {x: 0.000000, y: -0.002487, z: 0.000000}
+          weight: 0.000000
+        - index: 41
+          delta: {x: -0.000000, y: -0.001277, z: 0.000000}
+          weight: 0.000000
+        - index: 42
+          delta: {x: -0.000000, y: -0.000499, z: 0.000000}
+          weight: 0.000000
+        - index: 43
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 0.000000
+        - index: 44
+          delta: {x: 0.052694, y: -0.187403, z: 0.000000}
+          weight: 3.000000
+        - index: 45
+          delta: {x: 0.139433, y: -0.123183, z: 0.000000}
+          weight: 3.000000
+        - index: 46
+          delta: {x: 0.007960, y: 0.010715, z: 0.000000}
+          weight: 3.000000
+        - index: 47
+          delta: {x: 0.061804, y: 0.005623, z: 0.000000}
+          weight: 3.000000
+        - index: 48
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 49
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 50
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 51
+          delta: {x: -0.000897, y: -0.000043, z: 0.000000}
+          weight: 0.000000
+        - index: 52
+          delta: {x: -0.000210, y: -0.000592, z: 0.000000}
+          weight: 0.000000
+        - index: 53
+          delta: {x: -0.000804, y: -0.001361, z: 0.000000}
+          weight: 0.000000
+        - index: 54
+          delta: {x: -0.000281, y: -0.000624, z: 0.000000}
+          weight: 0.000000
+        - index: 55
+          delta: {x: -0.000778, y: -0.001122, z: 0.000000}
+          weight: 0.000000
+        - index: 56
+          delta: {x: -0.000783, y: -0.000275, z: 0.000000}
+          weight: 0.000000
+        - index: 57
+          delta: {x: -0.000919, y: -0.001278, z: 0.000000}
+          weight: 0.000000
+        - index: 58
+          delta: {x: -0.000728, y: -0.003881, z: 0.000000}
+          weight: 0.000000
+        - index: 59
+          delta: {x: -0.000663, y: -0.004340, z: 0.000000}
+          weight: 0.000000
+        - index: 60
+          delta: {x: -0.003415, y: -0.002572, z: 0.000000}
+          weight: 0.000000
+        - index: 61
+          delta: {x: -0.005424, y: -0.000995, z: 0.000000}
+          weight: 0.000000
+        - index: 62
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 63
+          delta: {x: 0.000337, y: -0.002543, z: 0.000000}
+          weight: 0.000000
+        - index: 64
+          delta: {x: 0.000545, y: -0.003092, z: 0.000000}
+          weight: 0.000000
+        - index: 65
+          delta: {x: 0.000049, y: 0.000129, z: 0.000000}
+          weight: 0.000000
+        - index: 66
+          delta: {x: 0.000117, y: -0.003752, z: 0.000000}
+          weight: 0.000000
+        - index: 67
+          delta: {x: 0.000612, y: -0.001182, z: 0.000000}
+          weight: 0.000000
+        - index: 68
+          delta: {x: 0.001039, y: -0.001640, z: 0.000000}
+          weight: 0.000000
+        - index: 69
+          delta: {x: -0.000612, y: -0.001182, z: 0.000000}
+          weight: 0.000000
+        - index: 70
+          delta: {x: -0.001039, y: -0.001640, z: 0.000000}
+          weight: 0.000000
+        - index: 71
+          delta: {x: 0.000290, y: -0.000036, z: 0.000000}
+          weight: 0.000000
+        - index: 72
+          delta: {x: 0.000824, y: -0.000764, z: 0.000000}
+          weight: 0.000000
+        - index: 73
+          delta: {x: -0.000290, y: -0.000036, z: 0.000000}
+          weight: 0.000000
+        - index: 74
+          delta: {x: -0.000824, y: -0.000764, z: 0.000000}
+          weight: 0.000000
+        - index: 75
+          delta: {x: 0.000332, y: -0.004440, z: 0.000000}
+          weight: 0.000000
+        - index: 76
+          delta: {x: -0.000332, y: -0.004440, z: 0.000000}
+          weight: 0.000000
+        - index: 77
+          delta: {x: 0.000070, y: -0.000337, z: 0.000000}
+          weight: 0.000000
+        - index: 78
+          delta: {x: -0.000070, y: -0.000337, z: 0.000000}
+          weight: 0.000000
+        - index: 79
+          delta: {x: -0.000321, y: -0.003598, z: 0.000000}
+          weight: 0.000000
+        - index: 80
+          delta: {x: 0.000321, y: -0.003598, z: 0.000000}
+          weight: 0.000000
+        - index: 81
+          delta: {x: -0.000295, y: -0.002607, z: 0.000000}
+          weight: 0.000000
+        - index: 82
+          delta: {x: 0.000295, y: -0.002607, z: 0.000000}
+          weight: 0.000000
+        - index: 83
+          delta: {x: -0.000295, y: -0.002607, z: 0.000000}
+          weight: 0.000000
+        - index: 84
+          delta: {x: 0.000295, y: -0.002607, z: 0.000000}
+          weight: 0.000000
+        - index: 85
+          delta: {x: -0.000332, y: -0.001771, z: 0.000000}
+          weight: 0.000000
+        - index: 86
+          delta: {x: 0.000332, y: -0.001771, z: 0.000000}
+          weight: 0.000000
+        - index: 87
+          delta: {x: 0.000000, y: -0.002487, z: 0.000000}
+          weight: 0.000000
+        - index: 88
+          delta: {x: -0.000509, y: -0.002922, z: 0.000000}
+          weight: 0.000000
+        - index: 89
+          delta: {x: 0.000509, y: -0.002922, z: 0.000000}
+          weight: 0.000000
+        - index: 90
+          delta: {x: -0.000327, y: -0.003381, z: 0.000000}
+          weight: 0.000000
+        - index: 91
+          delta: {x: 0.000327, y: -0.003381, z: 0.000000}
+          weight: 0.000000
+        - index: 92
+          delta: {x: 0.000536, y: -0.001711, z: 0.000000}
+          weight: 0.000000
+        - index: 93
+          delta: {x: -0.000536, y: -0.001711, z: 0.000000}
+          weight: 0.000000
+        - index: 94
+          delta: {x: 0.000000, y: -0.001303, z: 0.000000}
+          weight: 0.000000
+        - index: 95
+          delta: {x: 0.000803, y: -0.001407, z: 0.000000}
+          weight: 0.000000
+        - index: 96
+          delta: {x: -0.000803, y: -0.001406, z: 0.000000}
+          weight: 0.000000
+        - index: 97
+          delta: {x: 0.000866, y: -0.001508, z: 0.000000}
+          weight: 0.000000
+        - index: 98
+          delta: {x: -0.000866, y: -0.001508, z: 0.000000}
+          weight: 0.000000
+        - index: 99
+          delta: {x: 0.001181, y: -0.001840, z: 0.000000}
+          weight: 0.000000
+        - index: 100
+          delta: {x: -0.001181, y: -0.001840, z: 0.000000}
+          weight: 0.000000
+        - index: 101
+          delta: {x: 0.001246, y: -0.001888, z: 0.000000}
+          weight: 0.000000
+        - index: 102
+          delta: {x: -0.001246, y: -0.001888, z: 0.000000}
+          weight: 0.000000
+        - index: 103
+          delta: {x: 0.000517, y: 0.000373, z: 0.000000}
+          weight: 0.000000
+        - index: 104
+          delta: {x: -0.000517, y: 0.000373, z: 0.000000}
+          weight: 0.000000
+        - index: 105
+          delta: {x: 0.000607, y: 0.000277, z: 0.000000}
+          weight: 0.000000
+        - index: 106
+          delta: {x: -0.000607, y: 0.000277, z: 0.000000}
+          weight: 0.000000
+        - index: 107
+          delta: {x: 0.000904, y: -0.000305, z: 0.000000}
+          weight: 0.000000
+        - index: 108
+          delta: {x: -0.000904, y: -0.000305, z: 0.000000}
+          weight: 0.000000
+        - index: 109
+          delta: {x: 0.000943, y: -0.000414, z: 0.000000}
+          weight: 0.000000
+        - index: 110
+          delta: {x: -0.000943, y: -0.000414, z: 0.000000}
+          weight: 0.000000
+        - index: 111
+          delta: {x: 0.000273, y: -0.004562, z: 0.000000}
+          weight: 0.000000
+        - index: 112
+          delta: {x: -0.000273, y: -0.004562, z: 0.000000}
+          weight: 0.000000
+        - index: 113
+          delta: {x: 0.001832, y: -0.002701, z: 0.000000}
+          weight: 0.000000
+        - index: 114
+          delta: {x: -0.001832, y: -0.002701, z: 0.000000}
+          weight: 0.000000
+      enabled: true
+- !<SceneObject/aa8730ed-e571-4630-8315-0051b13c9cb5>
+  PrefabRemaps:
+    []
+  Name: Head
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1b094a19-9c61-408e-9974-3f98986a9c1f
+    - !<own> e30a35a5-e435-421d-9c6b-ea8f05db760c
+  Components:
+    - !<own> 8e44f20a-f864-4bb0-adc0-436197879d25
+- !<SceneObject/bb21c590-a4dd-4478-be45-f56e6410346b>
+  PrefabRemaps:
+    []
+  Name: Yellow Hat__PUT_UNDER_MAIN_CAM
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4449377d-e33b-4a20-8baa-0d870f63be51
+    - !<own> aa8730ed-e571-4630-8315-0051b13c9cb5
+  Components:
+    []
+- !<SceneObject/bfd318bd-fc70-41f6-8fcc-766207c20f7f>
+  PrefabRemaps:
+    []
+  Name: hat
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000000, y: 6.532131, z: -0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 08aa87b9-dcaa-4433-9904-94e7a9f5e65d
+- !<RenderMeshVisual/cebeae3a-48db-46fa-906d-cf05bc85a10c>
+  PrefabRemaps:
+    []
+  Name: Mesh Visual
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c2d4ad6c-1446-4629-baaf-079d17f4c901
+  Mesh: !<reference> 1715b804-aae7-4933-a80f-23a46abc5f57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+  RayTracing: !<RayTracingVisualSettings/00000000-0000-0000-0000-000000000000>
+    Reflections:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+      planar:
+        enabled: true
+        roughHarden: 0.500000
+        roughCurve: 2.000000
+    IndirectDiffuse:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    AmbientOcclusion:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Shadows:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Material: !<reference> 00000000-0000-0000-0000-000000000000
+    HideFromCamera: false
+- !<SceneObject/e30a35a5-e435-421d-9c6b-ea8f05db760c>
+  PrefabRemaps:
+    []
+  Name: Face occluder
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 6.122204, z: 8.496765}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.775000, y: 0.901700, z: 0.331254}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> cebeae3a-48db-46fa-906d-cf05bc85a10c
+- !<RenderMeshVisual/e3694009-0963-41ed-85ee-0799b9d0f346>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d82eef81-48e1-4237-8179-e1a4247c4962
+  Mesh: !<reference> faaaa71e-8f67-4fef-b952-49ccab833105
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+  RayTracing: !<RayTracingVisualSettings/00000000-0000-0000-0000-000000000000>
+    Reflections:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+      planar:
+        enabled: true
+        roughHarden: 0.500000
+        roughCurve: 2.000000
+    IndirectDiffuse:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    AmbientOcclusion:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Shadows:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Material: !<reference> 00000000-0000-0000-0000-000000000000
+    HideFromCamera: false

@@ -1,0 +1,19 @@
+- !<AssetCache/d757da2f-cd04-0806-21cc-601ba90411d9>
+  AssetFiles:
+    a8f84003-7f52-450e-a937-81d5631175f2: 4e08a940-08a8-48c0-bf3e-31a5672b6806/d757da2fcd04080621cc601ba90411d9/Data/SphereButton.mesh
+  AssetCurrentFiles:
+    a8f84003-7f52-450e-a937-81d5631175f2: 4e08a940-08a8-48c0-bf3e-31a5672b6806/d757da2fcd04080621cc601ba90411d9/Data/SphereButton.mesh
+  Assets:
+    - !<FileMesh/a8f84003-7f52-450e-a937-81d5631175f2>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 1024
+        Vertices: 578
+        Blendshapes:
+          - Z depth
+          - Pinch
+        Joints: 0
+  SourceHash: d757da2fcd04080621cc601ba90411d9
+  FileHash: db5fd7ea830ab492ef7bb9845bf00cbb
+  NativePackageItems:
+    []

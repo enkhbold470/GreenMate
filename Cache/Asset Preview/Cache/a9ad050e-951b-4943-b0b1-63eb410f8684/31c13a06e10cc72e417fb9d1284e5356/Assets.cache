@@ -1,0 +1,15 @@
+- !<AssetCache/31c13a06-e10c-c72e-417f-b9d1284e5356>
+  AssetFiles:
+    46df821c-a05a-42b2-b776-c27fe6cd3138: a9ad050e-951b-4943-b0b1-63eb410f8684/31c13a06e10cc72e417fb9d1284e5356/Data/icon_geo_ghost.png
+  AssetCurrentFiles:
+    46df821c-a05a-42b2-b776-c27fe6cd3138: a9ad050e-951b-4943-b0b1-63eb410f8684/31c13a06e10cc72e417fb9d1284e5356/Data/icon_geo_ghost.png
+  Assets:
+    - !<FileTexture/46df821c-a05a-42b2-b776-c27fe6cd3138>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 128
+        Height: 128
+  SourceHash: 31c13a06e10cc72e417fb9d1284e5356
+  FileHash: 0156a1f9a945f3220702bf6ce9d1374e
+  NativePackageItems:
+    []

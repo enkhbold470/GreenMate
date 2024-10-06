@@ -1,0 +1,658 @@
+- !<AssetImportMetadata/b895e0ef-1b65-4245-8d5b-f02e8ea2ec37>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 2e1fc91d-0b90-48b9-bb25-e191947a419a
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 2e1fc91d-0b90-48b9-bb25-e191947a419a
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> b1b5f5cd-ef29-4eec-abc0-4e1fa22df03c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/7cb7fa66-8875-40ae-a37f-56deaadc945b>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/086308c0-db52-439b-af58-6dcdfc3da748>
+  PrefabRemaps:
+    []
+  Name: rain_lighting_rain&lighting_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5d92dde7-9e7d-4713-969f-e8b1fd5320dd
+- !<SceneObject/0d101703-81cc-486a-bdfa-00e2ded23909>
+  PrefabRemaps:
+    []
+  Name: sun_cloud_sun&cloud_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b26a0ca0-185c-4c72-b6a8-7ce24a0e4664
+- !<SceneObject/29ade095-a5fd-47eb-b20f-8e3bfe6305ff>
+  PrefabRemaps:
+    []
+  Name: cloud
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -15.871454, y: 84.172371, z: 90.652145}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f95c4fdf-6001-478f-abe9-6ed17c5ec33b
+  Components:
+    []
+- !<ObjectPrefab/2b1a34de-10c4-43e8-a24b-300b96736f92>
+  PackagePath: ""
+  objects:
+    - !<own> fd712e50-3c52-4284-951e-e89eb3b1c612
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/2ba74f02-2b8a-479d-8c15-05c975f68cf1>
+  PrefabRemaps:
+    []
+  Name: snow_snow_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> fa0a4d73-518a-4be2-b9d2-c444c6f932fd
+  Mesh: !<reference> 8e627011-a6c9-47cc-82c3-46a9f9368455
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/2bf028ba-b5a1-4e86-821d-ecd750a252ea>
+  PrefabRemaps:
+    []
+  Name: sun_sun.1_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 837ffa50-7205-4871-b488-b623bc47aa5d
+- !<SceneObject/40342c80-543f-47c4-adfb-bc634249ebe2>
+  PrefabRemaps:
+    []
+  Name: Weather
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> fc4eb49d-ddd8-4bcb-9464-6e4da26cc659
+    - !<own> ebb95ba4-e750-41e5-96fc-8db14766ee07
+    - !<own> ee14e4c9-ba03-41f1-8b79-fc908a2c401e
+    - !<own> cbd1f4b0-6555-492f-8ce9-f432f10ac406
+    - !<own> 29ade095-a5fd-47eb-b20f-8e3bfe6305ff
+    - !<own> 409f366a-e036-46f0-b679-51b793d15483
+    - !<own> a76a9011-9576-424d-a5bd-954263ae80bc
+    - !<own> 40dbf5de-0f38-4722-ba48-b0aa23b68da4
+    - !<own> 8f6b96f9-8e80-43d1-baa5-15c3febea5ef
+    - !<own> bfde3896-dfd9-4e84-a257-ebdbafd41dca
+  Components:
+    []
+- !<SceneObject/409f366a-e036-46f0-b679-51b793d15483>
+  PrefabRemaps:
+    []
+  Name: sun_cloud
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 29.080444, y: 102.879280, z: 85.573654}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0d101703-81cc-486a-bdfa-00e2ded23909
+  Components:
+    []
+- !<SceneObject/40dbf5de-0f38-4722-ba48-b0aa23b68da4>
+  PrefabRemaps:
+    []
+  Name: rain
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -15.552193, y: 51.850872, z: 90.652145}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b1246320-7e85-4181-aa57-221713f70fe2
+  Components:
+    []
+- !<SceneObject/46340fce-a945-4058-b971-9f73493afb26>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5fc9c0b1-4743-4259-954b-24a6f526b073
+  Components:
+    []
+- !<RenderMeshVisual/4a812e2d-9748-4e6c-8fa5-6496d0e87dba>
+  PrefabRemaps:
+    []
+  Name: sun_2_sun_2.3_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 450f322d-8ca1-45cc-ad23-0e4a36776ac1
+  Mesh: !<reference> 431da25e-425e-42ee-b33f-912a0fa08db3
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/5cfb0e45-7634-4d33-90a9-a4a8bf30f4eb>
+  PrefabRemaps:
+    []
+  Name: lighting_lighting_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f38017e0-5abb-4644-843f-8d1f4ff5b336
+- !<RenderMeshVisual/5d92dde7-9e7d-4713-969f-e8b1fd5320dd>
+  PrefabRemaps:
+    []
+  Name: rain_lighting_rain&lighting_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 540b75d8-c70b-40cc-a0a4-67258488b496
+  Mesh: !<reference> 63251853-ba3b-4469-8ac3-6cb3a087df7e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/5fc9c0b1-4743-4259-954b-24a6f526b073>
+  PrefabRemaps:
+    []
+  Name: Weather
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e884b916-6127-4af1-82e6-cbb4088de191
+  Components:
+    []
+- !<RenderMeshVisual/616c4c03-3177-41f3-b880-fbdf9ef83166>
+  PrefabRemaps:
+    []
+  Name: cloud_cloud_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b2f10e4a-54b6-4172-99ce-0cd1e4d1acee
+  Mesh: !<reference> 5fc77637-64df-4565-9f02-b6b6de4d658b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/61ef33bd-4b9b-4e7a-82f9-f5d2134c774a>
+  PrefabRemaps:
+    []
+  Name: sun_3_sun_3_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 86621dd3-fd95-4705-a16d-cafddc819294
+- !<SceneObject/741db377-dec4-4abd-b4a2-29b450988a5a>
+  PrefabRemaps:
+    []
+  Name: snow_snow_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2ba74f02-2b8a-479d-8c15-05c975f68cf1
+- !<RenderMeshVisual/837ffa50-7205-4871-b488-b623bc47aa5d>
+  PrefabRemaps:
+    []
+  Name: sun_sun.1_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> eaefc209-86c0-4d79-9def-47e02a809be8
+  Mesh: !<reference> 9f80ac30-d8e4-4330-a9e2-0b56ad4d3682
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/86621dd3-fd95-4705-a16d-cafddc819294>
+  PrefabRemaps:
+    []
+  Name: sun_3_sun_3_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 56131e69-117b-47af-84c1-4af7cddb8190
+  Mesh: !<reference> 40276f99-3e52-4898-9c76-c3eb2539ede4
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/89920b37-d4da-41b8-a817-8517eff12d60>
+  PrefabRemaps:
+    []
+  Name: cloudly_cloudly_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> fc336c31-6442-4155-ad58-55f8e6eab967
+  Mesh: !<reference> c4c9f749-755f-4369-9db0-a75ceeec69a3
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/8f6b96f9-8e80-43d1-baa5-15c3febea5ef>
+  PrefabRemaps:
+    []
+  Name: lighting
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 37.864269, y: 49.612793, z: 78.986618}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5cfb0e45-7634-4d33-90a9-a4a8bf30f4eb
+  Components:
+    []
+- !<SceneObject/a76a9011-9576-424d-a5bd-954263ae80bc>
+  PrefabRemaps:
+    []
+  Name: cloudly
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 72.330788, y: 83.056038, z: 90.652145}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f52eb1ce-c9cc-425f-82d7-3758c401c87a
+  Components:
+    []
+- !<SceneObject/a845c094-5552-4d2c-82ec-6b1ef05a225f>
+  PrefabRemaps:
+    []
+  Name: Weather
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 40342c80-543f-47c4-adfb-bc634249ebe2
+  Components:
+    []
+- !<SceneObject/b1246320-7e85-4181-aa57-221713f70fe2>
+  PrefabRemaps:
+    []
+  Name: rain_rain_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bbc9331c-0bae-4ba7-a9d3-a8bdd2863c48
+- !<ObjectPrefabAssetData/b1b5f5cd-ef29-4eec-abc0-4e1fa22df03c>
+  SourceRemaps:
+    - 019b56f7-2d29-46f6-88b3-55e16c2d12e3: b26a0ca0-185c-4c72-b6a8-7ce24a0e4664
+    - 0b0b29df-841f-42ae-9b3e-5abb933066c2: f95c4fdf-6001-478f-abe9-6ed17c5ec33b
+    - 0e3d03ec-ae9b-48dd-9a7f-8236b8beebc8: 5cfb0e45-7634-4d33-90a9-a4a8bf30f4eb
+    - 0fa858f6-a6bd-42f8-b330-6be4374d7ff5: bb32f25e-acca-48ce-8b0c-a6a48954e273
+    - 1ec8ab1f-5b96-4803-b0ba-dc1e64ee9da2: 40342c80-543f-47c4-adfb-bc634249ebe2
+    - 1ed61d13-9bf7-4598-806f-f2466f7e612b: fc4eb49d-ddd8-4bcb-9464-6e4da26cc659
+    - 30403202-2764-4d2f-a19c-f3e97b3cc5a4: a76a9011-9576-424d-a5bd-954263ae80bc
+    - 334618eb-53af-4260-be82-75cf692bc863: 0d101703-81cc-486a-bdfa-00e2ded23909
+    - 4099c36d-5c8d-4583-af5a-79b6aa305406: 86621dd3-fd95-4705-a16d-cafddc819294
+    - 4a8a8871-bd28-47ff-954b-e8db694bb267: 4a812e2d-9748-4e6c-8fa5-6496d0e87dba
+    - 4fad2b9d-904e-4d12-a985-73f805e238be: ebb95ba4-e750-41e5-96fc-8db14766ee07
+    - 530b2572-8165-4c78-ba3e-11b209364756: a845c094-5552-4d2c-82ec-6b1ef05a225f
+    - 5745007f-2887-413c-bc28-038341c88b22: cbd1f4b0-6555-492f-8ce9-f432f10ac406
+    - 6fc9a4dc-02c3-4d4d-b4db-7cad9aa35795: bbc9331c-0bae-4ba7-a9d3-a8bdd2863c48
+    - 7454f483-e3f3-4618-8d0e-b04c4d37e2f9: 61ef33bd-4b9b-4e7a-82f9-f5d2134c774a
+    - 82f891d7-bfd3-47f3-aa9f-02ac1f4c19dd: 89920b37-d4da-41b8-a817-8517eff12d60
+    - 96d13733-ee95-4005-8d5a-ff71401acc27: f52eb1ce-c9cc-425f-82d7-3758c401c87a
+    - 9737ff4f-e55d-4a55-b2b3-9f07b80e79ea: 5fc9c0b1-4743-4259-954b-24a6f526b073
+    - a6302dbe-350e-45d9-bf89-6fc3ffd6766c: 409f366a-e036-46f0-b679-51b793d15483
+    - a845096d-02b0-4b8b-a915-a2f1d850bde9: 2ba74f02-2b8a-479d-8c15-05c975f68cf1
+    - af2cf454-3c8e-4a6e-807d-d1ca26f02c27: e884b916-6127-4af1-82e6-cbb4088de191
+    - b0dda21d-70f6-4830-aec7-e5d0d3bbd2c3: 616c4c03-3177-41f3-b880-fbdf9ef83166
+    - b5aee362-59bf-485b-80cb-6f3b1e825132: fd712e50-3c52-4284-951e-e89eb3b1c612
+    - b92eb141-bcdf-495a-aba4-5955124770ff: 40dbf5de-0f38-4722-ba48-b0aa23b68da4
+    - c502fa66-e7ff-4b2f-8207-cf04df11441d: 837ffa50-7205-4871-b488-b623bc47aa5d
+    - c53d94cc-5b24-4a7d-84e7-f24c7b62f49b: f38017e0-5abb-4644-843f-8d1f4ff5b336
+    - c837cfac-187f-41ef-8f3f-83d140c2883e: ee14e4c9-ba03-41f1-8b79-fc908a2c401e
+    - cc6d78f1-2117-4d30-9c9b-86574e9ee978: 5d92dde7-9e7d-4713-969f-e8b1fd5320dd
+    - cc9b7e59-6443-4f44-9f90-6b2649c2eabd: bfde3896-dfd9-4e84-a257-ebdbafd41dca
+    - d3696eeb-d7c6-48d6-bf84-281eb1373d8f: 8f6b96f9-8e80-43d1-baa5-15c3febea5ef
+    - ec6d5809-614c-4f8b-93d5-47c05cf78514: 2bf028ba-b5a1-4e86-821d-ecd750a252ea
+    - f6fda1f3-c9ce-4a55-b90f-004c5b49753d: 741db377-dec4-4abd-b4a2-29b450988a5a
+    - f860863f-42c3-4db1-823d-b0f0f6dd5a55: 086308c0-db52-439b-af58-6dcdfc3da748
+    - fd203646-b370-4bf1-aaed-b54bf77031d0: 46340fce-a945-4058-b971-9f73493afb26
+    - fd4a7fa8-d166-4111-9106-81a532ac949f: b1246320-7e85-4181-aa57-221713f70fe2
+    - fe41bff8-0d1f-4218-b804-1f0cd7437391: 29ade095-a5fd-47eb-b20f-8e3bfe6305ff
+  SourceState: !<own> 2b1a34de-10c4-43e8-a24b-300b96736f92
+- !<RenderMeshVisual/b26a0ca0-185c-4c72-b6a8-7ce24a0e4664>
+  PrefabRemaps:
+    []
+  Name: sun_cloud_sun&cloud_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 449b65c0-d64f-4533-8825-4dbae0b295da
+  Mesh: !<reference> 35ed9f5f-9cd3-4a5c-901d-e48c52fb5cf2
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/bb32f25e-acca-48ce-8b0c-a6a48954e273>
+  PrefabRemaps:
+    []
+  Name: sun_2_sun_2.3_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4a812e2d-9748-4e6c-8fa5-6496d0e87dba
+- !<RenderMeshVisual/bbc9331c-0bae-4ba7-a9d3-a8bdd2863c48>
+  PrefabRemaps:
+    []
+  Name: rain_rain_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 23ec4b20-c93b-4404-9607-3293b42fa490
+  Mesh: !<reference> d9b29de4-ee7d-4905-a539-cf8bd1b07b0d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/bfde3896-dfd9-4e84-a257-ebdbafd41dca>
+  PrefabRemaps:
+    []
+  Name: rain_lighting
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 81.355103, y: 62.942413, z: 93.657875}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 086308c0-db52-439b-af58-6dcdfc3da748
+  Components:
+    []
+- !<SceneObject/cbd1f4b0-6555-492f-8ce9-f432f10ac406>
+  PrefabRemaps:
+    []
+  Name: snow
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 80.645218, y: 123.159111, z: 91.275124}
+    rotation: {x: -149.341049, y: 52.799999, z: 180.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 741db377-dec4-4abd-b4a2-29b450988a5a
+  Components:
+    []
+- !<SceneObject/e884b916-6127-4af1-82e6-cbb4088de191>
+  PrefabRemaps:
+    []
+  Name: Weather
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a845c094-5552-4d2c-82ec-6b1ef05a225f
+  Components:
+    []
+- !<SceneObject/ebb95ba4-e750-41e5-96fc-8db14766ee07>
+  PrefabRemaps:
+    []
+  Name: sun_2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 33.178520, y: 135.252136, z: 85.573654}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> bb32f25e-acca-48ce-8b0c-a6a48954e273
+  Components:
+    []
+- !<SceneObject/ee14e4c9-ba03-41f1-8b79-fc908a2c401e>
+  PrefabRemaps:
+    []
+  Name: sun_3
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -22.143684, y: 93.429337, z: 82.825935}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 61ef33bd-4b9b-4e7a-82f9-f5d2134c774a
+  Components:
+    []
+- !<RenderMeshVisual/f38017e0-5abb-4644-843f-8d1f4ff5b336>
+  PrefabRemaps:
+    []
+  Name: lighting_lighting_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> fa4ef623-ddab-49b4-903f-e877cca6fc8a
+  Mesh: !<reference> 55743004-8a34-4897-a9bf-f214e9d3efb2
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/f52eb1ce-c9cc-425f-82d7-3758c401c87a>
+  PrefabRemaps:
+    []
+  Name: cloudly_cloudly_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 89920b37-d4da-41b8-a817-8517eff12d60
+- !<SceneObject/f95c4fdf-6001-478f-abe9-6ed17c5ec33b>
+  PrefabRemaps:
+    []
+  Name: cloud_cloud_0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 616c4c03-3177-41f3-b880-fbdf9ef83166
+- !<SceneObject/fc4eb49d-ddd8-4bcb-9464-6e4da26cc659>
+  PrefabRemaps:
+    []
+  Name: sun
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -18.317245, y: 135.252136, z: 85.573654}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2bf028ba-b5a1-4e86-821d-ecd750a252ea
+  Components:
+    []
+- !<SceneObject/fd712e50-3c52-4284-951e-e89eb3b1c612>
+  PrefabRemaps:
+    []
+  Name: 3d_icons__weather
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -15.759123, y: -44.685341, z: -88.852226}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.462857, y: 0.462857, z: 0.462857}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 46340fce-a945-4058-b971-9f73493afb26
+  Components:
+    []

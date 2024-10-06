@@ -1,0 +1,15 @@
+- !<AssetCache/5943af1e-f0d9-9125-8384-990f7cadf528>
+  AssetFiles:
+    47643a86-c816-4ab7-8c0b-6825aec5e6a2: 1b760c00-e192-497e-9557-e74cf16406a0/5943af1ef0d991258384990f7cadf528/Data/icons_spotlight.png
+  AssetCurrentFiles:
+    47643a86-c816-4ab7-8c0b-6825aec5e6a2: 1b760c00-e192-497e-9557-e74cf16406a0/5943af1ef0d991258384990f7cadf528/Data/icons_spotlight.png
+  Assets:
+    - !<FileTexture/47643a86-c816-4ab7-8c0b-6825aec5e6a2>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 128
+        Height: 128
+  SourceHash: 5943af1ef0d991258384990f7cadf528
+  FileHash: bd3e0adb1125be835fa592d8d5f62300
+  NativePackageItems:
+    []

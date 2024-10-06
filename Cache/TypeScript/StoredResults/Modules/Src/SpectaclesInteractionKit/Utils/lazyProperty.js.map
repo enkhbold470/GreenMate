@@ -1,0 +1,1 @@
+{"version":3,"file":"lazyProperty.js","sourceRoot":"./","sources":["SpectaclesInteractionKit/Utils/lazyProperty.ts"],"names":[],"mappings":";AAAA;;;;;GAKG;;;AAEH;;GAEG;AACH,SAAgB,YAAY,CAAI,mBAA4B;IACxD,IAAI,YAA2B,CAAC;IAEhC,OAAO,GAAG,EAAE;QACR,IAAI,YAAY,KAAK,SAAS,EAAE,CAAC;YAC7B,YAAY,GAAG,mBAAmB,EAAE,CAAC;QACzC,CAAC;QACD,OAAO,YAAY,CAAC;IACxB,CAAC,CAAC;AACN,CAAC;AATD,oCASC"}

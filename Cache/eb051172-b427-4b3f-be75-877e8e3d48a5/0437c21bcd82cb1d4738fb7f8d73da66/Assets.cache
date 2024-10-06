@@ -1,0 +1,995 @@
+- !<AssetCache/0437c21b-cd82-cb1d-4738-fb7f8d73da66>
+  AssetFiles:
+    {}
+  AssetCurrentFiles:
+    {}
+  Assets:
+    []
+  SourceHash: 0437c21bcd82cb1d4738fb7f8d73da66
+  FileHash: 0900c2aeeea42d913884f86c1a37078f
+  NativePackageItems:
+    - !<own> 06a70dcb-933a-4f22-982b-8d47d61ee0f9
+    - !<own> bc58efc3-3d50-4b03-a91f-8a40ef07f2a1
+    - !<own> f213439b-2c60-4808-90b1-892f8f8748ef
+    - !<own> 53377f42-5791-4a68-9e0c-5c692b4a142c
+    - !<own> af96f353-37ff-488c-a8f0-bdd0a54def9a
+    - !<own> 4986a4d0-b7b1-49aa-b9f2-56ed348797b2
+    - !<own> cd5474ca-a0b6-40bf-9f26-d4c1571e2ffa
+    - !<own> 3f673ebc-586f-4473-ad4c-ab420b9e8e36
+    - !<own> edf7b7ce-efee-447b-b65a-48118944f83d
+    - !<own> f061eec6-5e8b-4f34-b341-8daaf51a37ec
+    - !<own> 3595127c-cb48-46e6-b1e0-9ab0494fbc07
+    - !<own> 6d608efb-44fb-4552-ad55-66c56159d6f2
+    - !<own> 9a00b98e-0d24-425f-97b3-02a4ebe459e4
+    - !<own> eb7116a5-5930-462a-93fa-25b4ba778b24
+    - !<own> 3f9bf17d-b561-42df-9a34-45e6a8b2d855
+    - !<own> 16976332-c38d-48c0-becf-cbd233d19500
+- !<SceneObject/010f9659-c63c-4aca-8b6f-826f38367fbb>
+  PrefabRemaps:
+    []
+  Name: hat
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000000, y: 6.532131, z: -0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d9a96ebe-4006-428f-9cf0-eaa3c72c92ae
+- !<AssetImportMetadata/06a70dcb-933a-4f22-982b-8d47d61ee0f9>
+  ImportedAssetIds:
+    Texture: !<reference> c743ad65-c7a4-4bca-ad60-c52122c85cd6
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> c743ad65-c7a4-4bca-ad60-c52122c85cd6
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/e665da40-d201-40ee-8758-049fc8c0d445>
+    {}
+  CompressionSettings: !<SingleCompressionSettings/83aff1a7-1e70-4d87-8b58-8c7b06df8a33>
+    CompressorName: Size
+    CompressionSettings: !<TextureCompressionSettings/83675107-b0c7-4bb7-894e-8eda5feb78fd>
+      Level: High
+- !<AssetImportMetadata/16976332-c38d-48c0-becf-cbd233d19500>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> a4a458fa-696c-4044-a111-66da76cf48d7
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> a4a458fa-696c-4044-a111-66da76cf48d7
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> d9a8c3b6-b218-41b6-a2df-8343940ae26e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/6e9ec9bb-1f5b-4676-9278-15f58fb24995>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/3595127c-cb48-46e6-b1e0-9ab0494fbc07>
+  ImportedAssetIds:
+    FileMesh: !<reference> 1715b804-aae7-4933-a80f-23a46abc5f57
+  ImporterName: FileMeshImporter
+  PrimaryAsset: !<reference> 1715b804-aae7-4933-a80f-23a46abc5f57
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<FileMeshImporterSettings/fd8a351f-9613-4b95-a616-09369fbea1b9>
+    ModifiedVertexFormats:
+      bitangent: Float
+      normal: Float
+      position: Float
+      tangent: Float
+      texture0: Float
+  CompressionSettings: !<SingleCompressionSettings/1fc32156-a54e-4237-b951-51c050c4801a>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<FaceStretchVisual/3e7c11ff-fa3f-48ce-9084-dc8f044e4ae2>
+  PrefabRemaps:
+    []
+  Name: Face stretch
+  Enabled: true
+  RenderOrder: 0
+  FaceIndex: 0
+  Features:
+    - name: Feature1
+      weight: 1.000000
+      points:
+        - index: 0
+          delta: {x: -0.000000, y: -0.196247, z: 0.000000}
+          weight: 3.000000
+        - index: 1
+          delta: {x: -0.018452, y: -0.014183, z: 0.000000}
+          weight: 3.000000
+        - index: 2
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 3
+          delta: {x: 0.000000, y: -0.000294, z: 0.000000}
+          weight: 0.000000
+        - index: 4
+          delta: {x: 0.000000, y: -0.000335, z: 0.000000}
+          weight: 0.000000
+        - index: 5
+          delta: {x: -0.000000, y: -0.004513, z: 0.000000}
+          weight: 0.000000
+        - index: 6
+          delta: {x: -0.000000, y: -0.004686, z: 0.000000}
+          weight: 0.000000
+        - index: 7
+          delta: {x: 0.000000, y: -0.003367, z: 0.000000}
+          weight: 0.000000
+        - index: 8
+          delta: {x: -0.000000, y: -0.001277, z: 0.000000}
+          weight: 0.000000
+        - index: 9
+          delta: {x: -0.000000, y: -0.000499, z: 0.000000}
+          weight: 0.000000
+        - index: 10
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 11
+          delta: {x: -0.052694, y: -0.187403, z: 0.000000}
+          weight: 3.000000
+        - index: 12
+          delta: {x: -0.139433, y: -0.123183, z: 0.000000}
+          weight: 3.000000
+        - index: 13
+          delta: {x: -0.007960, y: 0.010715, z: 0.000000}
+          weight: 3.000000
+        - index: 14
+          delta: {x: -0.061804, y: 0.005623, z: 0.000000}
+          weight: 3.000000
+        - index: 15
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 16
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 17
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 18
+          delta: {x: 0.000897, y: -0.000043, z: 0.000000}
+          weight: 0.000000
+        - index: 19
+          delta: {x: 0.000210, y: -0.000592, z: 0.000000}
+          weight: 0.000000
+        - index: 20
+          delta: {x: 0.000804, y: -0.001361, z: 0.000000}
+          weight: 0.000000
+        - index: 21
+          delta: {x: 0.000281, y: -0.000624, z: 0.000000}
+          weight: 0.000000
+        - index: 22
+          delta: {x: 0.000778, y: -0.001122, z: 0.000000}
+          weight: 0.000000
+        - index: 23
+          delta: {x: 0.000783, y: -0.000275, z: 0.000000}
+          weight: 0.000000
+        - index: 24
+          delta: {x: 0.000919, y: -0.001278, z: 0.000000}
+          weight: 0.000000
+        - index: 25
+          delta: {x: 0.000728, y: -0.003881, z: 0.000000}
+          weight: 0.000000
+        - index: 26
+          delta: {x: 0.000663, y: -0.004340, z: 0.000000}
+          weight: 0.000000
+        - index: 27
+          delta: {x: 0.003415, y: -0.002572, z: 0.000000}
+          weight: 0.000000
+        - index: 28
+          delta: {x: 0.005424, y: -0.000995, z: 0.000000}
+          weight: 0.000000
+        - index: 29
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 30
+          delta: {x: -0.000337, y: -0.002543, z: 0.000000}
+          weight: 0.000000
+        - index: 31
+          delta: {x: -0.000545, y: -0.003092, z: 0.000000}
+          weight: 0.000000
+        - index: 32
+          delta: {x: -0.000049, y: 0.000129, z: 0.000000}
+          weight: 0.000000
+        - index: 33
+          delta: {x: -0.000117, y: -0.003752, z: 0.000000}
+          weight: 0.000000
+        - index: 34
+          delta: {x: 0.018452, y: -0.014183, z: 0.000000}
+          weight: 3.000000
+        - index: 35
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 0.000000
+        - index: 36
+          delta: {x: 0.000000, y: -0.000294, z: 0.000000}
+          weight: 0.000000
+        - index: 37
+          delta: {x: 0.000000, y: -0.000335, z: 0.000000}
+          weight: 0.000000
+        - index: 38
+          delta: {x: -0.000000, y: -0.004513, z: 0.000000}
+          weight: 0.000000
+        - index: 39
+          delta: {x: -0.000000, y: -0.004686, z: 0.000000}
+          weight: 0.000000
+        - index: 40
+          delta: {x: 0.000000, y: -0.002487, z: 0.000000}
+          weight: 0.000000
+        - index: 41
+          delta: {x: -0.000000, y: -0.001277, z: 0.000000}
+          weight: 0.000000
+        - index: 42
+          delta: {x: -0.000000, y: -0.000499, z: 0.000000}
+          weight: 0.000000
+        - index: 43
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 0.000000
+        - index: 44
+          delta: {x: 0.052694, y: -0.187403, z: 0.000000}
+          weight: 3.000000
+        - index: 45
+          delta: {x: 0.139433, y: -0.123183, z: 0.000000}
+          weight: 3.000000
+        - index: 46
+          delta: {x: 0.007960, y: 0.010715, z: 0.000000}
+          weight: 3.000000
+        - index: 47
+          delta: {x: 0.061804, y: 0.005623, z: 0.000000}
+          weight: 3.000000
+        - index: 48
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 49
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 50
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 51
+          delta: {x: -0.000897, y: -0.000043, z: 0.000000}
+          weight: 0.000000
+        - index: 52
+          delta: {x: -0.000210, y: -0.000592, z: 0.000000}
+          weight: 0.000000
+        - index: 53
+          delta: {x: -0.000804, y: -0.001361, z: 0.000000}
+          weight: 0.000000
+        - index: 54
+          delta: {x: -0.000281, y: -0.000624, z: 0.000000}
+          weight: 0.000000
+        - index: 55
+          delta: {x: -0.000778, y: -0.001122, z: 0.000000}
+          weight: 0.000000
+        - index: 56
+          delta: {x: -0.000783, y: -0.000275, z: 0.000000}
+          weight: 0.000000
+        - index: 57
+          delta: {x: -0.000919, y: -0.001278, z: 0.000000}
+          weight: 0.000000
+        - index: 58
+          delta: {x: -0.000728, y: -0.003881, z: 0.000000}
+          weight: 0.000000
+        - index: 59
+          delta: {x: -0.000663, y: -0.004340, z: 0.000000}
+          weight: 0.000000
+        - index: 60
+          delta: {x: -0.003415, y: -0.002572, z: 0.000000}
+          weight: 0.000000
+        - index: 61
+          delta: {x: -0.005424, y: -0.000995, z: 0.000000}
+          weight: 0.000000
+        - index: 62
+          delta: {x: 0.000000, y: 0.000000, z: 0.000000}
+          weight: 3.000000
+        - index: 63
+          delta: {x: 0.000337, y: -0.002543, z: 0.000000}
+          weight: 0.000000
+        - index: 64
+          delta: {x: 0.000545, y: -0.003092, z: 0.000000}
+          weight: 0.000000
+        - index: 65
+          delta: {x: 0.000049, y: 0.000129, z: 0.000000}
+          weight: 0.000000
+        - index: 66
+          delta: {x: 0.000117, y: -0.003752, z: 0.000000}
+          weight: 0.000000
+        - index: 67
+          delta: {x: 0.000612, y: -0.001182, z: 0.000000}
+          weight: 0.000000
+        - index: 68
+          delta: {x: 0.001039, y: -0.001640, z: 0.000000}
+          weight: 0.000000
+        - index: 69
+          delta: {x: -0.000612, y: -0.001182, z: 0.000000}
+          weight: 0.000000
+        - index: 70
+          delta: {x: -0.001039, y: -0.001640, z: 0.000000}
+          weight: 0.000000
+        - index: 71
+          delta: {x: 0.000290, y: -0.000036, z: 0.000000}
+          weight: 0.000000
+        - index: 72
+          delta: {x: 0.000824, y: -0.000764, z: 0.000000}
+          weight: 0.000000
+        - index: 73
+          delta: {x: -0.000290, y: -0.000036, z: 0.000000}
+          weight: 0.000000
+        - index: 74
+          delta: {x: -0.000824, y: -0.000764, z: 0.000000}
+          weight: 0.000000
+        - index: 75
+          delta: {x: 0.000332, y: -0.004440, z: 0.000000}
+          weight: 0.000000
+        - index: 76
+          delta: {x: -0.000332, y: -0.004440, z: 0.000000}
+          weight: 0.000000
+        - index: 77
+          delta: {x: 0.000070, y: -0.000337, z: 0.000000}
+          weight: 0.000000
+        - index: 78
+          delta: {x: -0.000070, y: -0.000337, z: 0.000000}
+          weight: 0.000000
+        - index: 79
+          delta: {x: -0.000321, y: -0.003598, z: 0.000000}
+          weight: 0.000000
+        - index: 80
+          delta: {x: 0.000321, y: -0.003598, z: 0.000000}
+          weight: 0.000000
+        - index: 81
+          delta: {x: -0.000295, y: -0.002607, z: 0.000000}
+          weight: 0.000000
+        - index: 82
+          delta: {x: 0.000295, y: -0.002607, z: 0.000000}
+          weight: 0.000000
+        - index: 83
+          delta: {x: -0.000295, y: -0.002607, z: 0.000000}
+          weight: 0.000000
+        - index: 84
+          delta: {x: 0.000295, y: -0.002607, z: 0.000000}
+          weight: 0.000000
+        - index: 85
+          delta: {x: -0.000332, y: -0.001771, z: 0.000000}
+          weight: 0.000000
+        - index: 86
+          delta: {x: 0.000332, y: -0.001771, z: 0.000000}
+          weight: 0.000000
+        - index: 87
+          delta: {x: 0.000000, y: -0.002487, z: 0.000000}
+          weight: 0.000000
+        - index: 88
+          delta: {x: -0.000509, y: -0.002922, z: 0.000000}
+          weight: 0.000000
+        - index: 89
+          delta: {x: 0.000509, y: -0.002922, z: 0.000000}
+          weight: 0.000000
+        - index: 90
+          delta: {x: -0.000327, y: -0.003381, z: 0.000000}
+          weight: 0.000000
+        - index: 91
+          delta: {x: 0.000327, y: -0.003381, z: 0.000000}
+          weight: 0.000000
+        - index: 92
+          delta: {x: 0.000536, y: -0.001711, z: 0.000000}
+          weight: 0.000000
+        - index: 93
+          delta: {x: -0.000536, y: -0.001711, z: 0.000000}
+          weight: 0.000000
+        - index: 94
+          delta: {x: 0.000000, y: -0.001303, z: 0.000000}
+          weight: 0.000000
+        - index: 95
+          delta: {x: 0.000803, y: -0.001407, z: 0.000000}
+          weight: 0.000000
+        - index: 96
+          delta: {x: -0.000803, y: -0.001406, z: 0.000000}
+          weight: 0.000000
+        - index: 97
+          delta: {x: 0.000866, y: -0.001508, z: 0.000000}
+          weight: 0.000000
+        - index: 98
+          delta: {x: -0.000866, y: -0.001508, z: 0.000000}
+          weight: 0.000000
+        - index: 99
+          delta: {x: 0.001181, y: -0.001840, z: 0.000000}
+          weight: 0.000000
+        - index: 100
+          delta: {x: -0.001181, y: -0.001840, z: 0.000000}
+          weight: 0.000000
+        - index: 101
+          delta: {x: 0.001246, y: -0.001888, z: 0.000000}
+          weight: 0.000000
+        - index: 102
+          delta: {x: -0.001246, y: -0.001888, z: 0.000000}
+          weight: 0.000000
+        - index: 103
+          delta: {x: 0.000517, y: 0.000373, z: 0.000000}
+          weight: 0.000000
+        - index: 104
+          delta: {x: -0.000517, y: 0.000373, z: 0.000000}
+          weight: 0.000000
+        - index: 105
+          delta: {x: 0.000607, y: 0.000277, z: 0.000000}
+          weight: 0.000000
+        - index: 106
+          delta: {x: -0.000607, y: 0.000277, z: 0.000000}
+          weight: 0.000000
+        - index: 107
+          delta: {x: 0.000904, y: -0.000305, z: 0.000000}
+          weight: 0.000000
+        - index: 108
+          delta: {x: -0.000904, y: -0.000305, z: 0.000000}
+          weight: 0.000000
+        - index: 109
+          delta: {x: 0.000943, y: -0.000414, z: 0.000000}
+          weight: 0.000000
+        - index: 110
+          delta: {x: -0.000943, y: -0.000414, z: 0.000000}
+          weight: 0.000000
+        - index: 111
+          delta: {x: 0.000273, y: -0.004562, z: 0.000000}
+          weight: 0.000000
+        - index: 112
+          delta: {x: -0.000273, y: -0.004562, z: 0.000000}
+          weight: 0.000000
+        - index: 113
+          delta: {x: 0.001832, y: -0.002701, z: 0.000000}
+          weight: 0.000000
+        - index: 114
+          delta: {x: -0.001832, y: -0.002701, z: 0.000000}
+          weight: 0.000000
+      enabled: true
+- !<AssetImportMetadata/3f673ebc-586f-4473-ad4c-ab420b9e8e36>
+  ImportedAssetIds:
+    FileMesh: !<reference> faaaa71e-8f67-4fef-b952-49ccab833105
+  ImporterName: FileMeshImporter
+  PrimaryAsset: !<reference> faaaa71e-8f67-4fef-b952-49ccab833105
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<FileMeshImporterSettings/c8845604-fe52-453f-b2e2-9a35a96ba7a2>
+    ModifiedVertexFormats:
+      normal: Float
+      position: Float
+      tangent: Float
+      texture0: Float
+  CompressionSettings: !<SingleCompressionSettings/803ef87b-b06d-44e3-a011-c02f7adfb8d0>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/3f9bf17d-b561-42df-9a34-45e6a8b2d855>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> 11c499be-2c60-42d6-8087-24838ea30b78
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> 11c499be-2c60-42d6-8087-24838ea30b78
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/b0788e30-c555-4ae6-ba8a-bd3b5df9c3e6>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/4986a4d0-b7b1-49aa-b9f2-56ed348797b2>
+  ImportedAssetIds:
+    Material: !<reference> d82eef81-48e1-4237-8179-e1a4247c4962
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> d82eef81-48e1-4237-8179-e1a4247c4962
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/0af52ada-8db0-4bd4-9328-8d000a909858>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/53377f42-5791-4a68-9e0c-5c692b4a142c>
+  ImportedAssetIds:
+    Texture: !<reference> 03dde162-7afe-419e-9c3e-fd6255bae96b
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 03dde162-7afe-419e-9c3e-fd6255bae96b
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/055b76e8-9152-452e-aa73-e2878e3ad6fc>
+    {}
+  CompressionSettings: !<SingleCompressionSettings/e5eece17-fb86-4302-b90b-e89f406cb1c5>
+    CompressorName: Size
+    CompressionSettings: !<TextureCompressionSettings/6314ab83-0634-4fa7-a1b9-8ca1f3c803e0>
+      Level: High
+- !<SceneObject/62c7eaa3-2440-42d7-b5c4-a7631c5194db>
+  PrefabRemaps:
+    []
+  Name: occ
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.041525, y: -2.510931, z: -9.049827}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.030000, y: 1.000000, z: 0.900000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a208f402-7304-4954-a935-2bfc3b6944f4
+- !<SceneObject/64f8a380-a60b-47b3-9713-2dcd64be0eda>
+  PrefabRemaps:
+    []
+  Name: Head
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> bf864f44-ab72-4537-a130-311c998c2095
+    - !<own> ac23e0fc-31c9-4114-91b0-cfed8440e82b
+  Components:
+    - !<own> abaaaefe-14f6-43f8-a6da-ec56ad03bb19
+- !<AssetImportMetadata/6d608efb-44fb-4552-ad55-66c56159d6f2>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> 0ca22d3a-fff0-4403-99c1-6b0ec3853407
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> 0ca22d3a-fff0-4403-99c1-6b0ec3853407
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/6236864e-b3c7-4cbb-87e3-bfeba69bffb2>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/7c9e50e6-17ca-4550-9aa9-a1a9faf56372>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d82eef81-48e1-4237-8179-e1a4247c4962
+  Mesh: !<reference> faaaa71e-8f67-4fef-b952-49ccab833105
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+  RayTracing: !<RayTracingVisualSettings/00000000-0000-0000-0000-000000000000>
+    Reflections:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+      planar:
+        enabled: true
+        roughHarden: 0.500000
+        roughCurve: 2.000000
+    IndirectDiffuse:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    AmbientOcclusion:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Shadows:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Material: !<reference> 00000000-0000-0000-0000-000000000000
+    HideFromCamera: false
+- !<SceneObject/80010a0b-e015-4281-9438-d9198565c707>
+  PrefabRemaps:
+    []
+  Name: Yellow Hat__PUT_UNDER_MAIN_CAM
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b0e81de0-40de-4e8c-831d-954c0ef278af
+    - !<own> 64f8a380-a60b-47b3-9713-2dcd64be0eda
+  Components:
+    []
+- !<SceneObject/892462b3-c57b-460e-aa1b-9da8d6d60002>
+  PrefabRemaps:
+    []
+  Name: shadow1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.028099, y: 4.451746, z: -2.780886}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.066800, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7c9e50e6-17ca-4550-9aa9-a1a9faf56372
+- !<AssetImportMetadata/9a00b98e-0d24-425f-97b3-02a4ebe459e4>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> 95e6fb71-9bc8-4efb-8c93-b00a424ab1ce
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> 95e6fb71-9bc8-4efb-8c93-b00a424ab1ce
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/3854d49f-cbbd-4215-83ca-5d23001339c0>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/a208f402-7304-4954-a935-2bfc3b6944f4>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c2d4ad6c-1446-4629-baaf-079d17f4c901
+  Mesh: !<reference> 2e09a0dd-7e33-4a90-b7d9-b5911c1e28c7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+  RayTracing: !<RayTracingVisualSettings/00000000-0000-0000-0000-000000000000>
+    Reflections:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+      planar:
+        enabled: true
+        roughHarden: 0.500000
+        roughCurve: 2.000000
+    IndirectDiffuse:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    AmbientOcclusion:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Shadows:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Material: !<reference> 00000000-0000-0000-0000-000000000000
+    HideFromCamera: false
+- !<Head/abaaaefe-14f6-43f8-a6da-ec56ad03bb19>
+  PrefabRemaps:
+    []
+  Name: Head
+  Enabled: true
+  AttachmentPointType: HeadCenter
+  FaceIndex: 0
+  AttachedBarycentricVertex:
+    indices:
+      - 0
+      - 0
+      - 0
+    weights:
+      - 0.000000
+      - 0.000000
+      - 0.000000
+- !<SceneObject/ac23e0fc-31c9-4114-91b0-cfed8440e82b>
+  PrefabRemaps:
+    []
+  Name: Face occluder
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 6.122204, z: 8.496765}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.775000, y: 0.901700, z: 0.331254}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e29e63b7-6328-484f-9341-51d616b58097
+- !<AssetImportMetadata/af96f353-37ff-488c-a8f0-bdd0a54def9a>
+  ImportedAssetIds:
+    Material: !<reference> c2d4ad6c-1446-4629-baaf-079d17f4c901
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> c2d4ad6c-1446-4629-baaf-079d17f4c901
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/6f541f30-7d6b-4e47-8f70-e9d86101c404>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/b0e81de0-40de-4e8c-831d-954c0ef278af>
+  PrefabRemaps:
+    []
+  Name: Face Stretch
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3e7c11ff-fa3f-48ce-9084-dc8f044e4ae2
+- !<AssetImportMetadata/bc58efc3-3d50-4b03-a91f-8a40ef07f2a1>
+  ImportedAssetIds:
+    Texture: !<reference> 3b424fab-1874-47be-bb58-4104a24fc7b9
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 3b424fab-1874-47be-bb58-4104a24fc7b9
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/27fe5278-50a2-4583-9a95-0827b14c852c>
+    {}
+  CompressionSettings: !<SingleCompressionSettings/85cc9e97-d7db-439e-ac5c-3651e157b755>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionSettings/66161ab7-c9cd-4f14-86d0-069b27fd894e>
+      Level: Medium
+- !<SceneObject/bf864f44-ab72-4537-a130-311c998c2095>
+  PrefabRemaps:
+    []
+  Name: hat
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.050588, y: 7.903985, z: 10.763875}
+    rotation: {x: -7.912518, y: 0.000000, z: 0.000000}
+    scale: {x: 0.915467, y: 0.915467, z: 0.915467}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> dac28f57-8bce-4836-be0c-f0525d079c1b
+    - !<own> 62c7eaa3-2440-42d7-b5c4-a7631c5194db
+    - !<own> 892462b3-c57b-460e-aa1b-9da8d6d60002
+  Components:
+    []
+- !<AssetImportMetadata/cd5474ca-a0b6-40bf-9f26-d4c1571e2ffa>
+  ImportedAssetIds:
+    Material: !<reference> ed5c4064-d82f-4fb5-b8f5-c04aac7d4303
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> ed5c4064-d82f-4fb5-b8f5-c04aac7d4303
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/56bca075-6d58-46d4-af97-4abe876ebc22>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/d9a8c3b6-b218-41b6-a2df-8343940ae26e>
+  SourceRemaps:
+    - 002e6402-bcf4-483e-8263-e51d89371298: 892462b3-c57b-460e-aa1b-9da8d6d60002
+    - 08aa87b9-dcaa-4433-9904-94e7a9f5e65d: d9a96ebe-4006-428f-9cf0-eaa3c72c92ae
+    - 1b094a19-9c61-408e-9974-3f98986a9c1f: bf864f44-ab72-4537-a130-311c998c2095
+    - 1c471dec-6cc5-405e-b852-1a60140d1a00: dac28f57-8bce-4836-be0c-f0525d079c1b
+    - 276b29e7-78bb-4454-b1ae-7346818ca8c4: 62c7eaa3-2440-42d7-b5c4-a7631c5194db
+    - 4449377d-e33b-4a20-8baa-0d870f63be51: b0e81de0-40de-4e8c-831d-954c0ef278af
+    - 676ffa15-cee7-409d-b188-7dc632cf778e: a208f402-7304-4954-a935-2bfc3b6944f4
+    - 8e44f20a-f864-4bb0-adc0-436197879d25: abaaaefe-14f6-43f8-a6da-ec56ad03bb19
+    - 8f70cdb9-0072-4954-89dc-2d60304c6a1c: 3e7c11ff-fa3f-48ce-9084-dc8f044e4ae2
+    - aa8730ed-e571-4630-8315-0051b13c9cb5: 64f8a380-a60b-47b3-9713-2dcd64be0eda
+    - bb21c590-a4dd-4478-be45-f56e6410346b: 80010a0b-e015-4281-9438-d9198565c707
+    - bfd318bd-fc70-41f6-8fcc-766207c20f7f: 010f9659-c63c-4aca-8b6f-826f38367fbb
+    - cebeae3a-48db-46fa-906d-cf05bc85a10c: e29e63b7-6328-484f-9341-51d616b58097
+    - e30a35a5-e435-421d-9c6b-ea8f05db760c: ac23e0fc-31c9-4114-91b0-cfed8440e82b
+    - e3694009-0963-41ed-85ee-0799b9d0f346: 7c9e50e6-17ca-4550-9aa9-a1a9faf56372
+  SourceState: !<own> e5ae7db2-db02-42d2-a5d7-793f4219d448
+- !<RenderMeshVisual/d9a96ebe-4006-428f-9cf0-eaa3c72c92ae>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ed5c4064-d82f-4fb5-b8f5-c04aac7d4303
+  Mesh: !<reference> eec37365-a30f-45a5-94fd-c66ebe8ec992
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+  RayTracing: !<RayTracingVisualSettings/00000000-0000-0000-0000-000000000000>
+    Reflections:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+      planar:
+        enabled: true
+        roughHarden: 0.500000
+        roughCurve: 2.000000
+    IndirectDiffuse:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    AmbientOcclusion:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Shadows:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Material: !<reference> 00000000-0000-0000-0000-000000000000
+    HideFromCamera: false
+- !<SceneObject/dac28f57-8bce-4836-be0c-f0525d079c1b>
+  PrefabRemaps:
+    []
+  Name: Scene Object 0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.017726, y: 6.402578, z: -9.928997}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.020000, y: 0.950000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 010f9659-c63c-4aca-8b6f-826f38367fbb
+  Components:
+    []
+- !<RenderMeshVisual/e29e63b7-6328-484f-9341-51d616b58097>
+  PrefabRemaps:
+    []
+  Name: Mesh Visual
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c2d4ad6c-1446-4629-baaf-079d17f4c901
+  Mesh: !<reference> 1715b804-aae7-4933-a80f-23a46abc5f57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+  RayTracing: !<RayTracingVisualSettings/00000000-0000-0000-0000-000000000000>
+    Reflections:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+      planar:
+        enabled: true
+        roughHarden: 0.500000
+        roughCurve: 2.000000
+    IndirectDiffuse:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    AmbientOcclusion:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Shadows:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Material: !<reference> 00000000-0000-0000-0000-000000000000
+    HideFromCamera: false
+- !<ObjectPrefab/e5ae7db2-db02-42d2-a5d7-793f4219d448>
+  PackagePath: ""
+  objects:
+    - !<own> 80010a0b-e015-4281-9438-d9198565c707
+  LazyLoading: false
+  RetainAssets: true
+- !<AssetImportMetadata/eb7116a5-5930-462a-93fa-25b4ba778b24>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> 097f3dcc-7c3c-4b07-a020-8b5899e9242f
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> 097f3dcc-7c3c-4b07-a020-8b5899e9242f
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/61acf182-16b0-49c1-92ec-e7fcc5c01b12>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/edf7b7ce-efee-447b-b65a-48118944f83d>
+  ImportedAssetIds:
+    FileMesh: !<reference> 2e09a0dd-7e33-4a90-b7d9-b5911c1e28c7
+  ImporterName: FileMeshImporter
+  PrimaryAsset: !<reference> 2e09a0dd-7e33-4a90-b7d9-b5911c1e28c7
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<FileMeshImporterSettings/7bcaef71-45c1-457c-9d29-3bc3921c9c7f>
+    ModifiedVertexFormats:
+      normal: Float
+      position: Float
+      tangent: Float
+      texture0: Float
+  CompressionSettings: !<SingleCompressionSettings/8e554577-adc8-4f08-9d2b-6d4e88f63beb>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/f061eec6-5e8b-4f34-b341-8daaf51a37ec>
+  ImportedAssetIds:
+    FileMesh: !<reference> eec37365-a30f-45a5-94fd-c66ebe8ec992
+  ImporterName: FileMeshImporter
+  PrimaryAsset: !<reference> eec37365-a30f-45a5-94fd-c66ebe8ec992
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<FileMeshImporterSettings/3cf78eb9-9ae4-47d5-b1a6-4ec9591db43d>
+    ModifiedVertexFormats:
+      normal: Float
+      position: Float
+      tangent: Float
+      texture0: Float
+  CompressionSettings: !<SingleCompressionSettings/b07172f0-fa95-4255-a437-5d67b2f42e62>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/f213439b-2c60-4808-90b1-892f8f8748ef>
+  ImportedAssetIds:
+    Texture: !<reference> f5a0cd4c-a509-490a-9162-e2a97ce5b344
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> f5a0cd4c-a509-490a-9162-e2a97ce5b344
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/3eb52bee-a16b-48c5-9e7f-064062fe213c>
+    {}
+  CompressionSettings: !<SingleCompressionSettings/898c8a44-a8f8-40dc-a02a-fef8be441f45>
+    CompressorName: Size
+    CompressionSettings: !<TextureCompressionSettings/28dd1ddc-2438-4d33-93d1-ec5ca7784c30>
+      Level: High

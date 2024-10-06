@@ -1,0 +1,15 @@
+- !<AssetCache/dcbe5997-8654-34ed-9c3e-ab3709e9ec35>
+  AssetFiles:
+    551702ee-ea56-4936-9ac4-19625e3bb4b5: cd937d06-4e3d-4578-a74d-cd6d30df8f31/dcbe5997865434ed9c3eab3709e9ec35/Data/Specular.png
+  AssetCurrentFiles:
+    551702ee-ea56-4936-9ac4-19625e3bb4b5: cd937d06-4e3d-4578-a74d-cd6d30df8f31/dcbe5997865434ed9c3eab3709e9ec35/Data/Specular.png
+  Assets:
+    - !<FileTexture/551702ee-ea56-4936-9ac4-19625e3bb4b5>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1024
+        Height: 512
+  SourceHash: dcbe5997865434ed9c3eab3709e9ec35
+  FileHash: 98ebb8786be549dc106f27ecb2cbe91b
+  NativePackageItems:
+    []

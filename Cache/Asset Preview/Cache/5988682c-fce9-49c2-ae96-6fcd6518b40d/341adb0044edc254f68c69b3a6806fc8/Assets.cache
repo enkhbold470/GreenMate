@@ -1,0 +1,15 @@
+- !<AssetCache/341adb00-44ed-c254-f68c-69b3a6806fc8>
+  AssetFiles:
+    ea650b09-6f21-4c67-8f79-c3752ed8d881: 5988682c-fce9-49c2-ae96-6fcd6518b40d/341adb0044edc254f68c69b3a6806fc8/Data/chevron.png
+  AssetCurrentFiles:
+    ea650b09-6f21-4c67-8f79-c3752ed8d881: 5988682c-fce9-49c2-ae96-6fcd6518b40d/341adb0044edc254f68c69b3a6806fc8/Data/chevron.png
+  Assets:
+    - !<FileTexture/ea650b09-6f21-4c67-8f79-c3752ed8d881>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 129
+        Height: 77
+  SourceHash: 341adb0044edc254f68c69b3a6806fc8
+  FileHash: 7ccf0dd7c3e51dcc6a7b494b95b43795
+  NativePackageItems:
+    []

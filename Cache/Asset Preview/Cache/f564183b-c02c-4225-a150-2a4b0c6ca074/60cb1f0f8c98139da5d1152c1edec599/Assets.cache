@@ -1,0 +1,15 @@
+- !<AssetCache/60cb1f0f-8c98-139d-a5d1-152c1edec599>
+  AssetFiles:
+    1594e221-bc9b-4812-b87d-fc42e6373db9: f564183b-c02c-4225-a150-2a4b0c6ca074/60cb1f0f8c98139da5d1152c1edec599/Data/icon_mapping.png
+  AssetCurrentFiles:
+    1594e221-bc9b-4812-b87d-fc42e6373db9: f564183b-c02c-4225-a150-2a4b0c6ca074/60cb1f0f8c98139da5d1152c1edec599/Data/icon_mapping.png
+  Assets:
+    - !<FileTexture/1594e221-bc9b-4812-b87d-fc42e6373db9>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 128
+        Height: 128
+  SourceHash: 60cb1f0f8c98139da5d1152c1edec599
+  FileHash: 00e3a8c996366585060eecef908f3f63
+  NativePackageItems:
+    []

@@ -1,0 +1,18 @@
+- !<AssetCache/a5422f56-3f2e-79d2-d322-adcb53956f01>
+  AssetFiles:
+    47f5077e-1337-41f0-8131-4bd28ad21552: 516a8a3c-8af3-42ba-bfd5-4b3ac98bbcca/a5422f563f2e79d2d322adcb53956f01/Data/RightHandMesh.mesh
+  AssetCurrentFiles:
+    47f5077e-1337-41f0-8131-4bd28ad21552: 516a8a3c-8af3-42ba-bfd5-4b3ac98bbcca/a5422f563f2e79d2d322adcb53956f01/Data/RightHandMesh.mesh
+  Assets:
+    - !<FileMesh/47f5077e-1337-41f0-8131-4bd28ad21552>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 3818
+        Vertices: 2436
+        Blendshapes:
+          []
+        Joints: 41
+  SourceHash: a5422f563f2e79d2d322adcb53956f01
+  FileHash: aa87e5bed9fc74b3f9a4234999468f5e
+  NativePackageItems:
+    []

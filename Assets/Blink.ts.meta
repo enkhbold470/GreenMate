@@ -1,0 +1,39 @@
+- !<AssetImportMetadata/34ba3bd8-f599-4452-aedc-487aca6e1fe7>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> fa598647-b6e4-45ba-91b1-ae19c9e8b5e3
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> fa598647-b6e4-45ba-91b1-ae19c9e8b5e3
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> d63a01da-c3e1-45c4-a8fa-89f684917827
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/533fa7e3-7ae4-49b3-a80c-3c9f12b6f966>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/d63a01da-c3e1-45c4-a8fa-89f684917827>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    objecttoBlink: false
+    remoteServiceModule: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - objecttoBlink: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      remoteServiceModule: !<reference.RemoteServiceModule> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject objecttoBlink
+    - // @input Asset.RemoteServiceModule remoteServiceModule

@@ -1,0 +1,15 @@
+- !<AssetCache/7170ebb4-4990-1839-6698-8e8480a9407a>
+  AssetFiles:
+    9c34a2ed-b2a7-42a2-87fa-f2cc9ac1dd20: 92359f01-eae0-4e35-8ef8-105c292d4bde/7170ebb44990183966988e8480a9407a/Data/full_soft_lips.png
+  AssetCurrentFiles:
+    9c34a2ed-b2a7-42a2-87fa-f2cc9ac1dd20: 92359f01-eae0-4e35-8ef8-105c292d4bde/7170ebb44990183966988e8480a9407a/Data/Performance/Medium/full_soft_lips.pvr
+  Assets:
+    - !<FileTexture/9c34a2ed-b2a7-42a2-87fa-f2cc9ac1dd20>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1024
+        Height: 1024
+  SourceHash: 7170ebb44990183966988e8480a9407a
+  FileHash: f4c2fde3b30e39d386da2ea8f275b475
+  NativePackageItems:
+    []

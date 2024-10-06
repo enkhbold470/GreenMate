@@ -1,0 +1,14 @@
+- !<AssetImportMetadata/13d276fb-5f5d-4087-bd8e-33528cc4d000>
+  ImportedAssetIds:
+    FaceMesh: !<reference> f5cb3ab8-3f6f-449e-92aa-ca5df4aa3ade
+  ImporterName: FaceMeshImporter
+  PrimaryAsset: !<reference> f5cb3ab8-3f6f-449e-92aa-ca5df4aa3ade
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/08105972-4916-4fca-9971-545792ed129c>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

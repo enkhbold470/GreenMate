@@ -1,0 +1,15 @@
+- !<AssetCache/5dca8a3d-fa88-2180-2cbb-a8920768fe6a>
+  AssetFiles:
+    9761d44a-3c04-4ffb-85f6-7804a742f759: cff57ec6-614d-4d17-abcd-900d1a47c4a8/5dca8a3dfa8821802cbba8920768fe6a/Data/icon_blue.png
+  AssetCurrentFiles:
+    9761d44a-3c04-4ffb-85f6-7804a742f759: cff57ec6-614d-4d17-abcd-900d1a47c4a8/5dca8a3dfa8821802cbba8920768fe6a/Data/icon_blue.png
+  Assets:
+    - !<FileTexture/9761d44a-3c04-4ffb-85f6-7804a742f759>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 128
+        Height: 128
+  SourceHash: 5dca8a3dfa8821802cbba8920768fe6a
+  FileHash: e9df6745869e99940a04a6ac84191ea2
+  NativePackageItems:
+    []

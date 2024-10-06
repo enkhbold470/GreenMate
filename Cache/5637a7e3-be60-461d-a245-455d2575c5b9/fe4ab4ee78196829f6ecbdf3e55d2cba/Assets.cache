@@ -1,0 +1,19 @@
+- !<AssetCache/fe4ab4ee-7819-6829-f6ec-bdf3e55d2cba>
+  AssetFiles:
+    1fb1e634-eb2b-4cc4-ba8b-18416bbcb455: 5637a7e3-be60-461d-a245-455d2575c5b9/fe4ab4ee78196829f6ecbdf3e55d2cba/Data/SysSettings_settings_button.mesh
+  AssetCurrentFiles:
+    {}
+  Assets:
+    - !<FileMesh/1fb1e634-eb2b-4cc4-ba8b-18416bbcb455>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 1024
+        Vertices: 546
+        Blendshapes:
+          - Pinch
+          - Z depth
+        Joints: 0
+  SourceHash: fe4ab4ee78196829f6ecbdf3e55d2cba
+  FileHash: e7f67daf7f886e779c7dbaf946747989
+  NativePackageItems:
+    []

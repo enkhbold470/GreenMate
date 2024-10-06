@@ -1,0 +1,30 @@
+- !<AssetImportMetadata/d8160c95-3915-44b6-9ed2-9621cec34e65>
+  ImportedAssetIds:
+    .hidden/uber: !<reference> 25fbc7bd-6e0a-4ef3-8da9-e2c41d8c10e2
+    Resources/Materials/tooltip_GLSL: !<reference> e4822831-ebff-47ad-b1d2-cfa34237d7fd
+    Resources/Materials/tooltip_GLSL|tooltip_GLSL|LegacyPassInfo_0: !<reference> c395c8ec-1c91-4d84-9c38-aaf3cdee86cf
+    Resources/Textures/tooltip_texture: !<reference> a8b6b451-12fb-4618-9c93-28020cee9da4
+  ImporterName: LensCoreImporter
+  PrimaryAsset: !<reference> e4822831-ebff-47ad-b1d2-cfa34237d7fd
+  PackageType: LegacyPackage
+  PackagePolicy: ShouldBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<LensCoreImporterSettings/6334303b-a50f-40c8-8c86-a30ea1445527>
+    PersistentIdGenerationAlgorithm: Legacy
+  CompressionSettings: !<ComplexCompressionSettings/f9f05780-e93c-484b-9c53-9065054b1d7d>
+    Presets:
+      Size Compression: !<SingleCompressionSettings/00688c23-e93c-4065-ab24-31ad57cbc26b>
+        CompressorName: Size
+        CompressionSettings: !<TextureCompressionSettings/68e372d8-f19f-4a49-8a06-a8071aef9c4f>
+          Level: Medium
+      Performance Compression: !<SingleCompressionSettings/4c50fe50-bbfb-4bb9-8799-e7169c89fb07>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings/7a83baba-34d5-4c21-9a43-74229b464c61>
+          Level: Medium
+    ExtensionMappings:
+      png: Performance Compression
+    Overrides:
+      {}
