@@ -1,46 +1,15 @@
 'use client'
-
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import Image from 'next/image'
 import { User, Bell, Moon, Lock, HelpCircle, LogOut } from 'lucide-react'
 import { Switch } from '@/components/ui/switch'
 import EG from '../public/EG.svg'
-
 interface SettingsOption {
   icon: React.ReactNode
   label: string
   action?: () => void
   toggle?: boolean
 }
-
-interface Notification {
-  id: number
-  message: string
-}
-
-const notificationMessages = [
-  {
-    id: 1,
-    message: "Your plant needs water!"
-  },
-  {
-    id: 2,
-    message: "I am thirsty!"
-  },
-  {
-    id: 3,
-    message: "You better water me!"
-  },
-  {
-    id: 4,
-    message: "I need some sunlight!"
-  },
-  {
-    id: 5,
-    message: "I am dying!"
-  },
-]
-
 export function MobileSettingsComponent() {
   const settingsOptions: SettingsOption[] = [
     { icon: <Bell className="h-5 w-5" />, label: 'Notifications', toggle: true },
@@ -49,51 +18,6 @@ export function MobileSettingsComponent() {
     { icon: <HelpCircle className="h-5 w-5" />, label: 'Help & Support', action: () => console.log('Help & Support') },
     { icon: <LogOut className="h-5 w-5" />, label: 'Log Out', action: () => console.log('Logging out') },
   ]
-
-  const [notifications, setNotifications] = useState<Notification[]>([])
-  const [isVisible, setIsVisible] = useState<boolean>(true)
-
-  useEffect(() => {
-    const handleVisibilityChange = () => {
-      setIsVisible(!document.hidden)
-    }
-
-    document.addEventListener("visibilitychange", handleVisibilityChange)
-
-    // Initialize isVisible state based on current document visibility
-    setIsVisible(!document.hidden)
-
-    return () => {
-      document.removeEventListener("visibilitychange", handleVisibilityChange)
-    }
-  }, [])
-
-  useEffect(() => {
-    if (!isVisible) return
-
-    const interval = setInterval(() => {
-      if (Math.random() > 0.5) { // Simulate a 50% chance that the plant needs water
-        const randomMessage = notificationMessages[Math.floor(Math.random() * notificationMessages.length)].message
-        const newNotification: Notification = {
-          id: Date.now(),
-          message: randomMessage
-        }
-        setNotifications(prevNotifications => [newNotification, ...prevNotifications].slice(0, 3))
-      }
-    }, 6000)
-
-    return () => clearInterval(interval)
-  }, [isVisible])
-
-  const removeNotification = (id: number) => {
-    setNotifications(prevNotifications => prevNotifications.filter(notification => notification.id !== id))
-  }
-
-  console.log(notifications);
-  console.log(isVisible);
-  console.log(notificationMessages);
-  console.log(removeNotification);
-
   return (
     <div className="bg-gray-100 min-h-screen p-4">
       <h1 className="text-2xl font-bold mb-6">Settings</h1>
@@ -105,7 +29,7 @@ export function MobileSettingsComponent() {
                   <Image
                     src={EG}
                     alt="Profile picture"
-                    fill
+                    layout="fill"
                     className="rounded-full"
                   />
                 ) : (
@@ -123,7 +47,6 @@ export function MobileSettingsComponent() {
           Edit Profile
         </button>
       </div>
-
       <div className="bg-white rounded-lg shadow-md overflow-hidden">
         {settingsOptions.map((option, index) => (
           <div 

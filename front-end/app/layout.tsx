@@ -44,8 +44,8 @@ export default function RootLayout({
       </head>
       <body className={`${roboto.className} antialiased`}>
         {children}
-        <BottomNavbar />
         <PlantNotification />
+        <BottomNavbar />
       </body>
     </html>
   );
