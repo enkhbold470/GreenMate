@@ -1,108 +1,98 @@
-"use client";
-import React, { useEffect, useState } from "react";
-import SensorInfo from "./sensorInfo";
-import PlantCard from "./plant-card";
-import useWeather from "../hook/useWeather";
-import { MapPinHouse, Thermometer, Droplets, Sun } from "lucide-react";
-import { SensorPrediction } from "@/lib/sensorPrediction";
-import LoadingSpinner from './loading'; // Import the LoadingSpinner component
-import Image from "next/image";
-export default function Landing() {
-  const [sensorData, setSensorData] = useState<SensorPrediction>(); // Changed to use SensorType array
+"use client"
+import React, { useEffect, useState } from "react"
+import { Droplets, Thermometer, Sun, Sprout } from "lucide-react"
+import { PlantData } from "@/lib/types"
+import PlantCard from "./plant-card"
+import InfoCard from "./infoCard" // Updated casing
+import Header from "./header"
+import LoadingSpinner from "./loading"
 
-  const lat = 40.8068737;
-  const lon = -73.9604592;
-  const { weather } = useWeather(lat, lon);
+
+export default function Landing() {
+  const [plantData, setPlantData] = useState<PlantData | null>(null)
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    const fetchPrediction = async () => {
+    const fetchData = async () => {
       try {
-        const response = await fetch("/api/prediction");
-        const data: SensorPrediction = await response.json(); // Ensure data is of type SensorPrediction
-        console.log(data);
-        setSensorData(data); // Map sensor types to include fetched data
+        const response = await fetch("/api/prediction")
+        if (!response.ok) {
+          throw new Error("Network response was not ok")
+        }
+        const data: PlantData = await response.json()
+        setPlantData(data)
+        setLoading(false)
       } catch (error) {
-        console.error("Error fetching prediction:", error);
+        console.error(
+          "There was a problem with the fetch operation:",
+          error
+        )
+        // Optionally set default/random data here
+        const randomData: PlantData = {
+          humidity: Math.floor(Math.random() * 100),
+          humidity_prediction:
+            "Humidity levels are expected to remain stable.",
+          soil_moisture: Math.floor(Math.random() * 100),
+          sunlight_level: Math.floor(Math.random() * 1000),
+          sunlight_prediction:
+            "Sunlight levels are expected to increase.",
+          temperature: Math.floor(Math.random() * 30),
+          temperature_prediction:
+            "Temperature levels are expected to decrease.",
+          water_prediction: "Watering levels are expected to remain stable.",
+        }
+        setPlantData(randomData)
+        setLoading(false)
       }
-    };
+    }
 
-    const timer = setInterval(fetchPrediction, 3000); // Fetch every 3 seconds
-    return () => clearInterval(timer); // Cleanup the timer on unmount
-  }, []);
+    fetchData()
+  }, [])
 
   return (
-    <div className="bg-anti-flash_white-DEFAULT min-h-screen font-sans text-fern_green-DEFAULT p-4 mb-20">
-      <div className="flex justify-between items-center mb-6">
-        <div className="flex items-center space-x-2 gap-1">
-          <Image
-            src="/greenmate.svg"
-            alt="Profile"
-            width={56}
-            height={56}
-            className="rounded-full border-2 border-fern_green-DEFAULT"
-          />
-          <div className="text-sm font-semibold">Enkhbold G.</div>
-        </div>
-
-        <div className="flex items-center space-x-2">
-          {weather ? (
-            <div className="flex flex-col items-end space-y-2">
-              <div className="flex items-center space-x-2">
-                <span>Columbia University, NY</span>
-                <MapPinHouse />
-              </div>
-              <div className="flex items-center space-x-2">
-                <div>
-                  {weather.temperature}°{weather.temperatureUnit}
-                </div>
-                <Thermometer />
-              </div>
-            </div>
-          ) : (
+    <div className="min-h-screen bg-gray-100 p-4 sm:p-6 md:p-8">
+      <Header />
+      <main className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto mb-20">
+        <PlantCard
+          name="Monstera Deliciosa"
+          image="https://images.unsplash.com/photo-1647166545674-ce28ce93bdca"
+          prediction="Your plant is doing well, but needs some attention to humidity and watering."
+        />
+        {loading ? (
+          <div className="col-span-full flex justify-center items-center">
             <LoadingSpinner />
-          )}
-        </div>
-      </div>
-
-      <div className="text-2xl font-bold mb-6">My Plant</div>
-
-      <PlantCard
-        name="Monstera Deliciosa"
-        image="https://images.unsplash.com/photo-1485955900006-10f4d324d411?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        prediction={sensorData?.water_prediction ?? "Loading..."}
-      />
-    
-      <div className="mt-6 space-y-4">
-        <div className="text-xl font-semibold">Predictions</div>
-        <div className="grid grid-cols-2 gap-4">
-          <SensorInfo
-            icon={Droplets}
-            label="Humidity Prediction"
-            value={sensorData?.humidity_prediction ?? <LoadingSpinner />}
-            color="text-blue-500"
-          />
-          <SensorInfo
-            icon={Sun}
-            label="Sunlight Prediction"
-            value={sensorData?.sunlight_prediction ?? <LoadingSpinner />}
-            color="text-yellow-500"
-          />
-          <SensorInfo
-            icon={Thermometer}
-            label="Temperature Prediction"
-            value={sensorData?.temperature_prediction ?? <LoadingSpinner />}
-            color="text-red-500"
-          />
-          <SensorInfo
-            icon={Droplets}
-            label="Water Prediction"
-            value={sensorData?.water_prediction ?? <LoadingSpinner />}
-            color="text-blue-700"
-          />
-        </div>
-      </div>
-
-     
+          </div>
+        ) : (
+          plantData && (
+            <div className="grid grid-cols-1 gap-4">
+              <InfoCard
+                icon={<Droplets className="w-6 h-6 text-blue-500" />}
+                title="Humidity"
+                value={`${plantData.humidity}%`}
+                prediction={plantData.humidity_prediction}
+              />
+              <InfoCard
+                icon={<Thermometer className="w-6 h-6 text-red-500" />}
+                title="Temperature"
+                value={`${plantData.temperature}°C`}
+                prediction={plantData.temperature_prediction}
+              />
+              <InfoCard
+                icon={<Sun className="w-6 h-6 text-yellow-500" />}
+                title="Sunlight"
+                value={`${plantData.sunlight_level} lux`}
+                prediction={plantData.sunlight_prediction}
+              />
+              <InfoCard
+                icon={<Sprout className="w-6 h-6 text-green-500" />}
+                title="Soil Moisture"
+                value={`${plantData.soil_moisture}%`}
+                prediction={plantData.water_prediction}
+              />
+            </div>
+          )
+        )}
+      </main>
     </div>
-  );
+  )
 }
