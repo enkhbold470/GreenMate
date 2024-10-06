@@ -1,0 +1,523 @@
+- !<AssetImportMetadata/a4276617-0658-4e28-b9e4-b569182ffb7c>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> f98633ad-bad5-403d-84fb-6766fba2281a
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> f98633ad-bad5-403d-84fb-6766fba2281a
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> 891de9dc-c75c-4267-9eed-6b5c7bd83e9c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/f8721e30-9b06-49b9-b2e0-2a85c7b877e9>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/0862986e-b277-4046-a4c4-a59f784ca3b9>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 01f49a48-3fb3-4e32-a3b5-fc19dd32b8e4
+  Mesh: !<reference> c0fe312c-2200-41c1-85d0-bf64dde9ca66
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/150cb3cd-ec20-4da7-8c22-936b61d66250>
+  PrefabRemaps:
+    []
+  Name: Send Target Mesh Size To VFX (aabbMax)
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 3.895065}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b3bf786e-dbce-4c3d-9d1f-716e4d6af3b2
+- !<SceneObject/4b1b6ee5-cb7a-459d-9781-65142d4333e8>
+  PrefabRemaps:
+    []
+  Name: Hat
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8c08b554-63f3-45ee-a9a3-81502ac6c35b
+    - !<own> d5cfa02b-f413-498e-95a9-6baf003f4630
+  Components:
+    []
+- !<SceneObject/57b76273-6e03-4db1-a325-504a1b6fb865>
+  PrefabRemaps:
+    []
+  Name: Send Target Inverted World Transform To VFX
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 3.895065}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7eb02b52-c0b8-4cdf-8dd3-0673f3982bb7
+- !<SceneObject/5e6091e5-1e07-4e8a-909c-1e05ac765b16>
+  PrefabRemaps:
+    []
+  Name: SDF Snow
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 54.975365, z: -58.571457}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 57b76273-6e03-4db1-a325-504a1b6fb865
+    - !<own> b4572eec-99e8-4955-b6ab-c84af673925f
+    - !<own> 150cb3cd-ec20-4da7-8c22-936b61d66250
+    - !<own> da075fef-1eff-447c-bb7a-9f360f0199fe
+  Components:
+    - !<own> b6a586f0-299c-4513-b715-35aa190e2092
+- !<Head/5f2bfe97-dc8a-40df-b57d-b55d42d8a1ea>
+  PrefabRemaps:
+    []
+  Name: Head Binding
+  Enabled: true
+  AttachmentPointType: HeadCenter
+  FaceIndex: 0
+  AttachedBarycentricVertex:
+    indices:
+      - 0
+      - 0
+      - 0
+    weights:
+      - 0.000000
+      - 0.000000
+      - 0.000000
+- !<VFXComponent/635ba17e-3caf-4271-94f5-2461bcdcb8b5>
+  PrefabRemaps:
+    []
+  Name: VFX
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 1334e203-ed83-4722-93a4-94ea7c385f1b
+- !<ColliderComponent/75666788-5144-4fe3-8ae9-fcf693199792>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Mesh/00000000-0000-0000-0000-000000000000>
+    Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+    Convex: false
+    Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<ScriptComponent/7eb02b52-c0b8-4cdf-8dd3-0673f3982bb7>
+  PrefabRemaps:
+    []
+  Name: SendDataToVFX_UpdateEvent
+  Enabled: true
+  ScriptAsset: !<reference> aa1325ba-5375-4c81-a3bb-8fdc72bafaba
+  ScriptInputsDefault:
+    targetPosition: true
+    targetRotation: true
+    targetScale: true
+    directionValue: true
+    targetDirection: true
+    dimensionValue: true
+    targetDimension: true
+    screenToWorldScreenTrans: true
+    screenToWorldCamera: true
+    desiredModelHeight: true
+    worldToScreenObject: true
+    worldToScreenCamera: true
+    localToWorldObj: true
+    screenTransObj: true
+    debug: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      action: targetInvTrans
+      targetPosition: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      targetRotation: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      targetScale: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      directionValue: 0
+      targetDirection: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      targetInvTrans: !<reference.SceneObject> 8c08b554-63f3-45ee-a9a3-81502ac6c35b
+      dimensionValue: aabbMin
+      targetDimension: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      screenToWorldScreenTrans: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      screenToWorldCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      desiredModelHeight: !<float> 250.000000
+      worldToScreenObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      worldToScreenCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      localToWorldObj: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      screenTransObj: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      debug: false
+      vfx: !<reference.VFXComponent> 635ba17e-3caf-4271-94f5-2461bcdcb8b5
+      vfxScriptName: sdfTransform
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefab/80324383-79f0-4ab8-bd82-cbddbf13f832>
+  PackagePath: SnowHat__PUT_UNDER_MAIN_CAM
+  objects:
+    - !<own> a2f7ceb5-0529-4ff9-a2e3-d783f7052ef8
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/80e30c04-2c9d-4a80-a49b-18d1b9164cfa>
+  PrefabRemaps:
+    []
+  Name: HeadOccluder
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.481441, y: 6.700723, z: 8.668385}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.830000, y: 0.830000, z: 0.830000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ed518d7f-1fd1-4411-b1cd-23ba2d056dfe
+- !<ObjectPrefabAssetData/891de9dc-c75c-4267-9eed-6b5c7bd83e9c>
+  SourceRemaps:
+    - 067a0b0d-c47d-4e85-8246-a5edf15981ac: 7eb02b52-c0b8-4cdf-8dd3-0673f3982bb7
+    - 11e28cd0-ee8d-49ca-b3e8-60565f79f2b6: e0d33318-6836-4ea6-9912-09d3f9d64061
+    - 15de43d6-e40a-4454-8290-3977ebab87f1: 0862986e-b277-4046-a4c4-a59f784ca3b9
+    - 208c0010-a5fb-40e0-b569-1d6d0f9b8cbd: b6a586f0-299c-4513-b715-35aa190e2092
+    - 24f851cd-4b38-49c4-940b-0bdc33aaef91: b3bf786e-dbce-4c3d-9d1f-716e4d6af3b2
+    - 26ac3973-5ce2-42dd-a5a4-7874215d908f: 4b1b6ee5-cb7a-459d-9781-65142d4333e8
+    - 2bde14e1-a909-4b38-bf6d-404eaad953b6: 75666788-5144-4fe3-8ae9-fcf693199792
+    - 30645978-1527-4289-87c9-cf796c86f595: da075fef-1eff-447c-bb7a-9f360f0199fe
+    - 3dd6dcc0-94fd-4947-8f1f-a7c96555b2f6: b4572eec-99e8-4955-b6ab-c84af673925f
+    - 47c2e2d4-43c5-4928-8452-5ece3cf29504: ed518d7f-1fd1-4411-b1cd-23ba2d056dfe
+    - 6a671ad5-3766-43bc-b62e-e05a2f26921b: e58b41be-90e0-4193-8ee8-dbe32db95cc2
+    - 6b11280e-5b6c-470b-8ef3-56ed0b040ff9: 5f2bfe97-dc8a-40df-b57d-b55d42d8a1ea
+    - 6bc253d9-9ba8-4487-b83a-fffe4da5a857: 635ba17e-3caf-4271-94f5-2461bcdcb8b5
+    - 74db2c9a-b822-49cf-b674-9a367b604384: 93d63b88-0750-4b7a-a630-38485d5ac792
+    - 7d688be6-88da-479f-bcf4-dcc4418b5bec: 80e30c04-2c9d-4a80-a49b-18d1b9164cfa
+    - 9d024b7e-350c-4191-88ba-eb2c31a771e2: d5cfa02b-f413-498e-95a9-6baf003f4630
+    - b05afeb7-76ec-46b1-9c34-4ee34565a5a4: 8c08b554-63f3-45ee-a9a3-81502ac6c35b
+    - d2d16db3-3068-4f2b-a710-4d53647077eb: 5e6091e5-1e07-4e8a-909c-1e05ac765b16
+    - e13ee21b-a9b3-4ceb-b5bc-2931a0ffd8c0: 150cb3cd-ec20-4da7-8c22-936b61d66250
+    - ee88dfea-1e5b-4178-8d4f-460cb4ff936a: ef2c413c-204c-4b86-86e4-1f404dd1b15d
+    - f188d436-6cbb-49cf-8a56-9ac27e55a0bc: a2f7ceb5-0529-4ff9-a2e3-d783f7052ef8
+    - f2012446-38a3-497f-a5cd-92a6fac40be1: 57b76273-6e03-4db1-a325-504a1b6fb865
+  SourceState: !<own> 80324383-79f0-4ab8-bd82-cbddbf13f832
+- !<SceneObject/8c08b554-63f3-45ee-a9a3-81502ac6c35b>
+  PrefabRemaps:
+    []
+  Name: Part1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 15.502419, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0862986e-b277-4046-a4c4-a59f784ca3b9
+    - !<own> 75666788-5144-4fe3-8ae9-fcf693199792
+- !<ScriptComponent/93d63b88-0750-4b7a-a630-38485d5ac792>
+  PrefabRemaps:
+    []
+  Name: SendDataToVFX_UpdateEvent
+  Enabled: true
+  ScriptAsset: !<reference> aa1325ba-5375-4c81-a3bb-8fdc72bafaba
+  ScriptInputsDefault:
+    targetPosition: true
+    targetRotation: true
+    targetScale: true
+    directionValue: true
+    targetDirection: true
+    targetInvTrans: true
+    dimensionValue: true
+    screenToWorldScreenTrans: true
+    screenToWorldCamera: true
+    desiredModelHeight: true
+    worldToScreenObject: true
+    worldToScreenCamera: true
+    localToWorldObj: true
+    screenTransObj: true
+    debug: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      action: meshDimension
+      targetPosition: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      targetRotation: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      targetScale: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      directionValue: 0
+      targetDirection: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      targetInvTrans: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      dimensionValue: aabbMin
+      targetDimension: !<reference.RenderMeshVisual> 0862986e-b277-4046-a4c4-a59f784ca3b9
+      screenToWorldScreenTrans: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      screenToWorldCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      desiredModelHeight: !<float> 250.000000
+      worldToScreenObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      worldToScreenCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      localToWorldObj: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      screenTransObj: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      debug: false
+      vfx: !<reference.VFXComponent> 635ba17e-3caf-4271-94f5-2461bcdcb8b5
+      vfxScriptName: sdfaabbminInput
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/a2f7ceb5-0529-4ff9-a2e3-d783f7052ef8>
+  PrefabRemaps:
+    []
+  Name: SnowHat__PUT_UNDER_MAIN_CAM
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e0d33318-6836-4ea6-9912-09d3f9d64061
+    - !<own> 5e6091e5-1e07-4e8a-909c-1e05ac765b16
+  Components:
+    []
+- !<ScriptComponent/b3bf786e-dbce-4c3d-9d1f-716e4d6af3b2>
+  PrefabRemaps:
+    []
+  Name: SendDataToVFX_UpdateEvent
+  Enabled: true
+  ScriptAsset: !<reference> aa1325ba-5375-4c81-a3bb-8fdc72bafaba
+  ScriptInputsDefault:
+    targetPosition: true
+    targetRotation: true
+    targetScale: true
+    directionValue: true
+    targetDirection: true
+    targetInvTrans: true
+    screenToWorldScreenTrans: true
+    screenToWorldCamera: true
+    desiredModelHeight: true
+    worldToScreenObject: true
+    worldToScreenCamera: true
+    localToWorldObj: true
+    screenTransObj: true
+    debug: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      action: meshDimension
+      targetPosition: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      targetRotation: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      targetScale: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      directionValue: 0
+      targetDirection: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      targetInvTrans: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      dimensionValue: aabbMax
+      targetDimension: !<reference.RenderMeshVisual> 0862986e-b277-4046-a4c4-a59f784ca3b9
+      screenToWorldScreenTrans: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      screenToWorldCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      desiredModelHeight: !<float> 250.000000
+      worldToScreenObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      worldToScreenCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      localToWorldObj: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      screenTransObj: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      debug: false
+      vfx: !<reference.VFXComponent> 635ba17e-3caf-4271-94f5-2461bcdcb8b5
+      vfxScriptName: sdfaabbmaxInput
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/b4572eec-99e8-4955-b6ab-c84af673925f>
+  PrefabRemaps:
+    []
+  Name: Send Target Mesh Size To VFX (aabbMin)
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 3.895065}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 93d63b88-0750-4b7a-a630-38485d5ac792
+- !<ScriptComponent/b6a586f0-299c-4513-b715-35aa190e2092>
+  PrefabRemaps:
+    []
+  Name: SmoothFollower_FaceFoundEvent
+  Enabled: true
+  ScriptAsset: !<reference> 18d15b8d-3edf-42d4-a8a7-3faa8af796e4
+  ScriptInputsDefault:
+    followPosition: true
+    maxPosSpeed: true
+    posMode: true
+    followRotation: true
+    maxRotSpeed: true
+    rotDamping: true
+    rotMode: true
+    followScale: true
+    maxScaleSpeed: true
+    scaleDamping: true
+    scaleMode: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      follower: !<reference.SceneObject> 5e6091e5-1e07-4e8a-909c-1e05ac765b16
+      target: !<reference.SceneObject> ef2c413c-204c-4b86-86e4-1f404dd1b15d
+      followPosition: true
+      maxPosSpeed: !<float> 50.000000
+      posDamping: !<float> 3.000000
+      posMode: 0
+      followRotation: true
+      maxRotSpeed: !<float> 50.000000
+      rotDamping: !<float> 5.000000
+      rotMode: 0
+      followScale: true
+      maxScaleSpeed: !<float> 50.000000
+      scaleDamping: !<float> 5.000000
+      scaleMode: 0
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/d5cfa02b-f413-498e-95a9-6baf003f4630>
+  PrefabRemaps:
+    []
+  Name: Part2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 15.502419, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e58b41be-90e0-4193-8ee8-dbe32db95cc2
+- !<SceneObject/da075fef-1eff-447c-bb7a-9f360f0199fe>
+  PrefabRemaps:
+    []
+  Name: SDF VFX Collision
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 635ba17e-3caf-4271-94f5-2461bcdcb8b5
+- !<SceneObject/e0d33318-6836-4ea6-9912-09d3f9d64061>
+  PrefabRemaps:
+    []
+  Name: Head Binding
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ef2c413c-204c-4b86-86e4-1f404dd1b15d
+    - !<own> 80e30c04-2c9d-4a80-a49b-18d1b9164cfa
+    - !<own> 4b1b6ee5-cb7a-459d-9781-65142d4333e8
+  Components:
+    - !<own> 5f2bfe97-dc8a-40df-b57d-b55d42d8a1ea
+- !<RenderMeshVisual/e58b41be-90e0-4193-8ee8-dbe32db95cc2>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 3ffabc8c-8c11-4671-a237-d18bf2737ac9
+  Mesh: !<reference> 4d636208-1123-40f9-9f24-039398c17f35
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/ed518d7f-1fd1-4411-b1cd-23ba2d056dfe>
+  PrefabRemaps:
+    []
+  Name: Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 80b1ff12-3cb5-4d7d-a03b-819f08438541
+  Mesh: !<reference> 33301554-0b0d-4331-9b24-654bbbd1845d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/ef2c413c-204c-4b86-86e4-1f404dd1b15d>
+  PrefabRemaps:
+    []
+  Name: Pivot Point
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 37.197060, z: -8.398621}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []

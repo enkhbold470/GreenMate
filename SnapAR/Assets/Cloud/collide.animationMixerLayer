@@ -1,0 +1,17 @@
+- !<AnimationMixerLayer/5883432e-647c-478d-8727-a0753e948777>
+  PackagePath: ""
+  Layer: collide
+  Name: collide
+  Weight: 0.000000
+  SpeedRatio: 1.000000
+  From: 0.000000
+  To: 2.500000
+  Offset: 0.000000
+  FPS: 30.000000
+  NumCycles: -1
+  Reversed: false
+  Disabled: false
+  PostInfinity: Cycle
+  BlendMode: Default
+  ScaleMode: Multiply
+  RangeType: TimeInSeconds

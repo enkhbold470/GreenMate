@@ -1,0 +1,319 @@
+- !<AssetImportMetadata/efd819f4-289f-4fb3-9b18-55ad98188bb5>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 7b830339-ca76-4574-9bc8-305da17dd8e5
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 7b830339-ca76-4574-9bc8-305da17dd8e5
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> 1eed8611-6771-444d-9d50-60eb13f0a440
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/4f34fea4-b7cd-45ae-bc32-a8880c6fa123>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/08065180-aa5d-45c9-bf3c-a00a8fd058ef>
+  PrefabRemaps:
+    []
+  Name: Chinese Text3D
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 2.000000, y: 0.943895, z: 20.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7845f304-f456-470f-93dc-20ba6ed2f971
+- !<SceneObject/17a7305a-6501-4405-9e0e-7450aa18c9d4>
+  PrefabRemaps:
+    []
+  Name: Farsi Text3D
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 5.601700, z: 20.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c8010423-9789-4885-ba21-4eaa7bfe43d0
+- !<ObjectPrefabAssetData/1eed8611-6771-444d-9d50-60eb13f0a440>
+  SourceRemaps:
+    - 07ff5c56-ceb3-457e-aec5-70b62bb9794e: 75b70c04-224c-4cd5-9cbd-3cbd3468ab57
+    - 1fa9ed21-bfe6-4c32-934b-78912803bba1: efdbd75d-249a-48fc-a56e-0faa0a48f82f
+    - 2f76f384-ffb0-4077-858c-988727cbe446: 7845f304-f456-470f-93dc-20ba6ed2f971
+    - 47c00726-993f-4691-91f3-10f9291fd388: 70c417d4-e636-4354-820a-2878e2547cae
+    - 48938723-83ac-4dc9-a9e9-d7d2d438692e: 08065180-aa5d-45c9-bf3c-a00a8fd058ef
+    - 49c13a64-e0de-4474-8d6d-3be842a908b9: de271def-3420-4439-9c99-1a496c3517cb
+    - 636a4f78-e76f-4bfd-84e8-e7b128d6eba1: 17a7305a-6501-4405-9e0e-7450aa18c9d4
+    - 756a6982-f064-43a5-a275-1db95b2db0ef: 787b90fc-60ed-4091-9578-de892e96ece5
+    - 7ee00a26-792f-4f95-9ee7-b7feff847cd6: be61db8f-09a2-4f2b-8c08-3ccc6abd4b26
+    - b3752bc0-1f52-4c88-ae99-977ef07826c5: cdc4017a-802c-41c1-94df-1d3e739e1ed4
+    - be96ab67-73a2-4966-8217-d56a0f3fff67: 6aa5340d-f128-4747-bff2-e9a1536593b5
+    - bfc923cf-1115-4684-a276-e20af23209c9: c8010423-9789-4885-ba21-4eaa7bfe43d0
+  SourceState: !<own> d0647e00-3136-427a-be85-0503016f6491
+- !<SceneObject/6aa5340d-f128-4747-bff2-e9a1536593b5>
+  PrefabRemaps:
+    []
+  Name: Japanese Text3D
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -2.000000, y: 0.943895, z: 20.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> de271def-3420-4439-9c99-1a496c3517cb
+- !<SceneObject/70c417d4-e636-4354-820a-2878e2547cae>
+  PrefabRemaps:
+    []
+  Name: Arabic Text3D
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 3.548000, z: 20.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 787b90fc-60ed-4091-9578-de892e96ece5
+- !<SceneObject/75b70c04-224c-4cd5-9cbd-3cbd3468ab57>
+  PrefabRemaps:
+    []
+  Name: Languages Example
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> efdbd75d-249a-48fc-a56e-0faa0a48f82f
+  Components:
+    []
+- !<Text3D/7845f304-f456-470f-93dc-20ba6ed2f971>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 12
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b4ed9ec4-5f59-48db-bad0-06cdfd196210
+  Text: 爱
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 0.400000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+- !<Text3D/787b90fc-60ed-4091-9578-de892e96ece5>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 10
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b4ed9ec4-5f59-48db-bad0-06cdfd196210
+  Text: حـــــــــب
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 0.400000
+  ExtrudeDirection: Both
+  Font: !<reference> 1ee37401-57e4-446f-9137-a532e26076c6
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+- !<Text3D/be61db8f-09a2-4f2b-8c08-3ccc6abd4b26>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 9
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b4ed9ec4-5f59-48db-bad0-06cdfd196210
+  Text: LOVE
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 0.400000
+  ExtrudeDirection: Both
+  Font: !<reference> 610cf689-31f1-4d53-a303-7b702cb84fd2
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.220000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+- !<Text3D/c8010423-9789-4885-ba21-4eaa7bfe43d0>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 8
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b4ed9ec4-5f59-48db-bad0-06cdfd196210
+  Text: عــــشــــق
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  ExtrusionDepth: 0.400000
+  ExtrudeDirection: Both
+  Font: !<reference> a5a98cdc-6868-4503-906a-63f5bd23b5e0
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+- !<SceneObject/cdc4017a-802c-41c1-94df-1d3e739e1ed4>
+  PrefabRemaps:
+    []
+  Name: English Text3D
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -1.800000, z: 20.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> be61db8f-09a2-4f2b-8c08-3ccc6abd4b26
+- !<ObjectPrefab/d0647e00-3136-427a-be85-0503016f6491>
+  PackagePath: 3D Text Languages Example__PLACE_IN_SCENE
+  objects:
+    - !<own> 75b70c04-224c-4cd5-9cbd-3cbd3468ab57
+  LazyLoading: false
+  RetainAssets: true
+- !<Text3D/de271def-3420-4439-9c99-1a496c3517cb>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 11
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b4ed9ec4-5f59-48db-bad0-06cdfd196210
+  Text: 愛
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 70
+  ExtrusionDepth: 0.400000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout/00000000-0000-0000-0000-000000000000>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+- !<SceneObject/efdbd75d-249a-48fc-a56e-0faa0a48f82f>
+  PrefabRemaps:
+    []
+  Name: Text Anchor
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 17a7305a-6501-4405-9e0e-7450aa18c9d4
+    - !<own> cdc4017a-802c-41c1-94df-1d3e739e1ed4
+    - !<own> 70c417d4-e636-4354-820a-2878e2547cae
+    - !<own> 6aa5340d-f128-4747-bff2-e9a1536593b5
+    - !<own> 08065180-aa5d-45c9-bf3c-a00a8fd058ef
+  Components:
+    []

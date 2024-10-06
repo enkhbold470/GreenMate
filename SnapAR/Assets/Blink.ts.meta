@@ -24,16 +24,31 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
+    drink: false
+    dust: false
     objecttoBlink: false
+    rain: false
     remoteServiceModule: false
+    sun: false
+    text1: false
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
     - objecttoBlink: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       remoteServiceModule: !<reference.RemoteServiceModule> 00000000-0000-0000-0000-000000000000
+      text1: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      sun: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      drink: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      rain: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      dust: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   InputLines:
     - // @input SceneObject objecttoBlink
+    - // @input SceneObject sun
+    - // @input SceneObject drink
+    - // @input SceneObject rain
+    - // @input SceneObject dust
     - // @input Asset.RemoteServiceModule remoteServiceModule
+    - // @input Component.Text3D text1

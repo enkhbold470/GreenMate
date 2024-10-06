@@ -14,8 +14,18 @@ function checkUndefined(property, showIfData){
 }
 // @input SceneObject objecttoBlink
 checkUndefined("objecttoBlink", []);
+// @input SceneObject sun
+checkUndefined("sun", []);
+// @input SceneObject drink
+checkUndefined("drink", []);
+// @input SceneObject rain
+checkUndefined("rain", []);
+// @input SceneObject dust
+checkUndefined("dust", []);
 // @input Asset.RemoteServiceModule remoteServiceModule
 checkUndefined("remoteServiceModule", []);
+// @input Component.Text3D text1
+checkUndefined("text1", []);
 var scriptPrototype = Object.getPrototypeOf(script);
 if (!global.BaseScriptComponent){
    function BaseScriptComponent(){}

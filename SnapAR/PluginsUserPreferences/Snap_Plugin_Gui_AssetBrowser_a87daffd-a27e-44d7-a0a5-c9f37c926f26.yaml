@@ -1,86 +1,288 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 161
+    size: 417
     values:
+      - 3D Text Languages Example/.hidden
+      - 3D Text Languages Example/.hidden/languages_mat.ss_graph
+      - 3D Text Languages Example/3D Text Languages Example
+      - 3D Text Languages Example/3D Text Languages Example/Fonts
+      - 3D Text Languages Example/3D Text Languages Example/Fonts/NotoSansArabic-Bold.ttf
+      - 3D Text Languages Example/3D Text Languages Example/Fonts/NotoSansArabic_SemiCondensed-Bold.ttf
+      - 3D Text Languages Example/3D Text Languages Example/Fonts/Staatliches-Regular.ttf
+      - 3D Text Languages Example/3D Text Languages Example/Materials
+      - 3D Text Languages Example/3D Text Languages Example/Materials/languages_mat.mat
+      - 3D Text Languages Example/3D Text Languages Example__PLACE_IN_SCENE.prefab
       - Blink.ts
+      - Cloud
+      - Cloud/.hidden
+      - Cloud/.hidden/cloud_diffuse.ss_graph
+      - Cloud/.hidden/cloud_face_happy_diffuse.ss_graph
+      - Cloud/BaseLayer.animationMixerLayer
+      - Cloud/Chick Resources
+      - Cloud/Chick Resources/Textures
+      - Cloud/Chick Resources/Textures/chick_lo_defaultMat1_materialParams.pvr
+      - Cloud/Cloud Resources
+      - Cloud/Cloud Resources/Animations
+      - Cloud/Cloud Resources/Animations/joint1 2.animationLayer
+      - Cloud/Cloud Resources/Animations/joint1 3.animationLayer
+      - Cloud/Cloud Resources/Animations/joint1.animationLayer
+      - Cloud/Cloud Resources/Animations/joint10 2.animationLayer
+      - Cloud/Cloud Resources/Animations/joint10 3.animationLayer
+      - Cloud/Cloud Resources/Animations/joint10.animationLayer
+      - Cloud/Cloud Resources/Animations/joint11 2.animationLayer
+      - Cloud/Cloud Resources/Animations/joint11.animationLayer
+      - Cloud/Cloud Resources/Animations/joint2 2.animationLayer
+      - Cloud/Cloud Resources/Animations/joint2 3.animationLayer
+      - Cloud/Cloud Resources/Animations/joint2.animationLayer
+      - Cloud/Cloud Resources/Animations/joint3 2.animationLayer
+      - Cloud/Cloud Resources/Animations/joint3 3.animationLayer
+      - Cloud/Cloud Resources/Animations/joint3.animationLayer
+      - Cloud/Cloud Resources/Animations/joint4 2.animationLayer
+      - Cloud/Cloud Resources/Animations/joint4 3.animationLayer
+      - Cloud/Cloud Resources/Animations/joint4.animationLayer
+      - Cloud/Cloud Resources/Animations/joint5 2.animationLayer
+      - Cloud/Cloud Resources/Animations/joint5 3.animationLayer
+      - Cloud/Cloud Resources/Animations/joint5.animationLayer
+      - Cloud/Cloud Resources/Animations/joint6 2.animationLayer
+      - Cloud/Cloud Resources/Animations/joint6 3.animationLayer
+      - Cloud/Cloud Resources/Animations/joint6.animationLayer
+      - Cloud/Cloud Resources/Animations/joint7 2.animationLayer
+      - Cloud/Cloud Resources/Animations/joint7 3.animationLayer
+      - Cloud/Cloud Resources/Animations/joint7.animationLayer
+      - Cloud/Cloud Resources/Animations/joint8.animationLayer
+      - Cloud/Cloud Resources/Animations/joint8_2.animationLayer
+      - Cloud/Cloud Resources/Animations/joint8_3.animationLayer
+      - Cloud/Cloud Resources/Animations/joint9 2.animationLayer
+      - Cloud/Cloud Resources/Animations/joint9 3.animationLayer
+      - Cloud/Cloud Resources/Animations/joint9.animationLayer
+      - Cloud/Cloud Resources/Materials
+      - Cloud/Cloud Resources/Materials/cloud_diffuse.mat
+      - Cloud/Cloud Resources/Materials/cloud_face_happy_diffuse.mat
+      - Cloud/Cloud Resources/Materials/cloud_face_sad_diffuse.mat
+      - Cloud/Cloud Resources/Materials/lightning_diffuse.mat
+      - Cloud/Cloud Resources/Meshes
+      - Cloud/Cloud Resources/Meshes/Ltnng_001.mesh
+      - Cloud/Cloud Resources/Meshes/Ltnng_002.mesh
+      - Cloud/Cloud Resources/Meshes/Ltnng_003.mesh
+      - Cloud/Cloud Resources/Meshes/cloud_mesh.mesh
+      - Cloud/Cloud Resources/Meshes/clouf_face.mesh
+      - Cloud/Cloud Resources/Meshes/clouf_face1.mesh
+      - Cloud/Cloud Resources/Textures
+      - Cloud/Cloud Resources/Textures/Base.png
+      - Cloud/Cloud Resources/Textures/cloud_diffuse.jpg
+      - Cloud/Cloud Resources/Textures/cloud_face_happy.pvr
+      - Cloud/Cloud Resources/Textures/cloud_face_sad.pvr
+      - Cloud/Cloud__PLACE_IN_OBJECTS_PANEL.prefab
+      - Cloud/bounce.animationMixerLayer
+      - Cloud/collide.animationMixerLayer
+      - Clouds VFX
+      - Clouds VFX/Cloud VFX Resources
+      - Clouds VFX/Cloud VFX Resources/Textures
+      - Clouds VFX/Cloud VFX Resources/Textures/cloud_animation
+      - Clouds VFX/Cloud VFX Resources/Textures/cloud_animation/cloud_animation.t3d
+      - Clouds VFX/Cloud VFX Resources/Textures/cloud_animation/cloud_animation.t3d/atlas_0.pvr
+      - Clouds VFX/Cloud VFX Resources/Textures/cloud_animation/cloud_animation.t3d/cloud_animation
+      - Clouds VFX/Cloud VFX Resources/VFX
+      - Clouds VFX/Cloud VFX Resources/VFX/clouds_vfx.vfxgraph
+      - Clouds VFX/Clouds__PLACE_IN_OBJECTS_PANEL.prefab
+      - Drinks Pack
+      - Drinks Pack/.hidden
+      - Drinks Pack/.hidden/bottle_mini.ss_graph
+      - Drinks Pack/Bitmoji Drinks Pack Resources
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/bottle_mini
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/bottle_mini/Material
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/bottle_mini/Material/bottle_mini.mat
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/bottle_mini/Meshes
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/bottle_mini/Meshes/C_bottle_GEO.mesh
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/bottle_mini/Meshes/C_cap_GEO.mesh
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/bottle_mini/Meshes/C_label_GEO.mesh
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/bottle_mini/Meshes/C_liquid_GEO.mesh
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/bottle_water
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/bottle_water/Material
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/bottle_water/Material/bottle_water.mat
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/bottle_water/Meshes
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/bottle_water/Meshes/C_bottle_water_GEO.mesh
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/champagne_glass
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/champagne_glass/Material
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/champagne_glass/Material/champagne_glass.mat
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/champagne_glass/Meshes
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/champagne_glass/Meshes/C_Champange_Glass_GEO.mesh
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/coffee_cup
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/coffee_cup/Material
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/coffee_cup/Material/coffee_cup.mat
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/coffee_cup/Meshes
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/coffee_cup/Meshes/CoffeeCup.mesh
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/coffee_cup_empty
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/coffee_cup_empty/Material
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/coffee_cup_empty/Material/coffee_cup_empty.mat
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/coffee_cup_empty/Meshes
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/coffee_cup_empty/Meshes/CoffeeCup.mesh
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/cup
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/cup/Material
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/cup/Material/cup.mat
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/cup/Meshes
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/cup/Meshes/C_cup_GEO.mesh
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/cup/Meshes/C_cup_liquid_GEO.mesh
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/cup_coffee_togo
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/cup_coffee_togo/Material
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/cup_coffee_togo/Material/cup_coffee_togo.mat
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/cup_coffee_togo/Meshes
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/cup_coffee_togo/Meshes/C_cup_coffee_togo_GEO.mesh
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/drink_tropical
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/drink_tropical/Material
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/drink_tropical/Material/drink_tropical.mat
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/drink_tropical/Meshes
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/drink_tropical/Meshes/C_drink_tropical_GEO.mesh
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/drink_tropical/Meshes/C_drink_tropical_glass_GEO.mesh
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/drink_tropical/Meshes/C_drink_tropical_umbrella_GEO.mesh
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/fancy_glass
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/fancy_glass/Material
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/fancy_glass/Material/fancy_glass.mat
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/fancy_glass/Meshes
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/fancy_glass/Meshes/C_wineGlass_GEO.mesh
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/glass_water
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/glass_water/Material
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/glass_water/Material/glass_water.mat
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/glass_water/Meshes
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/glass_water/Meshes/C_glass_GEO.mesh
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/glass_water/Meshes/C_water_GEO.mesh
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/pint
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/pint/Material
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/pint/Material/pint.mat
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/pint/Material/pint_glass.mat
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/pint/Meshes
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/pint/Meshes/C_beer_GEO.mesh
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/pint/Meshes/C_glass_GEO.mesh
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/soda_bottle
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/soda_bottle/Material
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/soda_bottle/Material/soda_bottle.mat
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/soda_bottle/Meshes
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/soda_bottle/Meshes/C_bottle_GEO.mesh
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/soda_bottle/Meshes/C_cap_GEO.mesh
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/soda_can
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/soda_can/Material
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/soda_can/Material/soda_can.mat
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/soda_can/Meshes
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/soda_can/Meshes/Soda_Can.mesh
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/umbrella_mocktail
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/umbrella_mocktail/Material
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/umbrella_mocktail/Material/umbrella_mocktail.mat
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/umbrella_mocktail/Meshes
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Meshes/umbrella_mocktail/Meshes/C_umbrella_cocktail_GEO.mesh
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Textures
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Textures/bottle_mini_booze_color.png
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Textures/bottle_water_color.png
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Textures/champagne_glass_color.png
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Textures/coffee_cup_color.png
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Textures/coffee_cup_empty_color.png
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Textures/cup_coffee_togo_color.png
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Textures/cup_color.png
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Textures/drink_tropical_color.png
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Textures/fancy_glass_color.png
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Textures/glass_water_color.png
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Textures/pint_color.png
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Textures/soda_bottle_color.png
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Textures/soda_can_color.png
+      - Drinks Pack/Bitmoji Drinks Pack Resources/Textures/umbrella_mocktail_color.png
+      - Drinks Pack/BitmojiDrinks__PLACE_IN_OBJECTS_PANEL.prefab
       - Echopark.hdr
-      - GPU Particles Effects Pack.lspkg
-      - GPU Particles Effects Pack.lspkg/GPU_Particles_Effects_Pack__PLACE_IN_SCENE.prefab
-      - GPU Particles Effects Pack.lspkg/Materials
-      - "GPU Particles Effects Pack.lspkg/Materials/Blizzard [EDIT_ME].mat"
-      - "GPU Particles Effects Pack.lspkg/Materials/Bokeh [EDIT_ME].mat"
-      - "GPU Particles Effects Pack.lspkg/Materials/Embers [EDIT_ME].mat"
-      - "GPU Particles Effects Pack.lspkg/Materials/Fountain Cartoon [EDIT_ME].mat"
-      - "GPU Particles Effects Pack.lspkg/Materials/Rain [EDIT_ME].mat"
-      - "GPU Particles Effects Pack.lspkg/Materials/Snow Ground [EDIT_ME].mat"
-      - "GPU Particles Effects Pack.lspkg/Materials/Snow [EDIT_ME].mat"
-      - "GPU Particles Effects Pack.lspkg/Materials/Sparkles [EDIT_ME].mat"
-      - GPU Particles Effects Pack.lspkg/Meshes
-      - GPU Particles Effects Pack.lspkg/Meshes/Particles Mesh.mesh
-      - GPU Particles Effects Pack.lspkg/Scripts
-      - GPU Particles Effects Pack.lspkg/Scripts/Simple GPU Particles Controller.js
-      - GPU Particles Effects Pack.lspkg/Shaders
-      - GPU Particles Effects Pack.lspkg/Shaders/GPU Particles.ss_graph
-      - GPU Particles Effects Pack.lspkg/Textures
-      - GPU Particles Effects Pack.lspkg/Textures/White 1x1.png
-      - GPU Particles Effects Pack.lspkg/Textures/cr_blink.png
-      - GPU Particles Effects Pack.lspkg/Textures/cr_linear_blend.png
-      - GPU Particles Effects Pack.lspkg/Textures/fireball_2x2.png
-      - GPU Particles Effects Pack.lspkg/Textures/fx_bokeh.png
-      - GPU Particles Effects Pack.lspkg/Textures/fx_rain_2x2.png
-      - GPU Particles Effects Pack.lspkg/Textures/fx_sparkles_2x2.png
-      - GPU Particles Effects Pack.lspkg/Textures/fx_water_splash_2x2_cartoony.png
-      - GPU Particles Effects Pack.lspkg/package.native
+      - Fountain Cartoon VFX/Fountain Cartoon VFX Resources
+      - Fountain Cartoon VFX/Fountain Cartoon VFX Resources/Textures
+      - Fountain Cartoon VFX/Fountain Cartoon VFX Resources/Textures/fx_water_splash_2x2_cartoony.png
+      - Fountain Cartoon VFX/Fountain Cartoon VFX Resources/VFX
+      - Fountain Cartoon VFX/Fountain Cartoon VFX Resources/VFX/fountain_cartoon_vfx.vfxgraph
+      - Fountain Cartoon VFX/FountainCartoonVFX__PLACE_IN_OBJECTS_PANEL.prefab
+      - Hologram Material
+      - Hologram Material/.hidden
+      - Hologram Material/.hidden/Hologram.ss_graph
+      - Hologram Material/Hologram.mat
       - IMG_1679.png
       - IMG_1680.png
+      - Info Card
+      - Info Card/.hidden
+      - Info Card/.hidden/Info Card Background.ss_graph
+      - Info Card/.hidden/SpritePreset.lsmat.mat
+      - Info Card/.hidden/SpritePreset1.lsmat.ss_graph
+      - "Info Card/Info Card [DELETE_ME]"
+      - "Info Card/Info Card [DELETE_ME]/Fonts"
+      - "Info Card/Info Card [DELETE_ME]/Fonts/Lato-Bold.ttf"
+      - "Info Card/Info Card [DELETE_ME]/Fonts/Lato-Regular.ttf"
+      - "Info Card/Info Card [DELETE_ME]/Materials"
+      - "Info Card/Info Card [DELETE_ME]/Materials/Info Card Background.mat"
+      - "Info Card/Info Card [DELETE_ME]/Textures"
+      - "Info Card/Info Card [DELETE_ME]/Textures/BaseTex.png"
+      - "Info Card/Info Card [DELETE_ME]/Textures/Icon.png"
+      - Info Card/Info Card.prefab
       - InternetRemoteServiceModule.remoteServiceModule
-      - Marker Cube
-      - Marker Cube 1
-      - Marker Cube 1/.hidden
-      - Marker Cube 1/.hidden/Graph Matte Shadow.ss_graph
-      - Marker Cube 1/.hidden/Occluder.ss_graph
-      - Marker Cube 1/.hidden/Textures
-      - Marker Cube 1/.hidden/Textures/Base.png
-      - Marker Cube 1/.hidden/Textures/MaterialParams.png
-      - Marker Cube 1/.hidden/Textures/Normal.png
-      - Marker Cube 1/.hidden/Uber PBR.lsmat.mat
-      - Marker Cube 1/.hidden/Uber PBR1.lsmat.ss_graph
-      - Marker Cube 1/Marker Resources
-      - Marker Cube 1/Marker Resources/Materials
-      - Marker Cube 1/Marker Resources/Materials/Graph Matte Shadow.mat
-      - Marker Cube 1/Marker Resources/Materials/Occluder.mat
-      - Marker Cube 1/Marker Resources/Meshes
-      - Marker Cube 1/Marker Resources/Meshes/Box.mesh
-      - Marker Cube 1/Marker Resources/Meshes/Plane.mesh
-      - Marker Cube 1/Marker Resources/Scripts
-      - Marker Cube 1/Marker Resources/Scripts/EnableLightShadows.js
-      - "Marker Cube 1/Marker Resources/image_marker [EDIT_ME].imgmarker"
-      - Marker Cube 1/Marker_Cube_PUT_UNDER_MAIN_CAM.prefab
-      - Marker Cube 1/image.jpg
-      - Marker Cube/.hidden
-      - Marker Cube/.hidden/Graph Matte Shadow.ss_graph
-      - Marker Cube/.hidden/Occluder.ss_graph
-      - Marker Cube/.hidden/Textures
-      - Marker Cube/.hidden/Textures/Base.png
-      - Marker Cube/.hidden/Textures/MaterialParams.png
-      - Marker Cube/.hidden/Textures/Normal.png
-      - Marker Cube/.hidden/Uber PBR.lsmat.mat
-      - Marker Cube/.hidden/Uber PBR1.lsmat.ss_graph
-      - Marker Cube/Marker Resources/Materials
-      - Marker Cube/Marker Resources/Materials/Graph Matte Shadow.mat
-      - Marker Cube/Marker Resources/Materials/Occluder.mat
-      - Marker Cube/Marker Resources/Meshes
-      - Marker Cube/Marker Resources/Meshes/Box.mesh
-      - Marker Cube/Marker Resources/Meshes/Plane.mesh
-      - Marker Cube/Marker Resources/Scripts
-      - Marker Cube/Marker Resources/Scripts/EnableLightShadows.js
-      - "Marker Cube/Marker Resources/image_marker [EDIT_ME].imgmarker"
-      - Marker Cube/Marker_Cube_PUT_UNDER_MAIN_CAM.prefab
-      - Marker Cube/image.jpg
-      - Placeholder API Module.js
-      - Placeholder API.js
-      - Placeholder.remoteServiceModule
+      - ROOM HOME ASSETS 3D
+      - ROOM HOME ASSETS 3D/.hidden
+      - ROOM HOME ASSETS 3D/.hidden/Info Card Background.ss_graph
+      - ROOM HOME ASSETS 3D/.hidden/SpritePreset.lsmat.mat
+      - ROOM HOME ASSETS 3D/.hidden/SpritePreset1.lsmat.ss_graph
+      - ROOM HOME ASSETS 3D/.hidden/SpritePreset2.lsmat.mat
+      - ROOM HOME ASSETS 3D/.hidden/f_material.ss_graph
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/2D icono/Imagen_logo.png
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Materials
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Materials/f_material.mat
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Materials/ph_material.mat
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/clock_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/clock_min_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/clock_sec_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/fridge1_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/fridge_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/handle_fridge_01_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/handle_lamp_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/lamp_01_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/lamp_02_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/lamp_l_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/pillow_01_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/pillow_02_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/plant_01_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/plant_02_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/plant_03_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/plant_04_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/plant_05_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/plant_06_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/plant_07_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/plant_08_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/pot_01_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/pot_02_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/sofa_l_01_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/sofa_l_02_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/sofa_l_03_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/sofa_l_04_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/sofa_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_01_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_02_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_03_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_04_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_d_02_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_d_03_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_d_04_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_d_05_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_d_06_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_d_07_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_d_08_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_d_09_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_d_10_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_small_02_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_small_03_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Meshes/table_small_low_f_material_0.mesh
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Textures
+      - ROOM HOME ASSETS 3D/Asset _Room_Resources._/3D ASSETS/Textures/1.png
+      - "ROOM HOME ASSETS 3D/Asset _Room_Resources._/Info Card [DELETE_ME]/Fonts"
+      - "ROOM HOME ASSETS 3D/Asset _Room_Resources._/Info Card [DELETE_ME]/Fonts/Lato-Bold.ttf"
+      - "ROOM HOME ASSETS 3D/Asset _Room_Resources._/Info Card [DELETE_ME]/Fonts/Lato-Regular.ttf"
+      - "ROOM HOME ASSETS 3D/Asset _Room_Resources._/Info Card [DELETE_ME]/Materials"
+      - "ROOM HOME ASSETS 3D/Asset _Room_Resources._/Info Card [DELETE_ME]/Materials/Info Card Background.mat"
+      - "ROOM HOME ASSETS 3D/Asset _Room_Resources._/Info Card [DELETE_ME]/Textures"
+      - "ROOM HOME ASSETS 3D/Asset _Room_Resources._/Info Card [DELETE_ME]/Textures/BaseTex.png"
+      - "ROOM HOME ASSETS 3D/Asset _Room_Resources._/Info Card [DELETE_ME]/Textures/Icon.png"
+      - ROOM HOME ASSETS 3D/RoomHome__PLACE_IN_OBJECTS_PANEL.prefab
       - Shiny Face Mesh
       - Shiny Face Mesh/.hidden
       - Shiny Face Mesh/.hidden/shiny_face.ss_graph
@@ -99,69 +301,123 @@ CollapsedEntities:
       - Shiny Face Mesh/Shiny Face Mesh Resources/Textures/full_soft_lips.png
       - Shiny Face Mesh/Shiny Face Mesh Resources/Textures/white.png
       - Shiny Face Mesh/Shiny Face Mesh__PUT_UNDER_HEAD_BINDING.prefab
+      - Smoke VFX/Smoke VFX Resources/Textures
+      - Smoke VFX/Smoke VFX Resources/Textures/smoke_realistics.png
+      - Smoke VFX/Smoke VFX Resources/VFX/smoke_vfx.vfxgraph
+      - Smoke VFX/SmokeVFX__PLACE_IN_OBJECTS_PANEL.prefab
+      - Snow Hat VFX
+      - Snow Hat VFX/.hidden
+      - Snow Hat VFX/.hidden/Graph Occluder.ss_graph
+      - Snow Hat VFX/.hidden/Hat Part 1 Material.ss_graph
+      - Snow Hat VFX/.hidden/Hat Part 2 Material.ss_graph
+      - Snow Hat VFX/Converted Scripts
+      - Snow Hat VFX/Converted Scripts/SendDataToVFX_UpdateEvent.js
+      - Snow Hat VFX/Converted Scripts/SendDataToVFX_wrapped.js
+      - Snow Hat VFX/Converted Scripts/SmoothFollower_FaceFoundEvent.js
+      - Snow Hat VFX/Converted Scripts/SmoothFollower_wrapped.js
+      - Snow Hat VFX/SnowHat Resources
+      - Snow Hat VFX/SnowHat Resources/3D Textures
+      - Snow Hat VFX/SnowHat Resources/3D Textures/Part1 SDF.png
+      - Snow Hat VFX/SnowHat Resources/Materials
+      - Snow Hat VFX/SnowHat Resources/Materials/Graph Occluder.mat
+      - Snow Hat VFX/SnowHat Resources/Materials/Hat Part 1 Material.mat
+      - Snow Hat VFX/SnowHat Resources/Materials/Hat Part 2 Material.mat
+      - Snow Hat VFX/SnowHat Resources/Meshes
+      - Snow Hat VFX/SnowHat Resources/Meshes/Beret2
+      - Snow Hat VFX/SnowHat Resources/Meshes/Beret2/Meshes
+      - Snow Hat VFX/SnowHat Resources/Meshes/Beret2/Meshes/Part1.mesh
+      - Snow Hat VFX/SnowHat Resources/Meshes/Beret2/Meshes/Part2.mesh
+      - Snow Hat VFX/SnowHat Resources/Meshes/Occluder Mesh.mesh
+      - Snow Hat VFX/SnowHat Resources/Scripts
+      - Snow Hat VFX/SnowHat Resources/Scripts/SendDataToVFX.js
+      - Snow Hat VFX/SnowHat Resources/Scripts/SmoothFollower.js
+      - Snow Hat VFX/SnowHat Resources/Textures
+      - Snow Hat VFX/SnowHat Resources/Textures/white.png
+      - Snow Hat VFX/SnowHat Resources/VFX
+      - "Snow Hat VFX/SnowHat Resources/VFX/sdf_collision_snow [EDIT_ME].vfxgraph"
+      - Snow Hat VFX/SnowHat__PUT_UNDER_MAIN_CAM.prefab
+      - Solar System Pack
+      - Solar System Pack/.hidden
+      - Solar System Pack/.hidden/Earth Material.ss_graph
+      - Solar System Pack/.hidden/Saturn Rings Material.ss_graph
+      - Solar System Pack/Solar System Pack Resources
+      - Solar System Pack/Solar System Pack Resources/Materials
+      - Solar System Pack/Solar System Pack Resources/Materials/Earth Material.mat
+      - Solar System Pack/Solar System Pack Resources/Materials/Jupiter Material.mat
+      - Solar System Pack/Solar System Pack Resources/Materials/Mars Material.mat
+      - Solar System Pack/Solar System Pack Resources/Materials/Mercury Material.mat
+      - Solar System Pack/Solar System Pack Resources/Materials/Moon Material.mat
+      - Solar System Pack/Solar System Pack Resources/Materials/Neptune Material.mat
+      - Solar System Pack/Solar System Pack Resources/Materials/Saturn Rings Material.mat
+      - Solar System Pack/Solar System Pack Resources/Materials/Saturon Material.mat
+      - Solar System Pack/Solar System Pack Resources/Materials/Sun Material.mat
+      - Solar System Pack/Solar System Pack Resources/Materials/Uranos Rings Material.mat
+      - Solar System Pack/Solar System Pack Resources/Materials/Uranus Material.mat
+      - Solar System Pack/Solar System Pack Resources/Materials/Venus Material.mat
+      - Solar System Pack/Solar System Pack Resources/Solar_System_Pack
+      - Solar System Pack/Solar System Pack Resources/Solar_System_Pack/Meshes
+      - Solar System Pack/Solar System Pack Resources/Solar_System_Pack/Meshes/Mesh 10.mesh
+      - Solar System Pack/Solar System Pack Resources/Solar_System_Pack/Meshes/Mesh 2.mesh
+      - Solar System Pack/Solar System Pack Resources/Solar_System_Pack/Meshes/Mesh 3.mesh
+      - Solar System Pack/Solar System Pack Resources/Solar_System_Pack/Meshes/Mesh 4.mesh
+      - Solar System Pack/Solar System Pack Resources/Solar_System_Pack/Meshes/Mesh 5.mesh
+      - Solar System Pack/Solar System Pack Resources/Solar_System_Pack/Meshes/Mesh 6.mesh
+      - Solar System Pack/Solar System Pack Resources/Solar_System_Pack/Meshes/Mesh 7.mesh
+      - Solar System Pack/Solar System Pack Resources/Solar_System_Pack/Meshes/Mesh 8.mesh
+      - Solar System Pack/Solar System Pack Resources/Solar_System_Pack/Meshes/Mesh 9.mesh
+      - Solar System Pack/Solar System Pack Resources/Solar_System_Pack/Meshes/Mesh.mesh
+      - Solar System Pack/Solar System Pack Resources/Solar_System_Pack/Meshes/Sphere 2.mesh
+      - Solar System Pack/Solar System Pack Resources/Solar_System_Pack/Meshes/Sphere.mesh
+      - Solar System Pack/Solar System Pack Resources/Textures
+      - Solar System Pack/Solar System Pack Resources/Textures/Earth
+      - Solar System Pack/Solar System Pack Resources/Textures/Earth/Earth_Params.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Earth/Earth_base.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Earth/Earth_normal.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Jupiter
+      - Solar System Pack/Solar System Pack Resources/Textures/Jupiter/Jupiter_Params.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Jupiter/Jupiter_base.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Jupiter/Jupiter_normal.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Mars
+      - Solar System Pack/Solar System Pack Resources/Textures/Mars/Mars_Params.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Mars/Mars_base.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Mars/Mars_normal.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Mercury
+      - Solar System Pack/Solar System Pack Resources/Textures/Mercury/Mercury_Params.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Mercury/Mercury_base.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Mercury/Mercury_normal.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Moon
+      - Solar System Pack/Solar System Pack Resources/Textures/Moon/Moon_Params.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Moon/Moon_base.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Moon/Moon_normal.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Neptune
+      - Solar System Pack/Solar System Pack Resources/Textures/Neptune/Neptune_Params.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Neptune/Neptune_base.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Neptune/Neptune_normal.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Saturon
+      - Solar System Pack/Solar System Pack Resources/Textures/Saturon/Saturn_Ring_base.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Saturon/Saturn_base.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Saturon/Saturn_normal.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Saturon/Saturon_Params.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Sun
+      - Solar System Pack/Solar System Pack Resources/Textures/Sun/Sun_Params.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Sun/Sun_base.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Sun/Sun_normal.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Uranus
+      - Solar System Pack/Solar System Pack Resources/Textures/Uranus/Uranus_Params.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Uranus/Uranus_Ring_base.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Uranus/Uranus_base.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Uranus/Uranus_normal.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Venus
+      - Solar System Pack/Solar System Pack Resources/Textures/Venus/Venus_Params.png
+      - Solar System Pack/Solar System Pack Resources/Textures/Venus/Venus_base.png
+      - Solar System Pack/Solar_System_Pack__PLACE_IN_OBJECTS_PANEL.prefab
       - SpectaclesInteractionKit
+      - SpectaclesInteractionKit/Assets/Materials/BaseHandVisualsMaterials
+      - SpectaclesInteractionKit/Assets/Materials/SliderMat
       - SpectaclesInteractionKit/package.native
-      - Trail Effect
-      - Trail Effect/.hidden
-      - Trail Effect/.hidden/Textures
-      - Trail Effect/.hidden/Textures/Base.png
-      - Trail Effect/.hidden/Textures/Normal.png
-      - Trail Effect/.hidden/UberDiffuse.lsmat.mat
-      - Trail Effect/.hidden/UberDiffuse1.lsmat.ss_graph
-      - Trail Effect/.hidden/trail_material.ss_graph
-      - Trail Effect/Layer0.animationMixerLayer
-      - Trail Effect/Trail Effect Resources
-      - Trail Effect/Trail Effect Resources/Fonts
-      - Trail Effect/Trail Effect Resources/Fonts/fredoka_one_regular.ttf
-      - Trail Effect/Trail Effect Resources/Materials
-      - Trail Effect/Trail Effect Resources/Materials/trail_material.mat
-      - Trail Effect/Trail Effect Resources/Meshes
-      - Trail Effect/Trail Effect Resources/Meshes/Sphere.mesh
-      - Trail Effect/Trail Effect Resources/Meshes/moving_object
-      - Trail Effect/Trail Effect Resources/Meshes/moving_object/Animations
-      - Trail Effect/Trail Effect Resources/Meshes/moving_object/Animations/Moving_Empty_Object.animationLayer
-      - Trail Effect/Trail Effect Resources/Scripts
-      - Trail Effect/Trail Effect Resources/Scripts/TrailMeshBuilderController.js
-      - Trail Effect/TrailEffect__PLACE_IN_OBJECTS_PANEL.prefab
-      - Weather
-      - Weather/.hidden
-      - Weather/.hidden/cloud.ss_graph
-      - Weather/3d_icons__weather
-      - Weather/3d_icons__weather/Materials
-      - Weather/3d_icons__weather/Materials/cloud.mat
-      - Weather/3d_icons__weather/Materials/cloudly.mat
-      - Weather/3d_icons__weather/Materials/lighting.mat
-      - Weather/3d_icons__weather/Materials/rain.mat
-      - Weather/3d_icons__weather/Materials/rainlighting.mat
-      - Weather/3d_icons__weather/Materials/snow.mat
-      - Weather/3d_icons__weather/Materials/sun.mat
-      - Weather/3d_icons__weather/Materials/sun_2.mat
-      - Weather/3d_icons__weather/Materials/sun_3.mat
-      - Weather/3d_icons__weather/Materials/suncloud.mat
-      - Weather/3d_icons__weather/Meshes
-      - Weather/3d_icons__weather/Meshes/cloud_cloud_0.mesh
-      - Weather/3d_icons__weather/Meshes/cloudly_cloudly_0.mesh
-      - Weather/3d_icons__weather/Meshes/lighting_lighting_0.mesh
-      - Weather/3d_icons__weather/Meshes/rain_lighting_rain&lighting_0.mesh
-      - Weather/3d_icons__weather/Meshes/rain_rain_0.mesh
-      - Weather/3d_icons__weather/Meshes/snow_snow_0.mesh
-      - Weather/3d_icons__weather/Meshes/sun_2_sun_2.mesh
-      - Weather/3d_icons__weather/Meshes/sun_3_sun_3_0.mesh
-      - Weather/3d_icons__weather/Meshes/sun_cloud_sun&cloud_0.mesh
-      - Weather/3d_icons__weather/Meshes/sun_sun.mesh
-      - Weather/3d_icons__weather/Textures
-      - Weather/3d_icons__weather/Textures/1.jpeg
-      - Weather/3d_icons__weather/Textures/11.jpeg
-      - Weather/3d_icons__weather/Textures/13.jpeg
-      - Weather/3d_icons__weather/Textures/15.jpeg
-      - Weather/3d_icons__weather/Textures/17.jpeg
-      - Weather/3d_icons__weather/Textures/19.jpeg
-      - Weather/3d_icons__weather/Textures/3.jpeg
-      - Weather/3d_icons__weather/Textures/5.jpeg
-      - Weather/3d_icons__weather/Textures/7.jpeg
-      - Weather/3d_icons__weather/Textures/9.jpeg
-      - Weather/Weather.prefab
+      - Text3D.mat
       - Yellow Hat.lspkg
       - Yellow Hat.lspkg/Textures
       - Yellow Hat.lspkg/package.native
+      - text_3d.ss_graph
   options: 4
