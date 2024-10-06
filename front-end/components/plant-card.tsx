@@ -7,7 +7,7 @@ export default function PlantCard({
 }: {
   name: string;
   image: string;
-  prediction: string;
+  prediction: string | React.ReactNode;
 }) {
   return (
     <div className="bg-white rounded-3xl shadow-lg overflow-hidden">

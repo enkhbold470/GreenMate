@@ -1,96 +1,108 @@
 "use client";
-import React from "react";
-// import YourPlants from "./YourPlants";
+import React, { useEffect, useState } from "react";
 import SensorInfo from "./sensorInfo";
-import sensorTypes from "../lib/sensorTypes";
 import PlantCard from "./plant-card";
-import { useEffect, useState } from "react";
 import useWeather from "../hook/useWeather";
-import { MapPinHouse, Thermometer } from "lucide-react";
+import { MapPinHouse, Thermometer, Droplets, Sun } from "lucide-react";
+import { SensorPrediction } from "@/lib/sensorPrediction";
+import LoadingSpinner from './loading'; // Import the LoadingSpinner component
+import Image from "next/image";
 export default function Landing() {
-  //get plant name from backend
-  const [wateringPrediction, setWateringPrediction] = useState(
-    "Server Error... Please try again later"
-  );
+  const [sensorData, setSensorData] = useState<SensorPrediction>(); // Changed to use SensorType array
+
   const lat = 40.8068737;
   const lon = -73.9604592;
   const { weather } = useWeather(lat, lon);
 
-  //loading to fetch for 1 second with time interv
-  if (wateringPrediction === "") {
-    setWateringPrediction("Loading...");
-  }
   useEffect(() => {
     const fetchPrediction = async () => {
-      const response = await fetch("/api/prediction");
-      const data = await response.json();
-      setWateringPrediction(data.prediction);
+      try {
+        const response = await fetch("/api/prediction");
+        const data: SensorPrediction = await response.json(); // Ensure data is of type SensorPrediction
+        console.log(data);
+        setSensorData(data); // Map sensor types to include fetched data
+      } catch (error) {
+        console.error("Error fetching prediction:", error);
+      }
     };
-    const timer = setTimeout(fetchPrediction, 1000); // Delay fetching for 1 second
-    return () => clearTimeout(timer); // Cleanup the timer on unmount
+
+    const timer = setInterval(fetchPrediction, 3000); // Fetch every 3 seconds
+    return () => clearInterval(timer); // Cleanup the timer on unmount
   }, []);
 
   return (
-    <div className="bg-anti-flash_white-DEFAULT min-h-screen font-sans text-fern_green-DEFAULT p-4">
-      <header className="flex justify-between items-center mb-6">
+    <div className="bg-anti-flash_white-DEFAULT min-h-screen font-sans text-fern_green-DEFAULT p-4 mb-20">
+      <div className="flex justify-between items-center mb-6">
         <div className="flex items-center space-x-2 gap-1">
-          <img
+          <Image
             src="/greenmate.svg"
             alt="Profile"
-            className="w-14 h-14 rounded-full border-2 border-fern_green-DEFAULT"
+            width={56}
+            height={56}
+            className="rounded-full border-2 border-fern_green-DEFAULT"
           />
-          <p className="text-sm font-semibold">Enkhbold G.</p>
+          <div className="text-sm font-semibold">Enkhbold G.</div>
         </div>
 
         <div className="flex items-center space-x-2">
-          <div>
-            {weather ? (
-              <div>
-                <div className="flex flex-col items-end space-x-2 space-y-2">
-                  {/* Location lucide icon */}
-                  <h2 className="flex items-center space-x-2">
-                    <span>Columbia University, NY</span>
-                    <MapPinHouse />
-                  </h2>
-                  <div className="flex items-center space-x-2">
-                    <p>
-                      {weather.temperature}°{weather.temperatureUnit}
-                    </p>
-                    <Thermometer />
-                  </div>
-                </div>
+          {weather ? (
+            <div className="flex flex-col items-end space-y-2">
+              <div className="flex items-center space-x-2">
+                <span>Columbia University, NY</span>
+                <MapPinHouse />
               </div>
-            ) : (
-              <p>Loading...</p>
-            )}
-          </div>
+              <div className="flex items-center space-x-2">
+                <div>
+                  {weather.temperature}°{weather.temperatureUnit}
+                </div>
+                <Thermometer />
+              </div>
+            </div>
+          ) : (
+            <LoadingSpinner />
+          )}
         </div>
-      </header>
+      </div>
 
-      <h1 className="text-2xl font-bold mb-6">My Plant</h1>
+      <div className="text-2xl font-bold mb-6">My Plant</div>
 
       <PlantCard
         name="Monstera Deliciosa"
         image="https://images.unsplash.com/photo-1485955900006-10f4d324d411?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        prediction={wateringPrediction}
+        prediction={sensorData?.water_prediction ?? "Loading..."}
       />
-
+    
       <div className="mt-6 space-y-4">
-        <h2 className="text-xl font-semibold">Dashboard</h2>
+        <div className="text-xl font-semibold">Predictions</div>
         <div className="grid grid-cols-2 gap-4">
-          {sensorTypes.map((sensor) => (
-            <SensorInfo
-              key={sensor.label}
-              icon={sensor.icon}
-              label={sensor.label}
-              value={sensor.value}
-              color={sensor.color}
-            />
-          ))}
+          <SensorInfo
+            icon={Droplets}
+            label="Humidity Prediction"
+            value={sensorData?.humidity_prediction ?? <LoadingSpinner />}
+            color="text-blue-500"
+          />
+          <SensorInfo
+            icon={Sun}
+            label="Sunlight Prediction"
+            value={sensorData?.sunlight_prediction ?? <LoadingSpinner />}
+            color="text-yellow-500"
+          />
+          <SensorInfo
+            icon={Thermometer}
+            label="Temperature Prediction"
+            value={sensorData?.temperature_prediction ?? <LoadingSpinner />}
+            color="text-red-500"
+          />
+          <SensorInfo
+            icon={Droplets}
+            label="Water Prediction"
+            value={sensorData?.water_prediction ?? <LoadingSpinner />}
+            color="text-blue-700"
+          />
         </div>
       </div>
 
-      {/* <YourPlants /> */}
+     
     </div>
   );
 }
