@@ -20,7 +20,7 @@ export class Blink extends BaseScriptComponent {
     text1: Text3D;
 
     private oneHot: number = 0;
-    private forDemoVid: boolean = true;
+    private forDemoVid: boolean = false;
     private previousHumidity: number = 0;
     private previousTemperature: number = 0;
     private previousSunlight: number = 0;
