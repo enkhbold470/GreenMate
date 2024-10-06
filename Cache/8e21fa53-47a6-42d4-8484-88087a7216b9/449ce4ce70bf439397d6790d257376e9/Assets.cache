@@ -1,0 +1,15 @@
+- !<AssetCache/449ce4ce-70bf-4393-97d6-790d257376e9>
+  AssetFiles:
+    8772c42e-6f26-4d90-98b8-a3e49e25b179: 8e21fa53-47a6-42d4-8484-88087a7216b9/449ce4ce70bf439397d6790d257376e9/Data/2DBitmojiAvatar.png
+  AssetCurrentFiles:
+    8772c42e-6f26-4d90-98b8-a3e49e25b179: 8e21fa53-47a6-42d4-8484-88087a7216b9/449ce4ce70bf439397d6790d257376e9/Data/2DBitmojiAvatar.png
+  Assets:
+    - !<FileTexture/8772c42e-6f26-4d90-98b8-a3e49e25b179>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 150
+        Height: 150
+  SourceHash: 449ce4ce70bf439397d6790d257376e9
+  FileHash: 4eee68154dd423b477bc5e4a4be727b5
+  NativePackageItems:
+    []

@@ -1,0 +1,15 @@
+- !<AssetCache/89fdceaf-21f1-4a0d-28a4-5c40af0d04f2>
+  AssetFiles:
+    5eb38e15-aba2-4c72-9ded-9d6a55c51f3d: a77435e1-d76e-4719-80e3-24f246c634c9/89fdceaf21f14a0d28a45c40af0d04f2/Data/follow-white.png
+  AssetCurrentFiles:
+    5eb38e15-aba2-4c72-9ded-9d6a55c51f3d: a77435e1-d76e-4719-80e3-24f246c634c9/89fdceaf21f14a0d28a45c40af0d04f2/Data/Performance/Medium/follow-white.pvr
+  Assets:
+    - !<FileTexture/5eb38e15-aba2-4c72-9ded-9d6a55c51f3d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 96
+        Height: 96
+  SourceHash: 89fdceaf21f14a0d28a45c40af0d04f2
+  FileHash: adc095c71dcc3f473c7b9e30efe3f0f7
+  NativePackageItems:
+    []

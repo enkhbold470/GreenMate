@@ -1,0 +1,47 @@
+- !<AssetImportMetadata/b81bbbe9-2747-4d7e-9ea3-cd276bc7b528>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> f774a90b-d5ff-4472-8028-d07020287a92
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> f774a90b-d5ff-4472-8028-d07020287a92
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 21a4dcc0-d76f-459a-a30c-4e2cf918b5fa
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/a8b92034-40bb-4d7f-a794-838910c04cf2>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/21a4dcc0-d76f-459a-a30c-4e2cf918b5fa>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    bottomMidSection: false
+    deviceCameraTexture: false
+    previewZone: false
+    toolbarLeftSection: false
+    toolbarMidSection: false
+    toolbarRightSection: false
+    toolbarScreenT: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - deviceCameraTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      toolbarScreenT: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      toolbarLeftSection: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      toolbarRightSection: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      toolbarMidSection: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      bottomMidSection: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      cameraImage: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      previewZone: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,883 @@
+{
+"ui": [
+{
+    "label": "Vertex Color",
+    "bindingType": "defineSelect",
+    "values": [
+        {
+            "value": "",
+            "label": "None",
+            "hint": "Ignore vertex color."
+        },
+        {
+            "value": "ENABLE_VERTEX_COLOR_BASE",
+            "label": "Base Color",
+            "hint": "Multiply vertex color rgba into 'Base Color', and 'Base Texture', if set."
+        },
+        {
+            "value": "ENABLE_VERTEX_COLOR_EMISSIVE",
+            "label": "Emissive",
+            "hint": "Use vertex color rgb as emissive, or add it on top of the 'Emissive Texture', if set."
+        },
+        {
+            "value": "ENABLE_VERTEX_COLOR_AO",
+            "label": "AO",
+            "hint": "Use vertex color rgb as AO, or multiply it into the 'AO Texture', if set."
+        }
+    ],
+    "hint": "Specifies the purpose for which vertex color will be used. Requires vertex color to be supplied by the mesh."
+},
+{
+    "bindingName": "baseColor",
+    "widget": "color",
+    "hint": "Specifies the base color (albedo) of the material if the 'Base Textre' is disabled. Multiplied with the 'Base Texture' otherwise."
+},
+{
+    "label": "Base Texture",
+    "bindingName": "ENABLE_BASE_TEX",
+    "bindingType": "define",
+    "widget": "group_start",
+    "hint": "Most materials use a base texture (albedo), but disabling it means the base texture will be considered white, and 'Base Color' will solely control the color."
+},
+    {
+        "label": "Texture",
+        "bindingName": "baseTex",
+        "widget": "texture_group"
+    },
+    {
+        "label": "Texture UV",
+        "bindingType": "defineSelect",
+        "values": [
+            {
+                "value": "baseTexUV 0",
+                "label": "Mesh UV 0",
+                "hint": "First UV set supplied by mesh. Default UV set on all meshes."
+            },
+            {
+                "value": "baseTexUV 1",
+                "label": "Mesh UV 1",
+                "hint": "Second UV set supplied by mesh. Optionally available if supplied from content creation tool."
+            },
+            {
+                "value": "baseTexUV 2",
+                "label": "Transformed UV 2",
+                "hint": "Requires 'Transformed UV 2' to be enabled."
+            },
+            {
+                "value": "baseTexUV 3",
+                "label": "Transformed UV 3",
+                "hint": "Requires 'Transformed UV 3' to be enabled."
+            }
+        ],
+        "hint": "Specifies the UV set used for sampling this texture."
+    },
+{
+    "_bindingName": "ENABLE_BASE_TEX",
+    "widget": "group_end"
+},
+{
+    "label": "Opacity Texture",
+    "bindingName": "ENABLE_OPACITY_TEX",
+    "bindingType": "define",
+    "widget": "group_start",
+    "hint": "Normally, the Base Texture's alpha is taken as opacity. Enabling this allows you to define a separate greyscale opacity texture. The 'Opacity Texture' value will be multiplied with the Base Texture's alpha (which is 1 for textures without alpha) to get the final opacity. 'Opacity Texture' is only available if 'Blend Mode' is not 'Disabled'."
+},
+    {
+        "label": "Texture",
+        "bindingName": "opacityTex",
+        "widget": "texture_group"
+    },
+    {
+        "label": "Texture UV",
+        "bindingType": "defineSelect",
+        "values": [
+            {
+                "value": "opacityTexUV 0",
+                "label": "Mesh UV 0",
+                "hint": "First UV set supplied by mesh. Default UV set on all meshes."
+            },
+            {
+                "value": "opacityTexUV 1",
+                "label": "Mesh UV 1",
+                "hint": "Second UV set supplied by mesh. Optionally available if supplied from content creation tool."
+            },
+            {
+                "value": "opacityTexUV 2",
+                "label": "Transformed UV 2",
+                "hint": "Requires 'Transformed UV 2' to be enabled."
+            },
+            {
+                "value": "opacityTexUV 3",
+                "label": "Transformed UV 3",
+                "hint": "Requires 'Transformed UV 3' to be enabled."
+            }
+        ],
+        "hint": "Specifies the UV set used for sampling this texture."
+    },
+{
+    "_bindingName": "ENABLE_OPACITY_TEX",
+    "widget": "group_end"
+},
+{
+    "bindingName": "alphaTestThreshold",
+    "widget": "slider",
+    "min": 0.0,
+    "max": 1.0,
+    "step": 0.001,
+    "default": 0.5,
+    "hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+},
+{
+    "label": "Recolor",
+    "bindingName": "ENABLE_RECOLOR",
+    "bindingType": "define",
+    "widget": "group_start",
+    "hint": "Recolor replaces colors in the base texture. This is useful for adding variety to assets, ex: recolor a red shirt with a green logo to a blue shirt with a black logo, or any other color combination. Where the base texture is red, you will get whatever color you set in Recolor Red, and same thing for the green and blue channels of the base texture. This also works in combination if the base color is not a pure red, green or blue color."
+},
+    {
+        "bindingName": "recolorRed",
+        "widget": "color"
+    },
+    {
+        "bindingName": "recolorGreen",
+        "widget": "color"
+    },
+    {
+        "bindingName": "recolorBlue",
+        "widget": "color"
+    },
+{
+    "_bindingName": "ENABLE_RECOLOR",
+    "widget": "group_end"
+},
+{
+    "label": "Detail Map",
+    "bindingName": "ENABLE_DETAILMAP",
+    "bindingType": "define",
+    "widget": "group_start",
+    "hint": "Detail mapping blends a detail texture with the base texture using Overlay blending. This means mid grey leaves the base texture unchanged, darker darkens it, and brighter brightens it."
+},
+    {
+        "label": "Texture",
+        "bindingName": "detailTex",
+        "widget": "texture_group"
+    },
+    {
+        "label": "Texture UV",
+        "bindingType": "defineSelect",
+        "values": [
+            {
+                "value": "detailTexUV 0",
+                "label": "Mesh UV 0",
+                "hint": "First UV set supplied by mesh. Default UV set on all meshes."
+            },
+            {
+                "value": "detailTexUV 1",
+                "label": "Mesh UV 1",
+                "hint": "Second UV set supplied by mesh. Optionally available if supplied from content creation tool."
+            },
+            {
+                "value": "detailTexUV 2",
+                "label": "Transformed UV 2",
+                "hint": "Requires 'Transformed UV 2' to be enabled."
+            },
+            {
+                "value": "detailTexUV 3",
+                "label": "Transformed UV 3",
+                "hint": "Requires 'Transformed UV 3' to be enabled."
+            }
+        ],
+        "hint": "Specifies the UV set used for sampling this texture."
+    },
+{
+    "_bindingName": "ENABLE_DETAILMAP",
+    "widget": "group_end"
+},
+{
+    "label": "Detail Mask",
+    "bindingName": "ENABLE_DETAIL_MASK",
+    "bindingType": "define",
+    "widget": "group_start",
+    "hint": "The detail mask regulates where the detail map or detail normal is applied. The detail map is applied fully where the mask is 1, not at all where the mask is 0. Only the red channel of the mask is used."
+},
+    {
+        "label": "Texture",
+        "bindingName": "detailMaskTex",
+        "widget": "texture_group"
+    },
+    {
+        "label": "Texture UV",
+        "bindingType": "defineSelect",
+        "values": [
+            {
+                "value": "detailMaskTexUV 0",
+                "label": "Mesh UV 0",
+                "hint": "First UV set supplied by mesh. Default UV set on all meshes."
+            },
+            {
+                "value": "detailMaskTexUV 1",
+                "label": "Mesh UV 1",
+                "hint": "Second UV set supplied by mesh. Optionally available if supplied from content creation tool."
+            },
+            {
+                "value": "detailMaskTexUV 2",
+                "label": "Transformed UV 2",
+                "hint": "Requires 'Transformed UV 2' to be enabled."
+            },
+            {
+                "value": "detailMaskTexUV 3",
+                "label": "Transformed UV 3",
+                "hint": "Requires 'Transformed UV 3' to be enabled."
+            }
+        ],
+        "hint": "Specifies the UV set used for sampling this texture."
+    },
+{
+    "_bindingName": "ENABLE_DETAIL_MASK",
+    "widget": "group_end"
+},
+{
+    "label": "Normal Map",
+    "bindingName": "ENABLE_NORMALMAP",
+    "bindingType": "define",
+    "widget": "group_start",
+    "hint": "Enables the normal map texture and normal mapping. When this is disabled, the per pixel normal is solely determined by the interpolated vertex normals."
+},
+    {
+        "label": "High Precision",
+        "bindingName": "ENABLE_HIGH_PRECISION_NORMALMAP",
+        "bindingType": "define",
+        "widget": "group_start",
+        "hint": "Enables high precision normal map support. Import an EXR or 16bit PNG normalmap as High Precision Normalmap, then assign the _msb and _lsb textures to the slots below."
+    },
+        {
+            "label": "Msb",
+            "bindingName": "normalMsbTex",
+            "widget": "texture_group"
+        },
+        {
+            "label": "Lsb",
+            "bindingName": "normalLsbTex",
+            "widget": "texture_group"
+        },
+    {
+        "_bindingName": "ENABLE_HIGH_PRECISION_NORMALMAP",
+        "widget": "group_end"
+    },
+    {
+        "label": "Texture",
+        "bindingName": "normalTex",
+        "widget": "texture_group"
+    },
+    {
+        "label": "Texture UV",
+        "bindingType": "defineSelect",
+        "values": [
+            {
+                "value": "normalTexUV 0",
+                "label": "Mesh UV 0",
+                "hint": "First UV set supplied by mesh. Default UV set on all meshes."
+            },
+            {
+                "value": "normalTexUV 1",
+                "label": "Mesh UV 1",
+                "hint": "Second UV set supplied by mesh. Optionally available if supplied from content creation tool."
+            },
+            {
+                "value": "normalTexUV 2",
+                "label": "Transformed UV 2",
+                "hint": "Requires 'Transformed UV 2' to be enabled."
+            },
+            {
+                "value": "normalTexUV 3",
+                "label": "Transformed UV 3",
+                "hint": "Requires 'Transformed UV 3' to be enabled."
+            }
+        ],
+        "hint": "Specifies the UV set used for sampling this texture."
+    },
+    {
+        "label": "Detail Normal",
+        "bindingName": "ENABLE_DETAIL_NORMAL",
+        "bindingType": "define",
+        "widget": "group_start",
+        "hint": "Detail normal mapping perturbs the base normal map by a detail normal map."
+    },
+        {
+            "label": "Texture",
+            "bindingName": "detailNormalTex",
+            "widget": "texture_group"
+        },
+        {
+            "label": "Texture UV",
+            "bindingType": "defineSelect",
+            "values": [
+                {
+                    "value": "detailNormalTexUV 0",
+                    "label": "Mesh UV 0",
+                    "hint": "First UV set supplied by mesh. Default UV set on all meshes."
+                },
+                {
+                    "value": "detailNormalTexUV 1",
+                    "label": "Mesh UV 1",
+                    "hint": "Second UV set supplied by mesh. Optionally available if supplied from content creation tool."
+                },
+                {
+                    "value": "detailNormalTexUV 2",
+                    "label": "Transformed UV 2",
+                    "hint": "Requires 'Transformed UV 2' to be enabled."
+                },
+                {
+                    "value": "detailNormalTexUV 3",
+                    "label": "Transformed UV 3",
+                    "hint": "Requires 'Transformed UV 3' to be enabled."
+                }
+            ],
+            "hint": "Specifies the UV set used for sampling this texture."
+        },
+    {
+        "_bindingName": "ENABLE_DETAIL_NORMAL",
+        "widget": "group_end"
+    },
+{
+    "_bindingName": "ENABLE_NORMALMAP",
+    "widget": "group_end"
+},
+{
+    "label": "Emissive",
+    "bindingName": "ENABLE_EMISSIVE",
+    "bindingType": "define",
+    "widget": "group_start",
+    "hint": "Enables the emissive texture."
+},
+    {
+        "label": "Texture",
+        "bindingName": "emissiveTex",
+        "widget": "texture_group"
+    },
+    {
+        "label": "Texture UV",
+        "bindingType": "defineSelect",
+        "values": [
+            {
+                "value": "emissiveTexUV 0",
+                "label": "Mesh UV 0",
+                "hint": "First UV set supplied by mesh. Default UV set on all meshes."
+            },
+            {
+                "value": "emissiveTexUV 1",
+                "label": "Mesh UV 1",
+                "hint": "Second UV set supplied by mesh. Optionally available if supplied from content creation tool."
+            },
+            {
+                "value": "emissiveTexUV 2",
+                "label": "Transformed UV 2",
+                "hint": "Requires 'Transformed UV 2' to be enabled."
+            },
+            {
+                "value": "emissiveTexUV 3",
+                "label": "Transformed UV 3",
+                "hint": "Requires 'Transformed UV 3' to be enabled."
+            }
+        ],
+        "hint": "Specifies the UV set used for sampling this texture."
+    },
+    {
+        "label": "Color",
+        "bindingName": "emissiveColor",
+        "widget": "color",
+        "hint": "Multiplies the existing emissive color. Requires 'Enable Emissive' and/or 'Vertex Color' should be set to 'Emissive'."
+    },
+    {
+        "label": "Intensity",
+        "bindingName": "emissiveIntensity",
+        "widget": "slider",
+        "min": 0.0,
+        "max": 10.0,
+        "step": 0.001,
+        "default": 1.0,
+        "hint": "Multiplies the existing emissive color. Requires 'Enable Emissive' and/or 'Vertex Color' should be set to 'Emissive'."
+    },
+{
+    "_bindingName": "ENABLE_EMISSIVE",
+    "widget": "group_end"
+},
+{
+    "label": "Simple Reflection",
+    "bindingName": "ENABLE_SIMPLE_REFLECTION",
+    "bindingType": "define",
+    "widget": "group_start",
+    "hint": "Replaces the default PBR environment mapping with a simple lookup from a regular texture (no hdr, no roughness, no fresnel, etc.). It can even be used with unlit materials. The reflection lookup technically assumes a spherical environment map, which is a circular shaped texture as obtained by photographing a mirror ball. However, as a shortcut, it is sometimes used with simple, flat photos, and manually bent mesh normals. Note: this spherical mapping is technically different from the latitude-longitude envmap format."
+},
+    {
+        "label": "Texture",
+        "bindingName": "reflectionTex",
+        "widget": "texture_group"
+    },
+    {
+        "label": "Intensity",
+        "bindingName": "reflectionIntensity",
+        "widget": "slider",
+        "min": 0.0,
+        "max": 10.0,
+        "step": 0.001,
+        "default": 1.0
+    },
+    {
+        "label": "Modulation Map",
+        "bindingName": "ENABLE_REFLECTION_MODULATION_TEX",
+        "bindingType": "define",
+        "widget": "group_start",
+        "hint": "This texture modulates the reflection color. It can be RGB or greyscale."
+    },
+        {
+            "label": "Texture",
+            "bindingName": "reflectionModulationTex",
+            "widget": "texture_group"
+        },
+        {
+            "label": "Texture UV",
+            "bindingType": "defineSelect",
+            "values": [
+                {
+                    "value": "reflectionModulationTexUV 0",
+                    "label": "Mesh UV 0",
+                    "hint": "First UV set supplied by mesh. Default UV set on all meshes."
+                },
+                {
+                    "value": "reflectionModulationTexUV 1",
+                    "label": "Mesh UV 1",
+                    "hint": "Second UV set supplied by mesh. Optionally available if supplied from content creation tool."
+                },
+                {
+                    "value": "reflectionModulationTexUV 2",
+                    "label": "Transformed UV 2",
+                    "hint": "Requires 'Transformed UV 2' to be enabled."
+                },
+                {
+                    "value": "reflectionModulationTexUV 3",
+                    "label": "Transformed UV 3",
+                    "hint": "Requires 'Transformed UV 3' to be enabled."
+                }
+            ],
+            "hint": "Specifies the UV set used for sampling this texture."
+        },
+    {
+        "_bindingName": "ENABLE_REFLECTION_MODULATION_TEX",
+        "widget": "group_end"
+    },
+{
+    "_bindingName": "ENABLE_SIMPLE_REFLECTION",
+    "widget": "group_end"
+},
+{
+    "label": "Rim Highlight",
+    "bindingName": "ENABLE_RIM_HIGHLIGHT",
+    "bindingType": "define",
+    "widget": "group_start",
+    "hint": "'Rim highlight', aka. 'fake Fresnel effect'."
+},
+    {
+        "label": "Color",
+        "bindingName": "rimColor",
+        "widget": "color",
+        "hint": "Specifies the color of the rim highlight."
+    },
+    {
+        "label": "Intensity",
+        "bindingName": "rimIntensity",
+        "widget": "slider",
+        "min": 0.0,
+        "max": 10.0,
+        "step": 0.001,
+        "default": 1.0,
+        "hint": "Multiplied with 'Rim Color'."
+    },
+    {
+        "label": "Exponent",
+        "bindingName": "rimExponent",
+        "widget": "slider",
+        "min": 0.0,
+        "max": 10.0,
+        "step": 0.001,
+        "default": 1.0,
+        "hint": "Controls the tightness of the rim highlight."
+    },
+    {
+        "label": "Invert",
+        "bindingName": "ENABLE_RIM_INVERT",
+        "bindingType": "define",
+        "hint": "Inverts the effect so it's brighter in the middle of the object and darker at the edge."
+    },
+    {
+        "label": "Rim Color Texture",
+        "bindingName": "ENABLE_RIM_COLOR_TEX",
+        "bindingType": "define",
+        "widget": "group_start",
+        "hint": "Allows the use of a texture to modulate the rim highlight color."
+    },
+        {
+            "label": "Texture",
+            "bindingName": "rimColorTex",
+            "widget": "texture_group"
+        },
+        {
+            "label": "Texture UV",
+            "bindingType": "defineSelect",
+            "values": [
+                {
+                    "value": "rimColorTexUV 0",
+                    "label": "Mesh UV 0",
+                    "hint": "First UV set supplied by mesh. Default UV set on all meshes."
+                },
+                {
+                    "value": "rimColorTexUV 1",
+                    "label": "Mesh UV 1",
+                    "hint": "Second UV set supplied by mesh. Optionally available if supplied from content creation tool."
+                },
+                {
+                    "value": "rimColorTexUV 2",
+                    "label": "Transformed UV 2",
+                    "hint": "Requires 'Transformed UV 2' to be enabled."
+                },
+                {
+                    "value": "rimColorTexUV 3",
+                    "label": "Transformed UV 3",
+                    "hint": "Requires 'Transformed UV 3' to be enabled."
+                }
+            ],
+            "hint": "Specifies the UV set used for sampling this texture."
+        },
+    {
+        "_bindingName": "ENABLE_RIM_COLOR_TEX",
+        "widget": "group_end"
+    },
+{
+    "_bindingName": "ENABLE_RIM_HIGHLIGHT",
+    "widget": "group_end"
+},
+{
+    "label": "Lighting",
+    "bindingName": "ENABLE_LIGHTING",
+    "bindingType": "define",
+    "widget": "group_start",
+    "hint": "Enables direct and indirect (ambient) lighting. Disabling this creates an unlit (flat) shader."
+},
+    {
+        "label": "Diffuse",
+        "bindingName": "ENABLE_DIFFUSE_LIGHTING",
+        "bindingType": "define",
+        "hint": "Enables direct and indirect diffuse lighting. Can be disabled as an optimization on pure metals."
+    },
+    {
+        "label": "Specular",
+        "bindingName": "ENABLE_SPECULAR_LIGHTING",
+        "bindingType": "define",
+        "widget": "group_start",
+        "hint": "Enables direct and indirect specular lighting (specular highlights and reflections). Disabling this creates a shader that's only lit diffusely."
+    },
+        {
+            "bindingName": "metallic",
+            "widget": "slider",
+            "min": 0.0,
+            "max": 1.0,
+            "step": 0.001,
+            "default": 1.0,
+            "hint": "1 neans metal, 0 means non-metal (dielectric). Multiplies the metallic channel of the Material Params texture if enabled."
+        },
+        {
+            "bindingName": "roughness",
+            "widget": "slider",
+            "min": 0.0,
+            "max": 1.0,
+            "step": 0.001,
+            "default": 1.0,
+            "hint": "1 neans completely rough (diffuse), 0 means perfectly smooth and shiny. Multiplies the roughness channel of the Material Params texture if enabled. If your roughness is 1 and your metallic is 0, it's more efficient to disable Specular alltogether."
+        },
+        {
+            "label": "Material Params",
+            "bindingName": "materialParamsTex",
+            "widget": "texture_group",
+            "hint": "Material params texture should have: R - metalness, G - roughness, B - ambient occlusion."
+        },
+        {
+            "label": "Texture UV",
+            "bindingType": "defineSelect",
+            "values": [
+                {
+                    "value": "materialParamsTexUV 0",
+                    "label": "Mesh UV 0",
+                    "hint": "First UV set supplied by mesh. Default UV set on all meshes."
+                },
+                {
+                    "value": "materialParamsTexUV 1",
+                    "label": "Mesh UV 1",
+                    "hint": "Second UV set supplied by mesh. Optionally available if supplied from content creation tool."
+                },
+                {
+                    "value": "materialParamsTexUV 2",
+                    "label": "Transformed UV 2",
+                    "hint": "Requires 'Transformed UV 2' to be enabled."
+                },
+                {
+                    "value": "materialParamsTexUV 3",
+                    "label": "Transformed UV 3",
+                    "hint": "Requires 'Transformed UV 3' to be enabled."
+                }
+            ],
+            "hint": "Specifies the UV set used for sampling this texture."
+        },
+        {
+            "label": "Specular AO",
+            "bindingName": "ENABLE_SPECULAR_AO",
+            "bindingType": "define",
+            "widget": "group_start",
+            "hint": "Allow AO to influence indirect specular lighting (reflections)."
+        },
+            {
+                "label": "Intensity",
+                "bindingName": "specularAoIntensity",
+                "widget": "slider",
+                "min": 0.0,
+                "max": 1.0,
+                "step": 0.001,
+                "default": 1.0,
+                "hint": "Specifies the amount of influence AO has on reflections. For metals the specular AO at its darkest approaches a saturated/darkened version of the metal color (ex: dark gold for gold). For non-metals, this is essentially the same as 'Darkeing'."
+            },
+            {
+                "label": "Darkening",
+                "bindingName": "specularAoDarkening",
+                "widget": "slider",
+                "min": 0.0,
+                "max": 1.0,
+                "step": 0.001,
+                "default": 1.0,
+                "hint": "For metals, this shifts the darkest AO color from a saturated version of the metal color towards pure black. For non-metals it's essentially equivalent to 'Intensity'."
+            },
+        {
+            "_bindingName": "ENABLE_SPECULAR_AO",
+            "widget": "group_end"
+        },
+    {
+        "_bindingName": "ENABLE_SPECULAR_LIGHTING",
+        "widget": "group_end"
+    },
+    {
+        "label": "Baked Shadows",
+        "bindingName": "ENABLE_BAKED_SHADOWS",
+        "bindingType": "define",
+        "widget": "group_start",
+        "hint": "Will use the Baked Shadows texture to shadow one or more lights."
+    },
+        {
+            "label": "Texture",
+            "bindingName": "bakedShadowsTex",
+            "widget": "texture_group",
+            "hint": "Baked shadow texture. Each channel stores the shadow for one light. If you only want to shadow one light, set the Red channel to the shadow texture, and the Green and Blue to full white. The lights will use the channels in order. First the directional lights in scene order, then the point lights in scene order, up to 3 lights for R, G, B."
+        },
+        {
+            "label": "Texture UV",
+            "bindingType": "defineSelect",
+            "values": [
+                {
+                    "value": "bakedShadowsTexUV 0",
+                    "label": "Mesh UV 0",
+                    "hint": "First UV set supplied by mesh. Default UV set on all meshes."
+                },
+                {
+                    "value": "bakedShadowsTexUV 1",
+                    "label": "Mesh UV 1",
+                    "hint": "Second UV set supplied by mesh. Optionally available if supplied from content creation tool."
+                },
+                {
+                    "value": "bakedShadowsTexUV 2",
+                    "label": "Transformed UV 2",
+                    "hint": "Requires 'Transformed UV 2' to be enabled."
+                },
+                {
+                    "value": "bakedShadowsTexUV 3",
+                    "label": "Transformed UV 3",
+                    "hint": "Requires 'Transformed UV 3' to be enabled."
+                }
+            ],
+            "hint": "Specifies the UV set used for sampling this texture."
+        },
+    {
+        "_bindingName": "ENABLE_BAKED_SHADOWS",
+        "widget": "group_end"
+    },
+{
+    "_bindingName": "ENABLE_LIGHTING",
+    "widget": "group_end"
+},
+{
+    "label": "Fizzle",
+    "bindingName": "ENABLE_FIZZLE",
+    "bindingType": "define",
+    "widget": "group_start",
+    "hint": "Allows the material to fizzle in or out of existence according to a noise function, driven by the 'transition' parameter (0 is fully visible and 1 is fully invisible)."
+},
+    {
+        "label": "Frequency",
+        "bindingName": "fizzleScale",
+        "widget": "spinbox",
+        "min": 0.0,
+        "max": 100.0,
+        "step": 0.001,
+        "default": 10.0,
+        "hint": "Controls the size/number/frequency of holes while fizzling."
+    },
+    {
+        "bindingName": "transition",
+        "widget": "slider",
+        "min": 0.0,
+        "max": 1.0,
+        "step": 0.001,
+        "default": 0.0,
+        "hint": "0 is fully visible and 1 is fully invisible. Partially fizzled out in between."
+    },
+{
+    "_bindingName": "ENABLE_FIZZLE",
+    "widget": "group_end"
+},
+{
+    "label": "Tone Mapping",
+    "bindingName": "ENABLE_TONE_MAPPING",
+    "bindingType": "define",
+    "hint": "Normally all lit and unlit materials are rendered with HDR tone mapping enabled, so that they fit into the 3D scene correctly. However, for some uses, like UI elements, or materials with specific blend modes, you might want to turn tone mapping off."
+},
+{
+    "label": "Transformed UV 2",
+    "bindingName": "ENABLE_UV2",
+    "bindingType": "define",
+    "widget": "group_start",
+    "hint": "Allows tiling and animation of texture coordinates."
+},
+    {
+        "label": "Source",
+        "bindingType": "defineSelect",
+        "values": [
+            {
+                "value": "UV2_SOURCE 0",
+                "label": "Mesh UV 0",
+                "hint": "First UV set supplied by mesh. Default UV set on all meshes."
+            },
+            {
+                "value": "UV2_SOURCE 1",
+                "label": "Mesh UV 1",
+                "hint": "Second UV set supplied by mesh. Optionally available if supplied from content creation tool."
+            },
+            {
+                "value": "UV2_SOURCE SCREEN_UV",
+                "label": "Screen UV",
+                "hint": "Screen space UV mapping stretches a texture over the full screen."
+            },
+            {
+                "value": "UV2_SOURCE PROJECTED_UV",
+                "label": "Projected UV",
+                "hint": "Similar to Screen UV, but an arbitrary ModelViewProjection matrix must be supplied from script in the matrix4 property called 'uv2Matrix', which projects the vertices to texture space. Ex: a snapshot texture of the screen and a snapshot of the ModelViewProjection matrix of the same frame can statically map that frame to a 3D object even after the camera and/or the 3D object moves. Note that this matrix should actually include the inverse of the current model matrix (world space to object space), because the positions in the shader are already in world space, and we need to get them back to object space first, before ModelViewProjection can be applied. So, really, you need to pass InvcurrentmodelModelViewProjection."
+            }
+        ],
+        "hint": "Specifies the UV set used as the base on top of which the transform is applied."
+    },
+    {
+        "label": "Scale",
+        "bindingName": "uv2Scale",
+        "min": -10.0,
+        "max": 10.0,
+        "step": 0.001,
+        "default": 1.0,
+        "hint": "Allows tiling of textures."
+    },
+    {
+        "label": "Offset",
+        "bindingName": "uv2Offset",
+        "min": -10.0,
+        "max": 10.0,
+        "step": 0.001,
+        "default": 0.0,
+        "hint": "Allows shifting of textures, or controls the speed of scrolling if animation is enabled. If animation is enabled, the speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second."
+    },
+    {
+        "label": "Animation",
+        "bindingName": "ENABLE_UV2_ANIMATION",
+        "bindingType": "define",
+        "hint" : "If this is enabled, the UV's will scroll. In this case the Offset specifies the speed of scrolling. The speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second."
+    },
+{
+    "_bindingName": "ENABLE_UV2",
+    "widget": "group_end"
+},
+{
+    "label": "Transformed UV 3",
+    "bindingName": "ENABLE_UV3",
+    "bindingType": "define",
+    "widget": "group_start",
+    "hint": "Allows tiling and animation of texture coordinates."
+},
+    {
+        "label": "Source",
+        "bindingType": "defineSelect",
+        "values": [
+            {
+                "value": "UV3_SOURCE 0",
+                "label": "Mesh UV 0",
+                "hint": "First UV set supplied by mesh. Default UV set on all meshes."
+            },
+            {
+                "value": "UV3_SOURCE 1",
+                "label": "Mesh UV 1",
+                "hint": "Second UV set supplied by mesh. Optionally available if supplied from content creation tool."
+            },
+            {
+                "value": "UV3_SOURCE 2",
+                "label": "Transformed UV 2",
+                "hint": "Requires 'Transformed UV 2' to be enabled."
+            },
+            {
+                "value": "UV3_SOURCE SCREEN_UV",
+                "label": "Screen UV",
+                "hint": "Screen space UV mapping stretches a texture over the full screen."
+            },
+            {
+                "value": "UV3_SOURCE PROJECTED_UV",
+                "label": "Projected UV",
+                "hint": "Similar to Screen UV, but an arbitrary ModelViewProjection matrix must be supplied  from script in the matrix4 property called 'uv3Matrix', which projects the vertices to texture space. Ex: a snapshot texture of the screen and a snapshot of the ModelViewProjection matrix of the same frame can  statically map that frame to a 3D object even after the camera and/or the 3D object moves. Note that this matrix should actually include the inverse of the current model matrix (world space to object space), because the positions in the shader are already in world space, and we need to get them back to object space first, before ModelViewProjection can be applied. So, really, you need to pass InvcurrentmodelModelViewProjection."
+            }
+        ],
+        "hint": "Specifies the UV set used as the base on top of which the transform is applied."
+    },
+    {
+        "label": "Scale",
+        "bindingName": "uv3Scale",
+        "min": -10.0,
+        "max": 10.0,
+        "step": 0.001,
+        "default": 1.0,
+        "hint": "Allows tiling of textures."
+    },
+    {
+        "label": "Offset",
+        "bindingName": "uv3Offset",
+        "min": -10.0,
+        "max": 10.0,
+        "step": 0.001,
+        "default": 0.0,
+        "hint": "Allows shifting of textures, or controls the speed of scrolling if animation is enabled. If animation is enabled, the speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second."
+    },
+    {
+        "label": "Animation",
+        "bindingName": "ENABLE_UV3_ANIMATION",
+        "bindingType": "define",
+        "hint" : "If this is enabled, the UV's will scroll. In this case the Offset specifies the speed of scrolling. The speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second."
+    },
+{
+    "_bindingName": "ENABLE_UV3",
+    "widget": "group_end"
+}
+],
+"extraDefines": [
+	"SCREEN_UV -1",
+	"PROJECTED_UV -2"
+]
+}

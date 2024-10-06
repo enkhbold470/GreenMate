@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/5e68dfc4-b62d-46f2-9f11-c26b8b28bef9>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> fc2739ad-2550-461d-9966-900f6483db83
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> fc2739ad-2550-461d-9966-900f6483db83
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 3240f1ea-ccdd-4931-ba87-d7664933df1a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/aa0621fc-6cce-4d05-b090-200742100e9d>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/3240f1ea-ccdd-4931-ba87-d7664933df1a>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    deviceCameraTexture: false
+    gridButtonObj: false
+    gridMaterial: false
+    gridObject: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - gridMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      deviceCameraTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      gridButtonImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      gridObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gridObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gridButtonObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

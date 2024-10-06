@@ -1,0 +1,15 @@
+- !<AssetCache/07d01eab-c2ae-a660-3cb1-d9aae498079b>
+  AssetFiles:
+    6e720059-4557-4af7-be6f-3ab71cf9fe78: fd4c8ed9-fc87-4dfa-968f-b9e29a9ef837/07d01eabc2aea6603cb1d9aae498079b/Data/scale-tl.png
+  AssetCurrentFiles:
+    6e720059-4557-4af7-be6f-3ab71cf9fe78: fd4c8ed9-fc87-4dfa-968f-b9e29a9ef837/07d01eabc2aea6603cb1d9aae498079b/Data/Size/Medium/scale-tl.png
+  Assets:
+    - !<FileTexture/6e720059-4557-4af7-be6f-3ab71cf9fe78>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 96
+        Height: 96
+  SourceHash: 07d01eabc2aea6603cb1d9aae498079b
+  FileHash: a0bb458ca46062677ff7e238d68536d4
+  NativePackageItems:
+    []

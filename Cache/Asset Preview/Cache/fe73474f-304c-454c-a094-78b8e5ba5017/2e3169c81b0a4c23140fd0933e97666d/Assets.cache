@@ -1,0 +1,15 @@
+- !<AssetCache/2e3169c8-1b0a-4c23-140f-d0933e97666d>
+  AssetFiles:
+    770724f8-64f0-44f6-adf3-e15251b5fc60: fe73474f-304c-454c-a094-78b8e5ba5017/2e3169c81b0a4c23140fd0933e97666d/Data/icon_geo_cube.png
+  AssetCurrentFiles:
+    770724f8-64f0-44f6-adf3-e15251b5fc60: fe73474f-304c-454c-a094-78b8e5ba5017/2e3169c81b0a4c23140fd0933e97666d/Data/icon_geo_cube.png
+  Assets:
+    - !<FileTexture/770724f8-64f0-44f6-adf3-e15251b5fc60>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 128
+        Height: 128
+  SourceHash: 2e3169c81b0a4c23140fd0933e97666d
+  FileHash: 869e46080dc8b66bb4b2c498d0147206
+  NativePackageItems:
+    []

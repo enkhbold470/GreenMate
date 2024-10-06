@@ -1,0 +1,40 @@
+- !<Material/e54c9971-23c3-4913-a3be-550dc6594df1>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 814639b3-74f2-4f88-a714-d4df404eaddc
+- !<PassInfo/814639b3-74f2-4f88-a714-d4df404eaddc>
+  DepthWrite: false
+  DepthTest: false
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_DIFFUSE_LIGHTING
+    - ENABLE_SPECULAR_LIGHTING
+    - PROJECTED_UV -2
+    - SCREEN_UV -1
+    - UV2_SOURCE 0
+    - UV3_SOURCE 0
+    - bakedShadowsTexUV 0
+    - baseTexUV 0
+    - detailMaskTexUV 0
+    - detailNormalTexUV 0
+    - detailTexUV 0
+    - emissiveTexUV 0
+    - materialParamsTexUV 0
+    - normalTexUV 0
+    - opacityTexUV 1
+    - rimColorTexUV 0
+  BlendMode: Normal
+  Properties:
+    baseColor:
+      typeIdx: 5
+      value: {x: 0.200000, y: 0.427451, z: 0.600000, w: 1.000000}
+  Pass: !<reference> 5970cbf0-e1d7-465a-b18a-359e4ffef44a
+  RTCaster: false
+  RTReceiver: false

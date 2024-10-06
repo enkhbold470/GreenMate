@@ -1,0 +1,15 @@
+- !<AssetCache/0238e10b-d07a-10f0-f663-a9ebcf4e5d7b>
+  AssetFiles:
+    0808fe88-5083-40fb-b5d3-113e6af63bd5: a89d709d-d164-4e61-8778-9def24e8a9ae/0238e10bd07a10f0f663a9ebcf4e5d7b/Data/icon_environmental.png
+  AssetCurrentFiles:
+    0808fe88-5083-40fb-b5d3-113e6af63bd5: a89d709d-d164-4e61-8778-9def24e8a9ae/0238e10bd07a10f0f663a9ebcf4e5d7b/Data/icon_environmental.png
+  Assets:
+    - !<FileTexture/0808fe88-5083-40fb-b5d3-113e6af63bd5>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 128
+        Height: 128
+  SourceHash: 0238e10bd07a10f0f663a9ebcf4e5d7b
+  FileHash: 1944201bda2e433a2a891d83cdb56956
+  NativePackageItems:
+    []

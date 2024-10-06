@@ -1,0 +1,40 @@
+{
+    "extraDefines": [],
+    "ui": [
+        {
+            "bindingName": "NOTEXTURE",
+            "bindingType": "define",
+            "hint": "",
+            "label": "No Base Texture",
+            "widget": ""
+        },
+        {
+            "bindingName": "baseTex",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Base Texture",
+            "widget": "texture_group"
+        },
+        {
+            "bindingName": "NOMASK",
+            "bindingType": "define",
+            "hint": "",
+            "label": "No Opacity Texture",
+            "widget": ""
+        },
+        {
+            "bindingName": "opacityTex",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Opacity Texture",
+            "widget": "texture_group"
+        },
+        {
+            "bindingName": "baseColor",
+            "bindingType": "property",
+            "hint": "",
+            "label": "Base Color",
+            "widget": "color"
+        }
+    ]
+}

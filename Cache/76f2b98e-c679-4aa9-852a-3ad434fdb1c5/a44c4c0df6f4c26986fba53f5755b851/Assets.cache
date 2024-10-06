@@ -1,0 +1,18 @@
+- !<AssetCache/a44c4c0d-f6f4-c269-86fb-a53f5755b851>
+  AssetFiles:
+    9d7384d9-0215-4f75-8b03-f44096507d85: 76f2b98e-c679-4aa9-852a-3ad434fdb1c5/a44c4c0df6f4c26986fba53f5755b851/Data/ButtonCapsuleMesh.mesh
+  AssetCurrentFiles:
+    9d7384d9-0215-4f75-8b03-f44096507d85: 76f2b98e-c679-4aa9-852a-3ad434fdb1c5/a44c4c0df6f4c26986fba53f5755b851/Data/ButtonCapsuleMesh.mesh
+  Assets:
+    - !<FileMesh/9d7384d9-0215-4f75-8b03-f44096507d85>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 1024
+        Vertices: 593
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: a44c4c0df6f4c26986fba53f5755b851
+  FileHash: 1ea56cfe064016ae9c9c5f7bab57777a
+  NativePackageItems:
+    []

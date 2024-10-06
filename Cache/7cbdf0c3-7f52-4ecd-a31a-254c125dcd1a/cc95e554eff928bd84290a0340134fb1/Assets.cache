@@ -1,0 +1,22 @@
+- !<AssetCache/cc95e554-eff9-28bd-8429-0a0340134fb1>
+  AssetFiles:
+    2013a19b-93c1-4f21-b7ea-876a33550c7b: 7cbdf0c3-7f52-4ecd-a31a-254c125dcd1a/cc95e554eff928bd84290a0340134fb1/Data/Diffuse.jpeg
+    d795fd46-e16b-4cb9-8dfb-4ef227298f7a: 7cbdf0c3-7f52-4ecd-a31a-254c125dcd1a/cc95e554eff928bd84290a0340134fb1/Data/Specular.jpeg
+  AssetCurrentFiles:
+    2013a19b-93c1-4f21-b7ea-876a33550c7b: 7cbdf0c3-7f52-4ecd-a31a-254c125dcd1a/cc95e554eff928bd84290a0340134fb1/Data/Diffuse.jpeg
+    d795fd46-e16b-4cb9-8dfb-4ef227298f7a: 7cbdf0c3-7f52-4ecd-a31a-254c125dcd1a/cc95e554eff928bd84290a0340134fb1/Data/Specular.jpeg
+  Assets:
+    - !<FileTexture/2013a19b-93c1-4f21-b7ea-876a33550c7b>
+      PackagePath: Diffuse
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 64
+        Height: 32
+    - !<FileTexture/d795fd46-e16b-4cb9-8dfb-4ef227298f7a>
+      PackagePath: Specular
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 256
+  SourceHash: cc95e554eff928bd84290a0340134fb1
+  FileHash: fb8a0288b0cd3e7074f38fc659bf3e79
+  NativePackageItems:
+    []

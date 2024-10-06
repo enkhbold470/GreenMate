@@ -1,0 +1,58 @@
+- !<AssetCache/fe5d83e5-8a48-b15b-04a5-a03f8c4b0a4f>
+  AssetFiles:
+    5a951883-ee35-4fd2-9168-b13387edb8b1: df9561a2-225b-46c1-ad0c-334682ce3584/fe5d83e58a48b15b04a5a03f8c4b0a4f/Data/.hidden/uber/uber.glsl
+  AssetCurrentFiles:
+    5a951883-ee35-4fd2-9168-b13387edb8b1: df9561a2-225b-46c1-ad0c-334682ce3584/fe5d83e58a48b15b04a5a03f8c4b0a4f/Data/.hidden/uber/uber.glsl
+  Assets:
+    - !<Material/9e2b083c-31b6-4a13-b844-5634fb3dedf9>
+      PackagePath: Resources/Materials/highlight_menu_GLSL
+      PassesInfo:
+        - !<own> ec824c5f-662d-4db5-93ee-8ce6d793b671
+    - !<Pass/5a951883-ee35-4fd2-9168-b13387edb8b1>
+      PackagePath: .hidden/uber
+      DefaultDefines:
+        []
+      DefaultProperties:
+        {}
+      PassUiData: !<own> 00000000-0000-0000-0000-000000000000
+  SourceHash: fe5d83e58a48b15b04a5a03f8c4b0a4f
+  FileHash: 1003867595b367e6fb5994a84d308581
+  NativePackageItems:
+    []
+- !<PassInfo/ec824c5f-662d-4db5-93ee-8ce6d793b671>
+  DepthWrite: false
+  DepthTest: false
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: false}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: Disabled
+  Properties:
+    Port_Default_N204:
+      typeIdx: 1
+      value: 0.000000
+    Port_Default_N369:
+      typeIdx: 5
+      value: {x: 0.120000, y: 0.492100, z: 1.000000, w: 0.750000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    overrideTimeDelta:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeElapsed:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeEnabled:
+      typeIdx: 0
+      value: 0
+  Pass: !<reference> 5a951883-ee35-4fd2-9168-b13387edb8b1

@@ -1,0 +1,18 @@
+- !<AssetCache/a35a3d8a-104c-a8d6-74b8-b8f9bf4de1b8>
+  AssetFiles:
+    d9b29de4-ee7d-4905-a539-cf8bd1b07b0d: a6f05ea4-de19-4f40-b770-16c2f062d641/a35a3d8a104ca8d674b8b8f9bf4de1b8/Data/rain_rain_0.mesh
+  AssetCurrentFiles:
+    {}
+  Assets:
+    - !<FileMesh/d9b29de4-ee7d-4905-a539-cf8bd1b07b0d>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 696
+        Vertices: 758
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: a35a3d8a104ca8d674b8b8f9bf4de1b8
+  FileHash: 59adcd64088ac8e4dfbf5de0a8cf767b
+  NativePackageItems:
+    []

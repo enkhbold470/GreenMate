@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/c9a24731-bc37-4eee-b4d6-98c50d72248c>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 37340601-91a6-4e19-983f-1fcbc21962d1
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 37340601-91a6-4e19-983f-1fcbc21962d1
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> fb0339ff-1cfc-47f6-9844-4046de444c41
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/fc71aed3-3093-4316-9675-50ef8cd95bc7>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/fb0339ff-1cfc-47f6-9844-4046de444c41>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    gridController: false
+    materialPreviewController: false
+    meshPreviewController: false
+    otherObjectsPreviewController: false
+    placementScript: false
+    texturePreviewController: false
+    vfxPreviewController: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - texturePreviewController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      materialPreviewController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      meshPreviewController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      placementScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      vfxPreviewController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      otherObjectsPreviewController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      gridController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

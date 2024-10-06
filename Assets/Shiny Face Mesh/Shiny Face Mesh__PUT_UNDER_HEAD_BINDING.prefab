@@ -1,0 +1,159 @@
+- !<ObjectPrefab/0223e104-5286-41a4-88c9-91e22d9891f3>
+  PackagePath: ""
+  objects:
+    - !<own> f160be78-eaee-4203-ab50-4d78d265779c
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/0e5df699-8f32-44d0-bfcc-3a6c56f05dc3>
+  PrefabRemaps:
+    []
+  Name: "RotateEnvMap Controller [EDIT_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ef716309-8623-408c-819e-d5b8c5d228f2
+- !<SceneObject/28e4cc2e-ec95-45ca-b437-da48b7ffae9c>
+  PrefabRemaps:
+    []
+  Name: "Shiny Face Envmap [EDIT_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.043010, y: 72.507851, z: 7.591175}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> dc3eb1e8-63e1-41b6-9438-c97e78775a6a
+- !<SceneObject/7ea565fa-55e6-45ff-9a84-d85d1f69483f>
+  PrefabRemaps:
+    []
+  Name: "Face Mesh[ADD_LAYER_TO_CAMERA]"
+  Enabled: true
+  Layers: 2
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f2c7da00-9406-4db0-a933-f5bfa3171d80
+- !<LightSource/dc3eb1e8-63e1-41b6-9438-c97e78775a6a>
+  PrefabRemaps:
+    []
+  Name: Light Source
+  Enabled: true
+  renderLayer: 2
+  LightType: EnvMap
+  Intensity: 1.000000
+  CastShadows: false
+  ShadowDensity: 0.300000
+  ShadowBlurRadius: 0.000000
+  ShadowTextureSize: 512
+  AutoLightSourcePosition: true
+  AutoShadowFrustumSize: true
+  AutoShadowFrustumSizeExtend: 2.000000
+  ShadowFrustumSize: 100.000000
+  ShadowFrustumNearClipPlane: 1.000000
+  ShadowFrustumFarClipPlane: 1000.000000
+  UseEnvMapFromCamera: false
+  EnvMapFromCameraMode: Auto
+  UseEstimation: false
+  EstimationIntensity: 1.000000
+  EstimationSharpness: 1.000000
+  EnvMapExposure: 1.000000
+  EnvMapRotation: 70.550003
+  DiffuseEnvTexture: !<reference> 5606cdf9-7057-4c75-a107-00a35d09c4fc
+  SpecularEnvTexture: !<reference> d05bb1b7-daf0-439f-b8ed-419e8a2de00e
+  Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+  DynamicEnvInputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  InnerConeAngle: 0.000000
+  OuterConeAngle: 1.000000
+  DecayType: None
+  DecayLimit: false
+  DecayRange: 1.000000
+- !<ScriptComponent/e39a961a-9774-436e-9e6b-195acd4b2a6d>
+  PrefabRemaps:
+    []
+  Name: Readme
+  Enabled: true
+  ScriptAsset: !<reference> b29ff895-f486-49b5-9ba9-9d29413c8ca6
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/ef716309-8623-408c-819e-d5b8c5d228f2>
+  PrefabRemaps:
+    []
+  Name: RotateEnvMap
+  Enabled: true
+  ScriptAsset: !<reference> 4584d643-3484-4402-8dd6-89a04ff64d0d
+  ScriptInputsDefault:
+    duration: true
+    loopCount: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      duration: !<float> 5.000000
+      loopCount: -1
+      advanced: true
+      envMap: !<reference.LightSource> dc3eb1e8-63e1-41b6-9438-c97e78775a6a
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/f160be78-eaee-4203-ab50-4d78d265779c>
+  PrefabRemaps:
+    []
+  Name: Shiny Face Mesh__PUT_UNDER_HEAD_BINDING
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7ea565fa-55e6-45ff-9a84-d85d1f69483f
+    - !<own> 0e5df699-8f32-44d0-bfcc-3a6c56f05dc3
+    - !<own> 28e4cc2e-ec95-45ca-b437-da48b7ffae9c
+  Components:
+    - !<own> e39a961a-9774-436e-9e6b-195acd4b2a6d
+- !<RenderMeshVisual/f2c7da00-9406-4db0-a933-f5bfa3171d80>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1b3e8af6-d035-4a6f-8846-0c7a4cd6aa69
+  Mesh: !<reference> f5cb3ab8-3f6f-449e-92aa-ca5df4aa3ade
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

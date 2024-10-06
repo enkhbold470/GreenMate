@@ -1,0 +1,18 @@
+- !<AssetCache/29395e6a-ed90-f2b6-4dff-281359add1f4>
+  AssetFiles:
+    e6087295-d13c-457e-8bb4-477e9d6701d1: a2b73cdd-2cc0-47ef-ae26-67393cdd233d/29395e6aed90f2b64dff281359add1f4/Data/Snap_ghost.mesh
+  AssetCurrentFiles:
+    e6087295-d13c-457e-8bb4-477e9d6701d1: a2b73cdd-2cc0-47ef-ae26-67393cdd233d/29395e6aed90f2b64dff281359add1f4/Data/Snap_ghost.mesh
+  Assets:
+    - !<FileMesh/e6087295-d13c-457e-8bb4-477e9d6701d1>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 0
+        Vertices: 0
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: 29395e6aed90f2b64dff281359add1f4
+  FileHash: f97e3d625a695def4d2f800679a9a747
+  NativePackageItems:
+    []

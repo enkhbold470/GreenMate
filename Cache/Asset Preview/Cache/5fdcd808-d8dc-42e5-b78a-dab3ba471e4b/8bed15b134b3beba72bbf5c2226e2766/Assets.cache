@@ -1,0 +1,15 @@
+- !<AssetCache/8bed15b1-34b3-beba-72bb-f5c2226e2766>
+  AssetFiles:
+    cd2b7be0-9647-437a-b29e-ce932975f128: 5fdcd808-d8dc-42e5-b78a-dab3ba471e4b/8bed15b134b3beba72bbf5c2226e2766/Data/icons_light.png
+  AssetCurrentFiles:
+    cd2b7be0-9647-437a-b29e-ce932975f128: 5fdcd808-d8dc-42e5-b78a-dab3ba471e4b/8bed15b134b3beba72bbf5c2226e2766/Data/icons_light.png
+  Assets:
+    - !<FileTexture/cd2b7be0-9647-437a-b29e-ce932975f128>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 128
+        Height: 128
+  SourceHash: 8bed15b134b3beba72bbf5c2226e2766
+  FileHash: b6a6ebe5cc0cc55909045195949997e7
+  NativePackageItems:
+    []

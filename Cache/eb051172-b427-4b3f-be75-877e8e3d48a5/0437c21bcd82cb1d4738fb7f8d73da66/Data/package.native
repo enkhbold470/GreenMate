@@ -1,0 +1,29 @@
+- !<NativePackageDescriptor/11c499be-2c60-42d6-8087-24838ea30b78>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 1
+    patch: 1
+    build: 24092500
+    type: Unset
+  Description: "A yellow beanie worn on the user's head."
+  SvgIcon: ""
+  InternalVersion: 0
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 48
+  ExportUid: 889c47da-fcd6-4ad6-8122-71a101437350
+  ComponentUid: 48d59f1b-fef1-43e8-8eaf-6874ad4d9c51
+  CurrentVisibility: Locked
+  MaxVisibility: Editable
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure/00000000-0000-0000-0000-000000000000>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

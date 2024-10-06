@@ -1,0 +1,15 @@
+- !<AssetCache/bf9bd388-7f75-9282-9099-4a3a366683c2>
+  AssetFiles:
+    d40f2a58-dc9c-429e-b679-7c8f710d9494: dd88524d-e79e-47eb-b7a1-371da22d606b/bf9bd3887f75928290994a3a366683c2/Data/fx_bokeh.png
+  AssetCurrentFiles:
+    d40f2a58-dc9c-429e-b679-7c8f710d9494: dd88524d-e79e-47eb-b7a1-371da22d606b/bf9bd3887f75928290994a3a366683c2/Data/Performance/Medium/fx_bokeh.pvr
+  Assets:
+    - !<FileTexture/d40f2a58-dc9c-429e-b679-7c8f710d9494>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 512
+  SourceHash: bf9bd3887f75928290994a3a366683c2
+  FileHash: 6baec7d56b98d3ef5d1a446edc24a8e5
+  NativePackageItems:
+    []

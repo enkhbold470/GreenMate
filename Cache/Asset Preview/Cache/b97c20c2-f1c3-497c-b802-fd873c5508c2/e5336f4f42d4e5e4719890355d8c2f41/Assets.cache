@@ -1,0 +1,15 @@
+- !<AssetCache/e5336f4f-42d4-e5e4-7198-90355d8c2f41>
+  AssetFiles:
+    e3c759fe-cc38-41ba-bf87-6396790a1df1: b97c20c2-f1c3-497c-b802-fd873c5508c2/e5336f4f42d4e5e4719890355d8c2f41/Data/Grid.png
+  AssetCurrentFiles:
+    e3c759fe-cc38-41ba-bf87-6396790a1df1: b97c20c2-f1c3-497c-b802-fd873c5508c2/e5336f4f42d4e5e4719890355d8c2f41/Data/Grid.png
+  Assets:
+    - !<FileTexture/e3c759fe-cc38-41ba-bf87-6396790a1df1>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 128
+        Height: 128
+  SourceHash: e5336f4f42d4e5e4719890355d8c2f41
+  FileHash: e25bcc7a085cdf5e8cb0a609e3416cb8
+  NativePackageItems:
+    []

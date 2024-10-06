@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2019",
+    "isolatedModules": true,
+    "outDir": "./Out/Modules/Src",
+    "skipDefaultLibCheck": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "sourceRoot": "./",
+    "allowJs": true,
+    "lib": ["es2019"],
+    "types": [],
+    "rootDir": "./Src",
+    "baseUrl": "./Src"
+  },
+  "exclude": [
+    "node_modules/typescript/lib/lib.dom.d.ts"
+  ],
+  "include": [
+    "lib/LensifyTS/Declarations/**/*.d.ts",
+    "Src/**/*.ts"
+  ]
+}

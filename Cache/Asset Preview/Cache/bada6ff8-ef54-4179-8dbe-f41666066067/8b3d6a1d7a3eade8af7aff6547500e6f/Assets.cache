@@ -1,0 +1,15 @@
+- !<AssetCache/8b3d6a1d-7a3e-ade8-af7a-ff6547500e6f>
+  AssetFiles:
+    4db6d39c-9288-4fcc-9ce6-13bebbb28dfb: bada6ff8-ef54-4179-8dbe-f41666066067/8b3d6a1d7a3eade8af7aff6547500e6f/Data/ChessPattern_opacity.png
+  AssetCurrentFiles:
+    4db6d39c-9288-4fcc-9ce6-13bebbb28dfb: bada6ff8-ef54-4179-8dbe-f41666066067/8b3d6a1d7a3eade8af7aff6547500e6f/Data/ChessPattern_opacity.png
+  Assets:
+    - !<FileTexture/4db6d39c-9288-4fcc-9ce6-13bebbb28dfb>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 128
+        Height: 128
+  SourceHash: 8b3d6a1d7a3eade8af7aff6547500e6f
+  FileHash: 085b2442db8956c9fa5058ab4d5698fa
+  NativePackageItems:
+    []

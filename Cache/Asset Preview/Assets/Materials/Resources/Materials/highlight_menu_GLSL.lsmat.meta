@@ -1,0 +1,22 @@
+- !<AssetImportMetadata/df9561a2-225b-46c1-ad0c-334682ce3584>
+  ImportedAssetIds:
+    .hidden/uber: !<reference> 5a951883-ee35-4fd2-9168-b13387edb8b1
+    Resources/Materials/highlight_menu_GLSL: !<reference> 9e2b083c-31b6-4a13-b844-5634fb3dedf9
+    Resources/Materials/highlight_menu_GLSL|highlight_menu_GLSL|LegacyPassInfo_0: !<reference> ec824c5f-662d-4db5-93ee-8ce6d793b671
+  ImporterName: LensCoreImporter
+  PrimaryAsset: !<reference> 9e2b083c-31b6-4a13-b844-5634fb3dedf9
+  PackageType: LegacyPackage
+  PackagePolicy: ShouldBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<LensCoreImporterSettings/de1d0456-23e4-4718-af7d-1a4699729327>
+    PersistentIdGenerationAlgorithm: Legacy
+  CompressionSettings: !<ComplexCompressionSettings/362fd79b-fe4d-42a5-906d-5f5f71ffc774>
+    Presets:
+      {}
+    ExtensionMappings:
+      {}
+    Overrides:
+      {}

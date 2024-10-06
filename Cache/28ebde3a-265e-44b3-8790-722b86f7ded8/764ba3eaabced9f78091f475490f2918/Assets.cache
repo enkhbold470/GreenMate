@@ -1,0 +1,12 @@
+- !<AssetCache/764ba3ea-abce-d9f7-8091-f475490f2918>
+  AssetFiles:
+    edad7d53-55da-40b1-9025-fad0e7207862: 28ebde3a-265e-44b3-8790-722b86f7ded8/764ba3eaabced9f78091f475490f2918/Data/TriggerStartAudioTrack.wav
+  AssetCurrentFiles:
+    edad7d53-55da-40b1-9025-fad0e7207862: 28ebde3a-265e-44b3-8790-722b86f7ded8/764ba3eaabced9f78091f475490f2918/Data/TriggerStartAudioTrack.wav
+  Assets:
+    - !<FileAudioTrack/edad7d53-55da-40b1-9025-fad0e7207862>
+      PackagePath: ""
+  SourceHash: 764ba3eaabced9f78091f475490f2918
+  FileHash: 443d2080bc4447c8a580b68f06d1bdf4
+  NativePackageItems:
+    []

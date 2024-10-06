@@ -1,0 +1,6 @@
+ExternalSources:
+  type: "std::map<Es::Uuid, Es::Path>"
+  value:
+    - 26b366c8-a510-4a47-be44-c5bae6d1cdd5: /Users/kshitij/Downloads/IMG_1680.png
+    - 8ba284f7-7736-4b93-89da-7abe3eb6184d: /Users/kshitij/Downloads/IMG_1679.png
+  options: 4

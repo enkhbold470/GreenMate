@@ -1,0 +1,15 @@
+- !<AssetCache/cc4671df-514e-766b-90c7-00abc7085807>
+  AssetFiles:
+    f5a0cd4c-a509-490a-9162-e2a97ce5b344: f213439b-2c60-4808-90b1-892f8f8748ef/cc4671df514e766b90c700abc7085807/Data/Shadow_hat.jpg
+  AssetCurrentFiles:
+    f5a0cd4c-a509-490a-9162-e2a97ce5b344: f213439b-2c60-4808-90b1-892f8f8748ef/cc4671df514e766b90c700abc7085807/Data/Size/High/Shadow_hat.jpg
+  Assets:
+    - !<FileTexture/f5a0cd4c-a509-490a-9162-e2a97ce5b344>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 256
+        Height: 32
+  SourceHash: cc4671df514e766b90c700abc7085807
+  FileHash: daf8aa9215e0f72861c01d8b30b824e0
+  NativePackageItems:
+    []

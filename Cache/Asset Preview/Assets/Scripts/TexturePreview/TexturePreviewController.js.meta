@@ -1,0 +1,69 @@
+- !<AssetImportMetadata/24802b52-774c-4076-b989-ddf9628968fe>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 2b1bb5d1-197f-4b43-8295-0cd4cf634d50
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 2b1bb5d1-197f-4b43-8295-0cd4cf634d50
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> d06d4875-7997-4d13-a86b-87535a5c6145
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/a3de4ca5-5d1e-4ea2-a8e2-03458d9b7085>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/d06d4875-7997-4d13-a86b-87535a5c6145>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    channelBackgroundObjects: false
+    channelIconObj: false
+    fovController: false
+    mappingBackgroundObjects: false
+    mappingIconObj: false
+    mappingObjs: false
+    textureLeftSection: false
+    textureMiddleSection: false
+    texturePreviewMats: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - channelsIcons: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      channelIcons: !<reference.Texture[]>
+        []
+      mappingObjs: !<reference.SceneObject[]>
+        []
+      textureMats: !<reference.Material[]>
+        []
+      channelIconImg: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      mappingIconImg: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      mappingIcons: !<reference.Texture[]>
+        []
+      texturePreviewMats: !<reference.Material[]>
+        []
+      fovController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      texturePreview: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      texturePreview3d: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      textureLeftSection: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      channelIconObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      mappingIconObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      channelIconObjects: !<reference.SceneObject[]>
+        []
+      mappingIconObjects: !<reference.SceneObject[]>
+        []
+      channelBackgroundObjects: !<reference.SceneObject[]>
+        []
+      mappingBackgroundObjects: !<reference.SceneObject[]>
+        []
+      textureMiddleSection: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

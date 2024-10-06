@@ -1,0 +1,15 @@
+- !<AssetCache/5a62ba75-6ee4-bdb6-f81a-3eb1d945f078>
+  AssetFiles:
+    52931fea-1f15-4d02-86a8-d914c4190802: 1ae02fe9-a150-457c-a0f4-d922dde5341e/5a62ba756ee4bdb6f81a3eb1d945f078/Data/close-icon.png
+  AssetCurrentFiles:
+    52931fea-1f15-4d02-86a8-d914c4190802: 1ae02fe9-a150-457c-a0f4-d922dde5341e/5a62ba756ee4bdb6f81a3eb1d945f078/Data/Size/Medium/close-icon.png
+  Assets:
+    - !<FileTexture/52931fea-1f15-4d02-86a8-d914c4190802>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 281
+        Height: 281
+  SourceHash: 5a62ba756ee4bdb6f81a3eb1d945f078
+  FileHash: e354ec68e1b15c86b7a4aed556bca738
+  NativePackageItems:
+    []

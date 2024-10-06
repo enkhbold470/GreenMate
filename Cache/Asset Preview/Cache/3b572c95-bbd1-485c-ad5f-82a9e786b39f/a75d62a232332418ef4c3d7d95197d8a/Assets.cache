@@ -1,0 +1,15 @@
+- !<AssetCache/a75d62a2-3233-2418-ef4c-3d7d95197d8a>
+  AssetFiles:
+    556800aa-1548-4975-8c11-c81b520e5f1f: 3b572c95-bbd1-485c-ad5f-82a9e786b39f/a75d62a232332418ef4c3d7d95197d8a/Data/icons_ambient.png
+  AssetCurrentFiles:
+    556800aa-1548-4975-8c11-c81b520e5f1f: 3b572c95-bbd1-485c-ad5f-82a9e786b39f/a75d62a232332418ef4c3d7d95197d8a/Data/icons_ambient.png
+  Assets:
+    - !<FileTexture/556800aa-1548-4975-8c11-c81b520e5f1f>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 128
+        Height: 128
+  SourceHash: a75d62a232332418ef4c3d7d95197d8a
+  FileHash: 580d41b9e457cf7dca513a40a51c6735
+  NativePackageItems:
+    []

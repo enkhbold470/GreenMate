@@ -1,0 +1,18 @@
+- !<AssetCache/4dfe2d75-8716-d748-7b4e-e717be562d25>
+  AssetFiles:
+    63251853-ba3b-4469-8ac3-6cb3a087df7e: 889ca0c0-468d-437e-b1dd-86ebd483f16c/4dfe2d758716d7487b4ee717be562d25/Data/rain_lighting_rain&lighting_0.mesh
+  AssetCurrentFiles:
+    {}
+  Assets:
+    - !<FileMesh/63251853-ba3b-4469-8ac3-6cb3a087df7e>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 716
+        Vertices: 794
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: 4dfe2d758716d7487b4ee717be562d25
+  FileHash: 0d923f7f290c0db00a9909df35b7eda4
+  NativePackageItems:
+    []

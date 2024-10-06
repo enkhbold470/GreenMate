@@ -1,0 +1,18 @@
+- !<AssetCache/265c1dde-1391-6cd1-abbb-4e2a0e22b64f>
+  AssetFiles:
+    77f34701-7ad8-4271-83a2-8c6b59699d35: 861c21ec-091e-4972-806b-168a53526b2c/265c1dde13916cd1abbb4e2a0e22b64f/Data/ScrollBarSlider.mesh
+  AssetCurrentFiles:
+    77f34701-7ad8-4271-83a2-8c6b59699d35: 861c21ec-091e-4972-806b-168a53526b2c/265c1dde13916cd1abbb4e2a0e22b64f/Data/ScrollBarSlider.mesh
+  Assets:
+    - !<FileMesh/77f34701-7ad8-4271-83a2-8c6b59699d35>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 2
+        Vertices: 4
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: 265c1dde13916cd1abbb4e2a0e22b64f
+  FileHash: 6228e8d932e2e45caa0f323034a3b13d
+  NativePackageItems:
+    []

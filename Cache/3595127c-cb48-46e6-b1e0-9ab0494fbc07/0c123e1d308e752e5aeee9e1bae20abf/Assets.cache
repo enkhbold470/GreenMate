@@ -1,0 +1,18 @@
+- !<AssetCache/0c123e1d-308e-752e-5aee-e9e1bae20abf>
+  AssetFiles:
+    1715b804-aae7-4933-a80f-23a46abc5f57: 3595127c-cb48-46e6-b1e0-9ab0494fbc07/0c123e1d308e752e5aeee9e1bae20abf/Data/Occluder Mesh.mesh
+  AssetCurrentFiles:
+    {}
+  Assets:
+    - !<FileMesh/1715b804-aae7-4933-a80f-23a46abc5f57>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 686
+        Vertices: 410
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: 0c123e1d308e752e5aeee9e1bae20abf
+  FileHash: 4d58f2922ceda4e6bc1b9406ea4b1487
+  NativePackageItems:
+    []

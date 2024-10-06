@@ -1,0 +1,12 @@
+- !<AssetCache/d065b553-964e-23ab-c7fd-493487f4874c>
+  AssetFiles:
+    97bf97ae-b2da-47d7-bde6-003f597fe888: ed8abcf0-c62d-4bb1-bb81-e2d427c0792f/d065b553964e23abc7fd493487f4874c/Data/HoverAudioTrack.wav
+  AssetCurrentFiles:
+    97bf97ae-b2da-47d7-bde6-003f597fe888: ed8abcf0-c62d-4bb1-bb81-e2d427c0792f/d065b553964e23abc7fd493487f4874c/Data/HoverAudioTrack.wav
+  Assets:
+    - !<FileAudioTrack/97bf97ae-b2da-47d7-bde6-003f597fe888>
+      PackagePath: ""
+  SourceHash: d065b553964e23abc7fd493487f4874c
+  FileHash: bdcca17ef0df8d53d5299cadae5c43ce
+  NativePackageItems:
+    []

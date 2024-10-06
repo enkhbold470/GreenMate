@@ -1,0 +1,19 @@
+- !<AssetImportMetadata/462f8ba7-2cad-44bf-956a-c13a3cbe8a62>
+  ImportedAssetIds:
+    Pass: !<reference> 20e28697-5313-4c72-b17c-621ef638897d
+    ui: !<reference> 91a18685-25f4-4eab-9a2c-3b7ba6064759
+  ImporterName: PassImporter
+  PrimaryAsset: !<reference> 20e28697-5313-4c72-b17c-621ef638897d
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    - flat.ui
+    - includes/blend_modes.glsl
+    - includes/blend_modes_eyecolor.glsl
+    - includes/oit.glsl
+    - includes/rgbhsl.glsl
+  ImporterSettings: !<AssetImporterSettings/80bc5ed7-0e9d-46c5-82b7-639f712f21a5>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

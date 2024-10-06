@@ -1,0 +1,15 @@
+- !<AssetCache/dbeb1881-7e69-2ecc-e8e4-76f9648392a4>
+  AssetFiles:
+    69f91d8f-e101-42e8-b47e-806c395b87a7: c7eccf2e-1a74-40c3-b846-3a6d1c833425/dbeb18817e692ecce8e476f9648392a4/Data/fx_sparkles_2x2.png
+  AssetCurrentFiles:
+    69f91d8f-e101-42e8-b47e-806c395b87a7: c7eccf2e-1a74-40c3-b846-3a6d1c833425/dbeb18817e692ecce8e476f9648392a4/Data/Performance/Medium/fx_sparkles_2x2.pvr
+  Assets:
+    - !<FileTexture/69f91d8f-e101-42e8-b47e-806c395b87a7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 128
+        Height: 128
+  SourceHash: dbeb18817e692ecce8e476f9648392a4
+  FileHash: 0f36bd408579dc6b852a764152d63b8b
+  NativePackageItems:
+    []

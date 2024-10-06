@@ -1,0 +1,15 @@
+- !<AssetCache/04c3d1f2-a199-8507-0d80-28903d2c1713>
+  AssetFiles:
+    c81b526e-99aa-49e0-a092-6cc899998b8f: f63440ca-794c-4d39-ba98-8950d2128117/04c3d1f2a19985070d8028903d2c1713/Data/soft-reflection.jpg
+  AssetCurrentFiles:
+    c81b526e-99aa-49e0-a092-6cc899998b8f: f63440ca-794c-4d39-ba98-8950d2128117/04c3d1f2a19985070d8028903d2c1713/Data/Size/Medium/soft-reflection.jpg
+  Assets:
+    - !<FileTexture/c81b526e-99aa-49e0-a092-6cc899998b8f>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 512
+        Height: 512
+  SourceHash: 04c3d1f2a19985070d8028903d2c1713
+  FileHash: 6695424fa96469475155a40874a337e3
+  NativePackageItems:
+    []

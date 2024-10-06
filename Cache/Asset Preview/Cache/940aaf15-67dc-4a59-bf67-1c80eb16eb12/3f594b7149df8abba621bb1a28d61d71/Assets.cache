@@ -1,0 +1,1990 @@
+- !<AssetCache/3f594b71-49df-8abb-a621-bb1a28d61d71>
+  AssetFiles:
+    5970cbf0-e1d7-465a-b18a-359e4ffef44a: 940aaf15-67dc-4a59-bf67-1c80eb16eb12/3f594b7149df8abba621bb1a28d61d71/Data/uber.glsl
+  AssetCurrentFiles:
+    5970cbf0-e1d7-465a-b18a-359e4ffef44a: 940aaf15-67dc-4a59-bf67-1c80eb16eb12/3f594b7149df8abba621bb1a28d61d71/Data/uber.glsl
+  Assets:
+    - !<Pass/5970cbf0-e1d7-465a-b18a-359e4ffef44a>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        {}
+      PassUiData: !<PassUiData/b5884490-8a09-45ba-b2ed-98e5a79b2e63>
+        ExtraDefines:
+          - SCREEN_UV -1
+          - PROJECTED_UV -2
+        PassBindings:
+          - mLabel: Vertex Color
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: |-
+              Specifies the purpose for which vertex color will be used. 
+              Requires vertex color to be supplied by the mesh.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: None
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: Ignore vertex color.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Base Color
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: ENABLE_VERTEX_COLOR_BASE
+                  
+                  Multiply vertex color rgba into 'Base Color', and 'Base Texture', if set.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Emissive
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: ENABLE_VERTEX_COLOR_EMISSIVE
+                  
+                  Use vertex color rgb as emissive, or add it on top of the 'Emissive Texture', if set.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: AO
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: ENABLE_VERTEX_COLOR_AO
+                  
+                  Use vertex color rgb as AO, or multiply it into the 'AO Texture', if set.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Base Color
+            mType: Property
+            mName: baseColor
+            mWidget: color
+            mHint: |-
+              Property: baseColor
+              
+              Multiplied with the 'Base Texture' otherwise.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Base Texture
+            mType: Define
+            mName: ENABLE_BASE_TEX
+            mWidget: group_start
+            mHint: "Define: ENABLE_BASE_TEX"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: baseTex
+            mWidget: texture_group
+            mHint: "Property: baseTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: baseTexUV 0
+                  
+                  First UV set supplied by mesh. Default UV set on all meshes.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: baseTexUV 1
+                  
+                  Second UV set supplied by mesh. Optionally available if supplied from content creation tool.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: baseTexUV 2
+                  
+                  Requires 'Transformed UV 2' to be enabled.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: baseTexUV 3
+                  
+                  Requires 'Transformed UV 3' to be enabled.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: Property
+            mName: ENABLE_BASE_TEX
+            mWidget: group_end
+            mHint: "Property: ENABLE_BASE_TEX"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Opacity Texture
+            mType: Define
+            mName: ENABLE_OPACITY_TEX
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_OPACITY_TEX
+              
+              The 'Opacity Texture' value will be multiplied with the Base Texture's alpha (which is 1 for textures without alpha) to get the final opacity. 
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: opacityTex
+            mWidget: texture_group
+            mHint: "Property: opacityTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: opacityTexUV 0
+                  
+                  First UV set supplied by mesh. Default UV set on all meshes.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: opacityTexUV 1
+                  
+                  Second UV set supplied by mesh. Optionally available if supplied from content creation tool.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: opacityTexUV 2
+                  
+                  Requires 'Transformed UV 2' to be enabled.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: opacityTexUV 3
+                  
+                  Requires 'Transformed UV 3' to be enabled.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: Property
+            mName: ENABLE_OPACITY_TEX
+            mWidget: group_end
+            mHint: "Property: ENABLE_OPACITY_TEX"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: "Property: alphaTestThreshold"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+          - mLabel: Recolor
+            mType: Define
+            mName: ENABLE_RECOLOR
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_RECOLOR
+              
+              This is useful for adding variety to assets, ex: recolor a red shirt with a green logo to a blue shirt with a black logo, or any other color combination. 
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Recolor Red
+            mType: Property
+            mName: recolorRed
+            mWidget: color
+            mHint: "Property: recolorRed"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Recolor Green
+            mType: Property
+            mName: recolorGreen
+            mWidget: color
+            mHint: "Property: recolorGreen"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Recolor Blue
+            mType: Property
+            mName: recolorBlue
+            mWidget: color
+            mHint: "Property: recolorBlue"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: Property
+            mName: ENABLE_RECOLOR
+            mWidget: group_end
+            mHint: "Property: ENABLE_RECOLOR"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Detail Map
+            mType: Define
+            mName: ENABLE_DETAILMAP
+            mWidget: group_start
+            mHint: "Define: ENABLE_DETAILMAP"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: detailTex
+            mWidget: texture_group
+            mHint: "Property: detailTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: detailTexUV 0
+                  
+                  First UV set supplied by mesh. Default UV set on all meshes.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: detailTexUV 1
+                  
+                  Second UV set supplied by mesh. Optionally available if supplied from content creation tool.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: detailTexUV 2
+                  
+                  Requires 'Transformed UV 2' to be enabled.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: detailTexUV 3
+                  
+                  Requires 'Transformed UV 3' to be enabled.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: Property
+            mName: ENABLE_DETAILMAP
+            mWidget: group_end
+            mHint: "Property: ENABLE_DETAILMAP"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Detail Mask
+            mType: Define
+            mName: ENABLE_DETAIL_MASK
+            mWidget: group_start
+            mHint: "Define: ENABLE_DETAIL_MASK"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: detailMaskTex
+            mWidget: texture_group
+            mHint: "Property: detailMaskTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: detailMaskTexUV 0
+                  
+                  First UV set supplied by mesh. Default UV set on all meshes.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: detailMaskTexUV 1
+                  
+                  Second UV set supplied by mesh. Optionally available if supplied from content creation tool.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: detailMaskTexUV 2
+                  
+                  Requires 'Transformed UV 2' to be enabled.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: detailMaskTexUV 3
+                  
+                  Requires 'Transformed UV 3' to be enabled.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: Property
+            mName: ENABLE_DETAIL_MASK
+            mWidget: group_end
+            mHint: "Property: ENABLE_DETAIL_MASK"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Normal Map
+            mType: Define
+            mName: ENABLE_NORMALMAP
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_NORMALMAP
+              
+              When this is disabled, the per pixel normal is solely determined by the interpolated vertex normals.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: High Precision
+            mType: Define
+            mName: ENABLE_HIGH_PRECISION_NORMALMAP
+            mWidget: group_start
+            mHint: "Define: ENABLE_HIGH_PRECISION_NORMALMAP"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Msb
+            mType: Property
+            mName: normalMsbTex
+            mWidget: texture_group
+            mHint: "Property: normalMsbTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Lsb
+            mType: Property
+            mName: normalLsbTex
+            mWidget: texture_group
+            mHint: "Property: normalLsbTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: Property
+            mName: ENABLE_HIGH_PRECISION_NORMALMAP
+            mWidget: group_end
+            mHint: "Property: ENABLE_HIGH_PRECISION_NORMALMAP"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: normalTex
+            mWidget: texture_group
+            mHint: "Property: normalTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: normalTexUV 0
+                  
+                  First UV set supplied by mesh. Default UV set on all meshes.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: normalTexUV 1
+                  
+                  Second UV set supplied by mesh. Optionally available if supplied from content creation tool.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: normalTexUV 2
+                  
+                  Requires 'Transformed UV 2' to be enabled.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: normalTexUV 3
+                  
+                  Requires 'Transformed UV 3' to be enabled.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Detail Normal
+            mType: Define
+            mName: ENABLE_DETAIL_NORMAL
+            mWidget: group_start
+            mHint: "Define: ENABLE_DETAIL_NORMAL"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: detailNormalTex
+            mWidget: texture_group
+            mHint: "Property: detailNormalTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: detailNormalTexUV 0
+                  
+                  First UV set supplied by mesh. Default UV set on all meshes.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: detailNormalTexUV 1
+                  
+                  Second UV set supplied by mesh. Optionally available if supplied from content creation tool.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: detailNormalTexUV 2
+                  
+                  Requires 'Transformed UV 2' to be enabled.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: detailNormalTexUV 3
+                  
+                  Requires 'Transformed UV 3' to be enabled.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: Property
+            mName: ENABLE_DETAIL_NORMAL
+            mWidget: group_end
+            mHint: "Property: ENABLE_DETAIL_NORMAL"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: Property
+            mName: ENABLE_NORMALMAP
+            mWidget: group_end
+            mHint: "Property: ENABLE_NORMALMAP"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Emissive
+            mType: Define
+            mName: ENABLE_EMISSIVE
+            mWidget: group_start
+            mHint: "Define: ENABLE_EMISSIVE"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: emissiveTex
+            mWidget: texture_group
+            mHint: "Property: emissiveTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: emissiveTexUV 0
+                  
+                  First UV set supplied by mesh. Default UV set on all meshes.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: emissiveTexUV 1
+                  
+                  Second UV set supplied by mesh. Optionally available if supplied from content creation tool.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: emissiveTexUV 2
+                  
+                  Requires 'Transformed UV 2' to be enabled.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: emissiveTexUV 3
+                  
+                  Requires 'Transformed UV 3' to be enabled.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Color
+            mType: Property
+            mName: emissiveColor
+            mWidget: color
+            mHint: |-
+              Property: emissiveColor
+              
+              Requires 'Enable Emissive' and/or 'Vertex Color' should be set to 'Emissive'.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Intensity
+            mType: Property
+            mName: emissiveIntensity
+            mWidget: slider
+            mHint: |-
+              Property: emissiveIntensity
+              
+              Requires 'Enable Emissive' and/or 'Vertex Color' should be set to 'Emissive'.
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.001000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: Property
+            mName: ENABLE_EMISSIVE
+            mWidget: group_end
+            mHint: "Property: ENABLE_EMISSIVE"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Simple Reflection
+            mType: Define
+            mName: ENABLE_SIMPLE_REFLECTION
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_SIMPLE_REFLECTION
+              
+              It can even be used with unlit materials. The reflection lookup technically assumes a spherical environment map, which is a circular 
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: reflectionTex
+            mWidget: texture_group
+            mHint: "Property: reflectionTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Intensity
+            mType: Property
+            mName: reflectionIntensity
+            mWidget: slider
+            mHint: "Property: reflectionIntensity"
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.001000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Modulation Map
+            mType: Define
+            mName: ENABLE_REFLECTION_MODULATION_TEX
+            mWidget: group_start
+            mHint: "Define: ENABLE_REFLECTION_MODULATION_TEX"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: reflectionModulationTex
+            mWidget: texture_group
+            mHint: "Property: reflectionModulationTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: emissiveTexUV 0
+                  
+                  First UV set supplied by mesh. Default UV set on all meshes.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: emissiveTexUV 1
+                  
+                  Second UV set supplied by mesh. Optionally available if supplied from content creation tool.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: emissiveTexUV 2
+                  
+                  Requires 'Transformed UV 2' to be enabled.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: emissiveTexUV 3
+                  
+                  Requires 'Transformed UV 3' to be enabled.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: Property
+            mName: ENABLE_REFLECTION_MODULATION_TEX
+            mWidget: group_end
+            mHint: "Property: ENABLE_REFLECTION_MODULATION_TEX"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: Property
+            mName: ENABLE_SIMPLE_REFLECTION
+            mWidget: group_end
+            mHint: "Property: ENABLE_SIMPLE_REFLECTION"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Rim Highlight
+            mType: Define
+            mName: ENABLE_RIM_HIGHLIGHT
+            mWidget: group_start
+            mHint: "Define: ENABLE_RIM_HIGHLIGHT"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Color
+            mType: Property
+            mName: rimColor
+            mWidget: color
+            mHint: "Property: rimColor"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Intensity
+            mType: Property
+            mName: rimIntensity
+            mWidget: slider
+            mHint: "Property: rimIntensity"
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.001000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Exponent
+            mType: Property
+            mName: rimExponent
+            mWidget: slider
+            mHint: "Property: rimExponent"
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.001000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Invert
+            mType: Define
+            mName: ENABLE_RIM_INVERT
+            mWidget: ""
+            mHint: "Define: ENABLE_RIM_INVERT"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Rim Color Texture
+            mType: Define
+            mName: ENABLE_RIM_COLOR_TEX
+            mWidget: group_start
+            mHint: "Define: ENABLE_RIM_COLOR_TEX"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: rimColorTex
+            mWidget: texture_group
+            mHint: "Property: rimColorTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: rimColorTexUV 0
+                  
+                  First UV set supplied by mesh. Default UV set on all meshes.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: rimColorTexUV 1
+                  
+                  Second UV set supplied by mesh. Optionally available if supplied from content creation tool.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: rimColorTexUV 2
+                  
+                  Requires 'Transformed UV 2' to be enabled.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: rimColorTexUV 3
+                  
+                  Requires 'Transformed UV 3' to be enabled.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: Property
+            mName: ENABLE_RIM_COLOR_TEX
+            mWidget: group_end
+            mHint: "Property: ENABLE_RIM_COLOR_TEX"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: Property
+            mName: ENABLE_RIM_HIGHLIGHT
+            mWidget: group_end
+            mHint: "Property: ENABLE_RIM_HIGHLIGHT"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Lighting
+            mType: Define
+            mName: ENABLE_LIGHTING
+            mWidget: group_start
+            mHint: "Define: ENABLE_LIGHTING"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Diffuse
+            mType: Define
+            mName: ENABLE_DIFFUSE_LIGHTING
+            mWidget: ""
+            mHint: "Define: ENABLE_DIFFUSE_LIGHTING"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Specular
+            mType: Define
+            mName: ENABLE_SPECULAR_LIGHTING
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_SPECULAR_LIGHTING
+              
+              Disabling this creates a shader that's only lit diffusely.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Metallic
+            mType: Property
+            mName: metallic
+            mWidget: slider
+            mHint: "Property: metallic"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Roughness
+            mType: Property
+            mName: roughness
+            mWidget: slider
+            mHint: |-
+              Property: roughness
+              
+              Multiplies the roughness channel of the Material Params texture if enabled. 
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: materialParamsTex
+            mWidget: texture_group
+            mHint: "Property: materialParamsTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: materialParamsTexUV 0
+                  
+                  First UV set supplied by mesh. Default UV set on all meshes.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: materialParamsTexUV 1
+                  
+                  Second UV set supplied by mesh. Optionally available if supplied from content creation tool.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: materialParamsTexUV 2
+                  
+                  Requires 'Transformed UV 2' to be enabled.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: materialParamsTexUV 3
+                  
+                  Requires 'Transformed UV 3' to be enabled.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Camera Reflections
+            mType: Define
+            mName: ENABLE_ENVMAP_FROM_CAMERA
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_ENVMAP_FROM_CAMERA
+              
+              This replaces the usual user specified environment map.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Roughness
+            mType: Define
+            mName: ENABLE_ENVMAP_FROM_CAMERA_ROUGHNESS
+            mWidget: group_start
+            mHint: "Define: ENABLE_ENVMAP_FROM_CAMERA_ROUGHNESS"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Blur Width
+            mType: Property
+            mName: reflBlurWidth
+            mWidget: slider
+            mHint: |-
+              Property: reflBlurWidth
+              
+              The wider the blur kernel, the blurrier the result.
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.001000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Blur Min Rough
+            mType: Property
+            mName: reflBlurMinRough
+            mWidget: slider
+            mHint: "Property: reflBlurMinRough"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Blur Max Rough
+            mType: Property
+            mName: reflBlurMaxRough
+            mWidget: slider
+            mHint: |-
+              Property: reflBlurMaxRough
+              
+              The blur width reaches the max set in 'Blur Width'.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: Property
+            mName: ENABLE_ENVMAP_FROM_CAMERA_ROUGHNESS
+            mWidget: group_end
+            mHint: "Property: ENABLE_ENVMAP_FROM_CAMERA_ROUGHNESS"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: Property
+            mName: ENABLE_ENVMAP_FROM_CAMERA
+            mWidget: group_end
+            mHint: "Property: ENABLE_ENVMAP_FROM_CAMERA"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Specular AO
+            mType: Define
+            mName: ENABLE_SPECULAR_AO
+            mWidget: group_start
+            mHint: "Define: ENABLE_SPECULAR_AO"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Intensity
+            mType: Property
+            mName: specularAoIntensity
+            mWidget: slider
+            mHint: |-
+              Property: specularAoIntensity
+              
+              For metals the specular AO at its darkest approaches a saturated/darkened version of the metal color (ex: dark gold for gold). 
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Darkening
+            mType: Property
+            mName: specularAoDarkening
+            mWidget: slider
+            mHint: |-
+              Property: specularAoDarkening
+              
+              For non-metals it's essentially equivalent to 'Intensity'.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: Property
+            mName: ENABLE_SPECULAR_AO
+            mWidget: group_end
+            mHint: "Property: ENABLE_SPECULAR_AO"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: Property
+            mName: ENABLE_SPECULAR_LIGHTING
+            mWidget: group_end
+            mHint: "Property: ENABLE_SPECULAR_LIGHTING"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Baked Shadows
+            mType: Define
+            mName: ENABLE_BAKED_SHADOWS
+            mWidget: group_start
+            mHint: "Define: ENABLE_BAKED_SHADOWS"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: bakedShadowsTex
+            mWidget: texture_group
+            mHint: |-
+              Property: bakedShadowsTex
+              
+              If you only want to shadow one light, set the Red channel to the shadow texture, and the Green and Blue to full white. 
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: bakedShadowsTexUV 0
+                  
+                  First UV set supplied by mesh. Default UV set on all meshes.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: bakedShadowsTexUV 1
+                  
+                  Second UV set supplied by mesh. Optionally available if supplied from content creation tool.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: bakedShadowsTexUV 2
+                  
+                  Requires 'Transformed UV 2' to be enabled.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: bakedShadowsTexUV 3
+                  
+                  Requires 'Transformed UV 3' to be enabled.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: Property
+            mName: ENABLE_BAKED_SHADOWS
+            mWidget: group_end
+            mHint: "Property: ENABLE_BAKED_SHADOWS"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: Property
+            mName: ENABLE_LIGHTING
+            mWidget: group_end
+            mHint: "Property: ENABLE_LIGHTING"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Fizzle
+            mType: Define
+            mName: ENABLE_FIZZLE
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_FIZZLE
+              
+              driven by the 'transition' parameter (0 is fully visible and 1 is fully invisible).
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Frequency
+            mType: Property
+            mName: fizzleScale
+            mWidget: spinbox
+            mHint: "Property: fizzleScale"
+            mMin: 0.000000
+            mMax: 100.000000
+            mStep: 0.001000
+            mDefaultVal: 10.000000
+            mValues:
+              []
+          - mLabel: Transition
+            mType: Property
+            mName: transition
+            mWidget: slider
+            mHint: "Property: transition"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: Property
+            mName: ENABLE_FIZZLE
+            mWidget: group_end
+            mHint: "Property: ENABLE_FIZZLE"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Tone Mapping
+            mType: Define
+            mName: ENABLE_TONE_MAPPING
+            mWidget: ""
+            mHint: |-
+              Define: ENABLE_TONE_MAPPING
+              
+              However, for some uses, like UI elements, or materials with specific blend modes, you might want to turn tone mapping off.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Transformed UV 2
+            mType: Define
+            mName: ENABLE_UV2
+            mWidget: group_start
+            mHint: "Define: ENABLE_UV2"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Source
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used as the base on top of which the transform is applied.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: UV2_SOURCE 0
+                  
+                  First UV set supplied by mesh. Default UV set on all meshes.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: UV2_SOURCE 1
+                  
+                  Second UV set supplied by mesh. Optionally available if supplied from content creation tool.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Screen UV
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: UV2_SOURCE SCREEN_UV
+                  
+                  Screen space UV mapping stretches a texture over the full screen.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Projected UV
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: UV2_SOURCE PROJECTED_UV
+                  
+                  Similar to Screen UV, but an arbitrary ModelViewProjection matrix must be supplied 
+                   from script in the matrix4 property called 'uv2Matrix', which projects the vertices to texture space. 
+                   Ex: a snapshot texture of the screen and a snapshot of the ModelViewProjection matrix of the same frame can 
+                   statically map that frame to a 3D object even after the camera and/or the 3D object moves. 
+                   Note that this matrix should actually include the inverse of the current model matrix (world space to object space), 
+                   because the positions in the shader are already in world space, and we need to get them back to object space first, 
+                   before ModelViewProjection can be applied. So, really, you need to pass InvcurrentmodelModelViewProjection.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Scale
+            mType: Property
+            mName: uv2Scale
+            mWidget: ""
+            mHint: "Property: uv2Scale"
+            mMin: -10.000000
+            mMax: 10.000000
+            mStep: 0.001000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: uv2Offset
+            mWidget: ""
+            mHint: |-
+              Property: uv2Offset
+              
+              If animation is enabled, the speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second.
+            mMin: -10.000000
+            mMax: 10.000000
+            mStep: 0.001000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Animation
+            mType: Define
+            mName: ENABLE_UV2_ANIMATION
+            mWidget: ""
+            mHint: |-
+              Define: ENABLE_UV2_ANIMATION
+              
+              The speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: Property
+            mName: ENABLE_UV2
+            mWidget: group_end
+            mHint: "Property: ENABLE_UV2"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Transformed UV 3
+            mType: Define
+            mName: ENABLE_UV3
+            mWidget: group_start
+            mHint: "Define: ENABLE_UV3"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Source
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used as the base on top of which the transform is applied.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: UV3_SOURCE 0
+                  
+                  First UV set supplied by mesh. Default UV set on all meshes.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: UV3_SOURCE 1
+                  
+                  Second UV set supplied by mesh. Optionally available if supplied from content creation tool.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: UV3_SOURCE 2
+                  
+                  Requires 'Transformed UV 2' to be enabled.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Screen UV
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: UV3_SOURCE SCREEN_UV
+                  
+                  Screen space UV mapping stretches a texture over the full screen.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Projected UV
+                mType: DefineSelectValue
+                mName: ""
+                mWidget: ""
+                mHint: |-
+                  Property: UV3_SOURCE PROJECTED_UV
+                  
+                  Similar to Screen UV, but an arbitrary ModelViewProjection matrix must be supplied 
+                   from script in the matrix4 property called 'uv3Matrix', which projects the vertices to texture space. 
+                   Ex: a snapshot texture of the screen and a snapshot of the ModelViewProjection matrix of the same frame can 
+                   statically map that frame to a 3D object even after the camera and/or the 3D object moves. 
+                   Note that this matrix should actually include the inverse of the current model matrix (world space to object space), 
+                   because the positions in the shader are already in world space, and we need to get them back to object space first, 
+                   before ModelViewProjection can be applied. So, really, you need to pass InvcurrentmodelModelViewProjection.
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Scale
+            mType: Property
+            mName: uv3Scale
+            mWidget: ""
+            mHint: "Property: uv3Scale"
+            mMin: -10.000000
+            mMax: 10.000000
+            mStep: 0.001000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: uv3Offset
+            mWidget: ""
+            mHint: |-
+              Property: uv3Offset
+              
+              If animation is enabled, the speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second.
+            mMin: -10.000000
+            mMax: 10.000000
+            mStep: 0.001000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Animation
+            mType: Define
+            mName: ENABLE_UV3_ANIMATION
+            mWidget: ""
+            mHint: |-
+              Define: ENABLE_UV3_ANIMATION
+              
+              The speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: Property
+            mName: ENABLE_UV3
+            mWidget: group_end
+            mHint: "Property: ENABLE_UV3"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+  SourceHash: 3f594b7149df8abba621bb1a28d61d71
+  FileHash: c3f30e355fbcadebf1b67577d381ac1b
+  NativePackageItems:
+    []

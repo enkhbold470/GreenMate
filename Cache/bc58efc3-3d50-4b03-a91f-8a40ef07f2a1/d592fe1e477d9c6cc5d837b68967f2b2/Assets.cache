@@ -1,0 +1,15 @@
+- !<AssetCache/d592fe1e-477d-9c6c-c5d8-37b68967f2b2>
+  AssetFiles:
+    3b424fab-1874-47be-bb58-4104a24fc7b9: bc58efc3-3d50-4b03-a91f-8a40ef07f2a1/d592fe1e477d9c6cc5d837b68967f2b2/Data/MaterialParams.png
+  AssetCurrentFiles:
+    3b424fab-1874-47be-bb58-4104a24fc7b9: bc58efc3-3d50-4b03-a91f-8a40ef07f2a1/d592fe1e477d9c6cc5d837b68967f2b2/Data/Performance/Medium/MaterialParams.pvr
+  Assets:
+    - !<FileTexture/3b424fab-1874-47be-bb58-4104a24fc7b9>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1
+        Height: 1
+  SourceHash: d592fe1e477d9c6cc5d837b68967f2b2
+  FileHash: 3267af05878057e8cb120c2b8592e851
+  NativePackageItems:
+    []

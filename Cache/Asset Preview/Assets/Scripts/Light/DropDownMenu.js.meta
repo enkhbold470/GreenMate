@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/db451ebd-134b-480a-a26d-edb971a1da6d>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> fc8c943d-af7a-4a3d-918e-2cbcaf3540ce
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> fc8c943d-af7a-4a3d-918e-2cbcaf3540ce
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 939d88ae-32d4-4ed9-b1cd-715c223f38b6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/7ceda942-5b07-48c9-b790-d0c69fe76b29>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/939d88ae-32d4-4ed9-b1cd-715c223f38b6>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    dropDownMenu: false
+    hoverEventReset: false
+    interactionComponent: false
+    mainIconScript: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - interactionComponent: !<reference.InteractionComponent> 00000000-0000-0000-0000-000000000000
+      dropDownMenu: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hoverEventReset: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      environmentIconObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      mainIconObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      mainIconScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

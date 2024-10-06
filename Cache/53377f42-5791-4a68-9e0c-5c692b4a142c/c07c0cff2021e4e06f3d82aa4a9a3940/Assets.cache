@@ -1,0 +1,15 @@
+- !<AssetCache/c07c0cff-2021-e4e0-6f3d-82aa4a9a3940>
+  AssetFiles:
+    03dde162-7afe-419e-9c3e-fd6255bae96b: 53377f42-5791-4a68-9e0c-5c692b4a142c/c07c0cff2021e4e06f3d82aa4a9a3940/Data/Diffuse_hat.jpg
+  AssetCurrentFiles:
+    03dde162-7afe-419e-9c3e-fd6255bae96b: 53377f42-5791-4a68-9e0c-5c692b4a142c/c07c0cff2021e4e06f3d82aa4a9a3940/Data/Size/High/Diffuse_hat.jpg
+  Assets:
+    - !<FileTexture/03dde162-7afe-419e-9c3e-fd6255bae96b>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1024
+        Height: 1024
+  SourceHash: c07c0cff2021e4e06f3d82aa4a9a3940
+  FileHash: 22c45f736983e2b90787ca225fc405ce
+  NativePackageItems:
+    []

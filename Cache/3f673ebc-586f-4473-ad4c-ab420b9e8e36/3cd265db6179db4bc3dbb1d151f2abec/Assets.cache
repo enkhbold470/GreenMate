@@ -1,0 +1,18 @@
+- !<AssetCache/3cd265db-6179-db4b-c3db-b1d151f2abec>
+  AssetFiles:
+    faaaa71e-8f67-4fef-b952-49ccab833105: 3f673ebc-586f-4473-ad4c-ab420b9e8e36/3cd265db6179db4bc3dbb1d151f2abec/Data/shadow1.mesh
+  AssetCurrentFiles:
+    {}
+  Assets:
+    - !<FileMesh/faaaa71e-8f67-4fef-b952-49ccab833105>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 24
+        Vertices: 26
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: 3cd265db6179db4bc3dbb1d151f2abec
+  FileHash: e7d955f18678a71dad97a4d30a8264cb
+  NativePackageItems:
+    []

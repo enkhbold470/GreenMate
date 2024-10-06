@@ -1,0 +1,18 @@
+- !<AssetCache/87833391-0985-0288-a9c0-f271a6c8daa5>
+  AssetFiles:
+    55743004-8a34-4897-a9bf-f214e9d3efb2: b04aeb0e-c3be-4e37-a633-d463c132bd54/8783339109850288a9c0f271a6c8daa5/Data/lighting_lighting_0.mesh
+  AssetCurrentFiles:
+    {}
+  Assets:
+    - !<FileMesh/55743004-8a34-4897-a9bf-f214e9d3efb2>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 1272
+        Vertices: 1368
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: 8783339109850288a9c0f271a6c8daa5
+  FileHash: 5a47f5c0d77b526960f0e1da6aed4458
+  NativePackageItems:
+    []

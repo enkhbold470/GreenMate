@@ -1,0 +1,12 @@
+- !<AssetCache/a06e0804-8fae-9fff-c42a-46f7bb6a9120>
+  AssetFiles:
+    454bd92c-6cf4-4e04-9deb-2695e1573e24: 730cfe62-fd0e-4baa-9c74-42016e9c2ff4/a06e08048fae9fffc42a46f7bb6a9120/Data/README.md
+  AssetCurrentFiles:
+    454bd92c-6cf4-4e04-9deb-2695e1573e24: 730cfe62-fd0e-4baa-9c74-42016e9c2ff4/a06e08048fae9fffc42a46f7bb6a9120/Data/README.md
+  Assets:
+    - !<BinAsset/454bd92c-6cf4-4e04-9deb-2695e1573e24>
+      PackagePath: ""
+  SourceHash: a06e08048fae9fffc42a46f7bb6a9120
+  FileHash: 8f57e422dc0d93cf094a5c58e087ee3e
+  NativePackageItems:
+    []

@@ -1,0 +1,167 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 161
+    values:
+      - Blink.ts
+      - Echopark.hdr
+      - GPU Particles Effects Pack.lspkg
+      - GPU Particles Effects Pack.lspkg/GPU_Particles_Effects_Pack__PLACE_IN_SCENE.prefab
+      - GPU Particles Effects Pack.lspkg/Materials
+      - "GPU Particles Effects Pack.lspkg/Materials/Blizzard [EDIT_ME].mat"
+      - "GPU Particles Effects Pack.lspkg/Materials/Bokeh [EDIT_ME].mat"
+      - "GPU Particles Effects Pack.lspkg/Materials/Embers [EDIT_ME].mat"
+      - "GPU Particles Effects Pack.lspkg/Materials/Fountain Cartoon [EDIT_ME].mat"
+      - "GPU Particles Effects Pack.lspkg/Materials/Rain [EDIT_ME].mat"
+      - "GPU Particles Effects Pack.lspkg/Materials/Snow Ground [EDIT_ME].mat"
+      - "GPU Particles Effects Pack.lspkg/Materials/Snow [EDIT_ME].mat"
+      - "GPU Particles Effects Pack.lspkg/Materials/Sparkles [EDIT_ME].mat"
+      - GPU Particles Effects Pack.lspkg/Meshes
+      - GPU Particles Effects Pack.lspkg/Meshes/Particles Mesh.mesh
+      - GPU Particles Effects Pack.lspkg/Scripts
+      - GPU Particles Effects Pack.lspkg/Scripts/Simple GPU Particles Controller.js
+      - GPU Particles Effects Pack.lspkg/Shaders
+      - GPU Particles Effects Pack.lspkg/Shaders/GPU Particles.ss_graph
+      - GPU Particles Effects Pack.lspkg/Textures
+      - GPU Particles Effects Pack.lspkg/Textures/White 1x1.png
+      - GPU Particles Effects Pack.lspkg/Textures/cr_blink.png
+      - GPU Particles Effects Pack.lspkg/Textures/cr_linear_blend.png
+      - GPU Particles Effects Pack.lspkg/Textures/fireball_2x2.png
+      - GPU Particles Effects Pack.lspkg/Textures/fx_bokeh.png
+      - GPU Particles Effects Pack.lspkg/Textures/fx_rain_2x2.png
+      - GPU Particles Effects Pack.lspkg/Textures/fx_sparkles_2x2.png
+      - GPU Particles Effects Pack.lspkg/Textures/fx_water_splash_2x2_cartoony.png
+      - GPU Particles Effects Pack.lspkg/package.native
+      - IMG_1679.png
+      - IMG_1680.png
+      - InternetRemoteServiceModule.remoteServiceModule
+      - Marker Cube
+      - Marker Cube 1
+      - Marker Cube 1/.hidden
+      - Marker Cube 1/.hidden/Graph Matte Shadow.ss_graph
+      - Marker Cube 1/.hidden/Occluder.ss_graph
+      - Marker Cube 1/.hidden/Textures
+      - Marker Cube 1/.hidden/Textures/Base.png
+      - Marker Cube 1/.hidden/Textures/MaterialParams.png
+      - Marker Cube 1/.hidden/Textures/Normal.png
+      - Marker Cube 1/.hidden/Uber PBR.lsmat.mat
+      - Marker Cube 1/.hidden/Uber PBR1.lsmat.ss_graph
+      - Marker Cube 1/Marker Resources
+      - Marker Cube 1/Marker Resources/Materials
+      - Marker Cube 1/Marker Resources/Materials/Graph Matte Shadow.mat
+      - Marker Cube 1/Marker Resources/Materials/Occluder.mat
+      - Marker Cube 1/Marker Resources/Meshes
+      - Marker Cube 1/Marker Resources/Meshes/Box.mesh
+      - Marker Cube 1/Marker Resources/Meshes/Plane.mesh
+      - Marker Cube 1/Marker Resources/Scripts
+      - Marker Cube 1/Marker Resources/Scripts/EnableLightShadows.js
+      - "Marker Cube 1/Marker Resources/image_marker [EDIT_ME].imgmarker"
+      - Marker Cube 1/Marker_Cube_PUT_UNDER_MAIN_CAM.prefab
+      - Marker Cube 1/image.jpg
+      - Marker Cube/.hidden
+      - Marker Cube/.hidden/Graph Matte Shadow.ss_graph
+      - Marker Cube/.hidden/Occluder.ss_graph
+      - Marker Cube/.hidden/Textures
+      - Marker Cube/.hidden/Textures/Base.png
+      - Marker Cube/.hidden/Textures/MaterialParams.png
+      - Marker Cube/.hidden/Textures/Normal.png
+      - Marker Cube/.hidden/Uber PBR.lsmat.mat
+      - Marker Cube/.hidden/Uber PBR1.lsmat.ss_graph
+      - Marker Cube/Marker Resources/Materials
+      - Marker Cube/Marker Resources/Materials/Graph Matte Shadow.mat
+      - Marker Cube/Marker Resources/Materials/Occluder.mat
+      - Marker Cube/Marker Resources/Meshes
+      - Marker Cube/Marker Resources/Meshes/Box.mesh
+      - Marker Cube/Marker Resources/Meshes/Plane.mesh
+      - Marker Cube/Marker Resources/Scripts
+      - Marker Cube/Marker Resources/Scripts/EnableLightShadows.js
+      - "Marker Cube/Marker Resources/image_marker [EDIT_ME].imgmarker"
+      - Marker Cube/Marker_Cube_PUT_UNDER_MAIN_CAM.prefab
+      - Marker Cube/image.jpg
+      - Placeholder API Module.js
+      - Placeholder API.js
+      - Placeholder.remoteServiceModule
+      - Shiny Face Mesh
+      - Shiny Face Mesh/.hidden
+      - Shiny Face Mesh/.hidden/shiny_face.ss_graph
+      - Shiny Face Mesh/Shiny Face Mesh Resources
+      - Shiny Face Mesh/Shiny Face Mesh Resources/Materials
+      - Shiny Face Mesh/Shiny Face Mesh Resources/Materials/shiny_face.mat
+      - Shiny Face Mesh/Shiny Face Mesh Resources/Meshes
+      - Shiny Face Mesh/Shiny Face Mesh Resources/Meshes/face_mesh_geometry.facemesh
+      - Shiny Face Mesh/Shiny Face Mesh Resources/Scripts
+      - Shiny Face Mesh/Shiny Face Mesh Resources/Scripts/Readme.js
+      - Shiny Face Mesh/Shiny Face Mesh Resources/Scripts/RotateEnvMap.js
+      - Shiny Face Mesh/Shiny Face Mesh Resources/Textures
+      - Shiny Face Mesh/Shiny Face Mesh Resources/Textures/Studio Light
+      - Shiny Face Mesh/Shiny Face Mesh Resources/Textures/Studio Light/Diff.png
+      - Shiny Face Mesh/Shiny Face Mesh Resources/Textures/Studio Light/Specular.png
+      - Shiny Face Mesh/Shiny Face Mesh Resources/Textures/full_soft_lips.png
+      - Shiny Face Mesh/Shiny Face Mesh Resources/Textures/white.png
+      - Shiny Face Mesh/Shiny Face Mesh__PUT_UNDER_HEAD_BINDING.prefab
+      - SpectaclesInteractionKit
+      - SpectaclesInteractionKit/package.native
+      - Trail Effect
+      - Trail Effect/.hidden
+      - Trail Effect/.hidden/Textures
+      - Trail Effect/.hidden/Textures/Base.png
+      - Trail Effect/.hidden/Textures/Normal.png
+      - Trail Effect/.hidden/UberDiffuse.lsmat.mat
+      - Trail Effect/.hidden/UberDiffuse1.lsmat.ss_graph
+      - Trail Effect/.hidden/trail_material.ss_graph
+      - Trail Effect/Layer0.animationMixerLayer
+      - Trail Effect/Trail Effect Resources
+      - Trail Effect/Trail Effect Resources/Fonts
+      - Trail Effect/Trail Effect Resources/Fonts/fredoka_one_regular.ttf
+      - Trail Effect/Trail Effect Resources/Materials
+      - Trail Effect/Trail Effect Resources/Materials/trail_material.mat
+      - Trail Effect/Trail Effect Resources/Meshes
+      - Trail Effect/Trail Effect Resources/Meshes/Sphere.mesh
+      - Trail Effect/Trail Effect Resources/Meshes/moving_object
+      - Trail Effect/Trail Effect Resources/Meshes/moving_object/Animations
+      - Trail Effect/Trail Effect Resources/Meshes/moving_object/Animations/Moving_Empty_Object.animationLayer
+      - Trail Effect/Trail Effect Resources/Scripts
+      - Trail Effect/Trail Effect Resources/Scripts/TrailMeshBuilderController.js
+      - Trail Effect/TrailEffect__PLACE_IN_OBJECTS_PANEL.prefab
+      - Weather
+      - Weather/.hidden
+      - Weather/.hidden/cloud.ss_graph
+      - Weather/3d_icons__weather
+      - Weather/3d_icons__weather/Materials
+      - Weather/3d_icons__weather/Materials/cloud.mat
+      - Weather/3d_icons__weather/Materials/cloudly.mat
+      - Weather/3d_icons__weather/Materials/lighting.mat
+      - Weather/3d_icons__weather/Materials/rain.mat
+      - Weather/3d_icons__weather/Materials/rainlighting.mat
+      - Weather/3d_icons__weather/Materials/snow.mat
+      - Weather/3d_icons__weather/Materials/sun.mat
+      - Weather/3d_icons__weather/Materials/sun_2.mat
+      - Weather/3d_icons__weather/Materials/sun_3.mat
+      - Weather/3d_icons__weather/Materials/suncloud.mat
+      - Weather/3d_icons__weather/Meshes
+      - Weather/3d_icons__weather/Meshes/cloud_cloud_0.mesh
+      - Weather/3d_icons__weather/Meshes/cloudly_cloudly_0.mesh
+      - Weather/3d_icons__weather/Meshes/lighting_lighting_0.mesh
+      - Weather/3d_icons__weather/Meshes/rain_lighting_rain&lighting_0.mesh
+      - Weather/3d_icons__weather/Meshes/rain_rain_0.mesh
+      - Weather/3d_icons__weather/Meshes/snow_snow_0.mesh
+      - Weather/3d_icons__weather/Meshes/sun_2_sun_2.mesh
+      - Weather/3d_icons__weather/Meshes/sun_3_sun_3_0.mesh
+      - Weather/3d_icons__weather/Meshes/sun_cloud_sun&cloud_0.mesh
+      - Weather/3d_icons__weather/Meshes/sun_sun.mesh
+      - Weather/3d_icons__weather/Textures
+      - Weather/3d_icons__weather/Textures/1.jpeg
+      - Weather/3d_icons__weather/Textures/11.jpeg
+      - Weather/3d_icons__weather/Textures/13.jpeg
+      - Weather/3d_icons__weather/Textures/15.jpeg
+      - Weather/3d_icons__weather/Textures/17.jpeg
+      - Weather/3d_icons__weather/Textures/19.jpeg
+      - Weather/3d_icons__weather/Textures/3.jpeg
+      - Weather/3d_icons__weather/Textures/5.jpeg
+      - Weather/3d_icons__weather/Textures/7.jpeg
+      - Weather/3d_icons__weather/Textures/9.jpeg
+      - Weather/Weather.prefab
+      - Yellow Hat.lspkg
+      - Yellow Hat.lspkg/Textures
+      - Yellow Hat.lspkg/package.native
+  options: 4
