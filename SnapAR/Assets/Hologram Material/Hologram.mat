@@ -1,0 +1,226 @@
+- !<Material/01575722-1611-4d0b-b098-e4e1cea784d5>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 2fd5b668-e6bd-4fb1-9b59-3fc0f861adf2
+- !<PassInfo/2fd5b668-e6bd-4fb1-9b59-3fc0f861adf2>
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - Tweak_N130
+    - Tweak_N75
+    - Tweak_N76
+    - Tweak_N87
+    - Tweak_N89
+    - animated
+  BlendMode: Screen
+  Properties:
+    Offset:
+      typeIdx: 1
+      value: 0.000000
+    Port_Import_N071:
+      typeIdx: 1
+      value: 0.500000
+    Port_Import_N106:
+      typeIdx: 1
+      value: 20.000000
+    Port_Import_N174:
+      typeIdx: 1
+      value: 20.000000
+    Port_Import_N181:
+      typeIdx: 1
+      value: 1.000000
+    Port_Import_N203:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input0_N009:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input0_N129:
+      typeIdx: 1
+      value: 1.100000
+    Port_Input1_N020:
+      typeIdx: 1
+      value: 0.400000
+    Port_Input1_N049:
+      typeIdx: 1
+      value: 0.400000
+    Port_Input1_N055:
+      typeIdx: 1
+      value: 0.100000
+    Port_Input1_N056:
+      typeIdx: 1
+      value: 1.294000
+    Port_Input1_N058:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N066:
+      typeIdx: 1
+      value: 0.200000
+    Port_Input1_N072:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N078:
+      typeIdx: 1
+      value: 0.002000
+    Port_Input1_N117:
+      typeIdx: 1
+      value: 20.000000
+    Port_Input1_N122:
+      typeIdx: 1
+      value: 1.300000
+    Port_Input1_N125:
+      typeIdx: 1
+      value: 4.000000
+    Port_Input1_N126:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N140:
+      typeIdx: 1
+      value: 1.300000
+    Port_Input1_N141:
+      typeIdx: 1
+      value: 4.000000
+    Port_Input1_N182:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input2_N014:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input2_N058:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input2_N072:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input2_N110:
+      typeIdx: 1
+      value: 0.180000
+    Port_Input2_N126:
+      typeIdx: 1
+      value: 1.000000
+    Port_Input2_N182:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxA_N002:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxA_N034:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxA_N063:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxA_N067:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxA_N103:
+      typeIdx: 1
+      value: 1.000000
+    Port_RangeMaxB_N002:
+      typeIdx: 1
+      value: 2.000000
+    Port_RangeMaxB_N034:
+      typeIdx: 1
+      value: 2.000000
+    Port_RangeMaxB_N063:
+      typeIdx: 1
+      value: 20.000000
+    Port_RangeMaxB_N067:
+      typeIdx: 1
+      value: 100.000000
+    Port_RangeMaxB_N103:
+      typeIdx: 1
+      value: 100.000000
+    Port_RangeMinA_N002:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinA_N034:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinA_N063:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinA_N067:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinA_N103:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinB_N002:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinB_N034:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinB_N063:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinB_N067:
+      typeIdx: 1
+      value: 0.000000
+    Port_RangeMinB_N103:
+      typeIdx: 1
+      value: 0.000000
+    Port_Scale_N041:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    Port_Scale_N164:
+      typeIdx: 3
+      value: {x: 1.000000, y: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    glitchFrequency:
+      typeIdx: 1
+      value: 0.170000
+    glitchIntensity:
+      typeIdx: 1
+      value: -0.290000
+    glitchOffset:
+      typeIdx: 1
+      value: 0.000000
+    glitchScale:
+      typeIdx: 1
+      value: 0.520000
+    glitchSpeed:
+      typeIdx: 1
+      value: 0.500000
+    overrideTimeDelta:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeElapsed:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeEnabled:
+      typeIdx: 0
+      value: 0
+    randScale:
+      typeIdx: 1
+      value: 0.000000
+    rimTint:
+      typeIdx: 5
+      value: {x: 0.400000, y: 1.000000, z: 0.999207, w: 1.000000}
+    scanlineSpeed:
+      typeIdx: 1
+      value: 0.500000
+    thickLines:
+      typeIdx: 1
+      value: 0.170000
+    thicklinesColor:
+      typeIdx: 5
+      value: {x: 0.000107, y: 0.001755, z: 0.998215, w: 1.000000}
+    thinLines:
+      typeIdx: 1
+      value: 1.800000
+    thinlinesColor:
+      typeIdx: 5
+      value: {x: 0.059510, y: 0.501930, z: 0.998459, w: 1.000000}
+  Pass: !<reference> f2219351-7d43-43b1-8968-e2395a956b10

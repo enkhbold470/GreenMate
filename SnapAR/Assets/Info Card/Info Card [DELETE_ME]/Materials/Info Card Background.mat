@@ -1,0 +1,68 @@
+- !<Material/3d1ade4d-eb3c-47c1-86ff-7a444ef7afcf>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> b07f77e2-80cd-4913-83a5-200c504e605a
+- !<PassInfo/b07f77e2-80cd-4913-83a5-200c504e605a>
+  DepthWrite: true
+  DepthTest: false
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseTex:
+      typeIdx: 9
+      value:
+        id: e68ee83c-c5e0-43dc-9234-a6abebcac8dd
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    baseTexBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTexDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTexSize:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    baseTexUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    borderScale:
+      typeIdx: 1
+      value: 1.000000
+    sliceSizeBottom:
+      typeIdx: 1
+      value: 0.500000
+    sliceSizeLeft:
+      typeIdx: 1
+      value: 0.500000
+    sliceSizeRight:
+      typeIdx: 1
+      value: 0.500000
+    sliceSizeTop:
+      typeIdx: 1
+      value: 0.500000
+  Pass: !<reference> d0d84f16-6905-4654-ac43-4e06a5af966b

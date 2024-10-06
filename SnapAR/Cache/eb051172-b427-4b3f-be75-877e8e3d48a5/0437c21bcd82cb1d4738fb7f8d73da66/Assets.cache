@@ -81,7 +81,7 @@
     {}
   DependentFiles:
     []
-  ImporterSettings: !<FileMeshImporterSettings/fd8a351f-9613-4b95-a616-09369fbea1b9>
+  ImporterSettings: !<FileMeshImporterSettings/7fa6e047-0b72-4279-90d8-bd3673cacf73>
     ModifiedVertexFormats:
       bitangent: Float
       normal: Float
@@ -459,7 +459,7 @@
     {}
   DependentFiles:
     []
-  ImporterSettings: !<FileMeshImporterSettings/c8845604-fe52-453f-b2e2-9a35a96ba7a2>
+  ImporterSettings: !<FileMeshImporterSettings/6f6c7994-ff79-4b0b-8405-3f755c2ed9cd>
     ModifiedVertexFormats:
       normal: Float
       position: Float
@@ -947,7 +947,7 @@
     {}
   DependentFiles:
     []
-  ImporterSettings: !<FileMeshImporterSettings/7bcaef71-45c1-457c-9d29-3bc3921c9c7f>
+  ImporterSettings: !<FileMeshImporterSettings/35b1020c-79a7-4a4e-9b62-78df9179e4b0>
     ModifiedVertexFormats:
       normal: Float
       position: Float
@@ -967,7 +967,7 @@
     {}
   DependentFiles:
     []
-  ImporterSettings: !<FileMeshImporterSettings/3cf78eb9-9ae4-47d5-b1a6-4ec9591db43d>
+  ImporterSettings: !<FileMeshImporterSettings/a70e4ac9-1537-4078-9c4f-a90f61f8ae5a>
     ModifiedVertexFormats:
       normal: Float
       position: Float

@@ -1,0 +1,60 @@
+- !<AssetImportMetadata/44883184-2a0f-4c64-9fa4-a6401a353756>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 5fe810b7-846d-45c5-99eb-3c884d1f13b1
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 5fe810b7-846d-45c5-99eb-3c884d1f13b1
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> aa1e29fd-45f1-432a-8e0d-b8fdb56e6378
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/477d8bdd-47d1-4cd6-9c2f-48669b0ba293>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/aa1e29fd-45f1-432a-8e0d-b8fdb56e6378>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    followPosition: false
+    followRotation: false
+    followScale: false
+    follower: false
+    maxPosSpeed: false
+    maxRotSpeed: false
+    maxScaleSpeed: false
+    posDamping: false
+    posMode: false
+    rotDamping: false
+    rotMode: false
+    scaleDamping: false
+    scaleMode: false
+    target: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - follower: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      target: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      followPosition: true
+      maxPosSpeed: !<float> 50.000000
+      posDamping: !<float> 5.000000
+      posMode: 0
+      followRotation: true
+      maxRotSpeed: !<float> 50.000000
+      rotDamping: !<float> 5.000000
+      rotMode: 0
+      followScale: true
+      maxScaleSpeed: !<float> 50.000000
+      scaleDamping: !<float> 5.000000
+      scaleMode: 0
+  ScriptTypes:
+    -
+      {}
