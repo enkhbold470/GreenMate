@@ -12,7 +12,7 @@ export default function Landing() {
   const [wateringPrediction, setWateringPrediction] = useState("");
   const lat = 40.8068737;
   const lon = -73.9604592;
-  const { weather, location } = useWeather(lat, lon);
+  const { weather } = useWeather(lat, lon);
 
   //loading to fetch for 1 second with time interv
   if (wateringPrediction === "") {
