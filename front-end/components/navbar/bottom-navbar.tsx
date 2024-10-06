@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
-import { Home, BarChart, Bell, Settings } from "lucide-react";
+import { Home, BarChart, Settings } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 const navItems = [
   { icon: Home, route: "/" },
   { icon: BarChart, route: "/analytics" },
-  { icon: Bell, route: "/notifications" },
+  // { icon: Bell, route: "/notifications" },
   { icon: Settings, route: "/settings" },
 ];
 

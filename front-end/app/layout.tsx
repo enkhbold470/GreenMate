@@ -3,7 +3,7 @@ import { Roboto } from "next/font/google";
 // import localFont from "next/font/local";
 import "./globals.css";
 import BottomNavbar from "@/components/navbar/bottom-navbar";
-
+import PlantNotification from "@/components/plant-notification";
 const roboto = Roboto({
   subsets: ["latin"],
   weight: ["100", "900"],
@@ -45,6 +45,7 @@ export default function RootLayout({
       <body className={`${roboto.className} antialiased`}>
         {children}
         <BottomNavbar />
+        <PlantNotification />
       </body>
     </html>
   );

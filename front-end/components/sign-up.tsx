@@ -36,7 +36,7 @@ export function SignUpComponent() {
                   autoComplete="name"
                   required
                   className="focus:ring-asparagus-500 focus:border-asparagus-500 block w-full pl-10 sm:text-sm border-fern_green-300 rounded-full"
-                  placeholder="John Doe"
+                  placeholder="Enkhbold Ganbold"
                 />
               </div>
             </div>
