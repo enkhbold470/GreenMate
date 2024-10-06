@@ -7,6 +7,7 @@ import os
 from dotenv import load_dotenv
 from sklearn.metrics import accuracy_score
 
+
 PORT=8082
 app = Flask(__name__)
 
